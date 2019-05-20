@@ -5,12 +5,16 @@
         1,
         null
       ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/user.rb": [
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/routine.rb": [
         1,
         null
       ],
       "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/application_record.rb": [
         1,
+        1,
+        null
+      ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/user.rb": [
         1,
         null
       ],
@@ -41,6 +45,6 @@
         0
       ]
     },
-    "timestamp": 1558391374
+    "timestamp": 1558391722
   }
 }
