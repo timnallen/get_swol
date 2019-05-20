@@ -28,6 +28,8 @@
         1,
         1,
         1,
+        null,
+        1,
         null
       ],
       "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/user.rb": [
@@ -64,6 +66,6 @@
         0
       ]
     },
-    "timestamp": 1558393924
+    "timestamp": 1558394078
   }
 }
