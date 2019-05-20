@@ -12,4 +12,13 @@ RSpec.describe Routine, type: :model do
   it 'has attributes' do
     expect(@routine.name).to eq('Leg Day')
   end
+
+  describe 'validations' do
+    it { should validate_presence_of :name }
+  end
+
+  describe 'relationships' do
+    it { should have_many :user_routines}
+    it { should have_many :users}
+  end
 end
