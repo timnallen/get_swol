@@ -12,4 +12,8 @@ RSpec.describe User, type: :model do
   it 'has attributes' do
     expect(@user.name).to eq('Jim')
   end
+
+  describe 'validations' do
+    it { should validate_presence_of :name }
+  end
 end
