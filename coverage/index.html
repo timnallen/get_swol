@@ -14,26 +14,26 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-20T16:43:48-06:00">2019-05-20T16:43:48-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-20T16:51:59-06:00">2019-05-20T16:51:59-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">27.27%</span></span>
+    (<span class="covered_percent"><span class="red">36.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.27
+         0.36
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>10</b> files in total.
-    <b>22</b> relevant lines. 
-    <span class="green"><b>6</b> lines covered</span> and
+    <b>11</b> files in total.
+    <b>25</b> relevant lines. 
+    <span class="green"><b>9</b> lines covered</span> and
     <span class="red"><b>16</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -131,6 +131,16 @@
       </tr>
       
       <tr>
+        <td class="strong"><a href="#6470bb05afc5edc4cba23a461393113e183f4d63" class="src_link" title="app/models/exercise_routine.rb">app/models/exercise_routine.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
         <td class="strong"><a href="#613a7c7902254b9b1e084ee5f09c9826643cc0bc" class="src_link" title="app/models/routine.rb">app/models/routine.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>2</td>
@@ -216,9 +226,9 @@
   </h2>
   <a name="Models"></a>
   <div>
-    <b>4</b> files in total.
-    <b>5</b> relevant lines. 
-    <span class="green"><b>5</b> lines covered</span> and
+    <b>5</b> files in total.
+    <b>8</b> relevant lines. 
+    <span class="green"><b>8</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -251,6 +261,16 @@
         <td>2</td>
         <td>1</td>
         <td>1</td>
+        <td>0</td>
+        <td>1.0</td>
+      </tr>
+      
+      <tr>
+        <td class="strong"><a href="#6470bb05afc5edc4cba23a461393113e183f4d63" class="src_link" title="app/models/exercise_routine.rb">app/models/exercise_routine.rb</a></td>
+        <td class="green strong">100.0 %</td>
+        <td>4</td>
+        <td>3</td>
+        <td>3</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -805,6 +825,49 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="2">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="6470bb05afc5edc4cba23a461393113e183f4d63">
+  <div class="header">
+    <h3>app/models/exercise_routine.rb</h3>
+    <h4><span class="green">100.0 %</span> covered</h4>
+    <div>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+  </div>
+  
+  <pre>
+    <ol>
+      
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
+          
+          <code class="ruby">class ExerciseRoutine &lt; ApplicationRecord</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  belongs_to :routine</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  belongs_to :exercise</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
           
           
           <code class="ruby">end</code>
