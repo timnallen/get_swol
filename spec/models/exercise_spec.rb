@@ -14,4 +14,10 @@ RSpec.describe Exercise, type: :model do
     expect(@exercise.category).to eq('Legs')
     expect(@exercise.equipment_required).to eq('None')
   end
+
+  describe 'validations' do
+    it { should validate_presence_of :name }
+    it { should validate_presence_of :category }
+    it { should validate_presence_of :equipment_required }
+  end
 end
