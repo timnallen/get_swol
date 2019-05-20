@@ -20,4 +20,9 @@ RSpec.describe Exercise, type: :model do
     it { should validate_presence_of :category }
     it { should validate_presence_of :equipment_required }
   end
+
+  describe 'relationships' do
+    it { should have_many :exercise_routines}
+    it { should have_many :routines}
+  end
 end
