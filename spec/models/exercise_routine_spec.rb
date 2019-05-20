@@ -16,6 +16,11 @@ RSpec.describe ExerciseRoutine, type: :model do
     expect(@exercise_routine.sets).to eq(4)
   end
 
+  describe 'validations' do
+    it { should validate_presence_of :routine}
+    it { should validate_presence_of :exercise}
+  end
+
   describe 'relationships' do
     it { should belong_to :exercise}
     it { should belong_to :routine}

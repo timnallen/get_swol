@@ -17,6 +17,8 @@ RSpec.describe UserRoutine, type: :model do
 
   describe 'validations' do
     it { should validate_presence_of :date }
+    it { should validate_presence_of :routine }
+    it { should validate_presence_of :user }
   end
 
   describe 'relationships' do

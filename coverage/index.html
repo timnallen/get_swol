@@ -14,26 +14,26 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-20T17:27:34-06:00">2019-05-20T17:27:34-06:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2019-05-20T17:31:55-06:00">2019-05-20T17:31:55-06:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">60.0%</span></span>
+    (<span class="covered_percent"><span class="red">63.64%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.6
+         0.64
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>12</b> files in total.
-    <b>40</b> relevant lines. 
-    <span class="green"><b>24</b> lines covered</span> and
+    <b>44</b> relevant lines. 
+    <span class="green"><b>28</b> lines covered</span> and
     <span class="red"><b>16</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -133,9 +133,9 @@
       <tr>
         <td class="strong"><a href="#6470bb05afc5edc4cba23a461393113e183f4d63" class="src_link" title="app/models/exercise_routine.rb">app/models/exercise_routine.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>3</td>
-        <td>3</td>
+        <td>7</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -163,9 +163,9 @@
       <tr>
         <td class="strong"><a href="#96d22b562bc75b064186ea36e490c1957a1cf5d4" class="src_link" title="app/models/user_routine.rb">app/models/user_routine.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>8</td>
         <td>6</td>
-        <td>4</td>
-        <td>4</td>
+        <td>6</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -237,8 +237,8 @@
   <a name="Models"></a>
   <div>
     <b>6</b> files in total.
-    <b>23</b> relevant lines. 
-    <span class="green"><b>23</b> lines covered</span> and
+    <b>27</b> relevant lines. 
+    <span class="green"><b>27</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -278,9 +278,9 @@
       <tr>
         <td class="strong"><a href="#6470bb05afc5edc4cba23a461393113e183f4d63" class="src_link" title="app/models/exercise_routine.rb">app/models/exercise_routine.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>4</td>
-        <td>3</td>
-        <td>3</td>
+        <td>7</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -308,9 +308,9 @@
       <tr>
         <td class="strong"><a href="#96d22b562bc75b064186ea36e490c1957a1cf5d4" class="src_link" title="app/models/user_routine.rb">app/models/user_routine.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>8</td>
         <td>6</td>
-        <td>4</td>
-        <td>4</td>
+        <td>6</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -896,8 +896,8 @@
     <h3>app/models/exercise_routine.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -924,6 +924,24 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_presence_of :routine</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_presence_of :exercise</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">end</code>
@@ -1043,8 +1061,8 @@
     <h3>app/models/user_routine.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1082,7 +1100,19 @@
           <code class="ruby">  validates_presence_of :date</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_presence_of :user</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  validates_presence_of :routine</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">end</code>
