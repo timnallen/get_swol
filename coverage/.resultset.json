@@ -20,6 +20,14 @@
         1,
         null
       ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/api/v1/exercises_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
       "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/mailers/application_mailer.rb": [
         0,
         0,
@@ -64,10 +72,6 @@
         0,
         0
       ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/application_controller.rb": [
-        0,
-        0
-      ],
       "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/channels/application_cable/connection.rb": [
         0,
         0,
@@ -81,6 +85,6 @@
         0
       ]
     },
-    "timestamp": 1558461645
+    "timestamp": 1558461727
   }
 }
