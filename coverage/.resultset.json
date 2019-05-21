@@ -22,6 +22,8 @@
       ],
       "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/api/v1/exercises_controller.rb": [
         1,
+        1,
+        null,
         null
       ],
       "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/application_controller.rb": [
@@ -85,6 +87,6 @@
         0
       ]
     },
-    "timestamp": 1558461727
+    "timestamp": 1558461759
   }
 }
