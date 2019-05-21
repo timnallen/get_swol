@@ -5,20 +5,6 @@
         1,
         null
       ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/exercise_routine.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/application_record.rb": [
-        1,
-        1,
-        null
-      ],
       "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/exercise.rb": [
         1,
         1,
@@ -29,26 +15,23 @@
         1,
         null
       ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/routine.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/user_routine.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/user.rb": [
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/api/v1/exercises_controller.rb": [
         1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/serializers/exercise_serializer.rb": [
         1,
         1,
         1,
@@ -60,11 +43,41 @@
         0,
         0
       ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/jobs/application_job.rb": [
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/user_routine.rb": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
         0,
         0
       ],
-      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/controllers/application_controller.rb": [
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/routine.rb": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0
+      ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/exercise_routine.rb": [
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0
+      ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/models/user.rb": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/timothyallen/turing/4module/projects/BE-GetSwole/app/jobs/application_job.rb": [
         0,
         0
       ],
@@ -81,6 +94,6 @@
         0
       ]
     },
-    "timestamp": 1558395115
+    "timestamp": 1558462231
   }
 }
