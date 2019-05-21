@@ -28,13 +28,13 @@ describe 'Exercises API' do
       get '/api/v1/exercises/1'
 
       expect(response).to be_successful
-      exercises = JSON.parse(response.body, symbolize_names: true)
-      expect(exercises[:data]).to be_a(Hash)
-      expect(exercises[:data][:id]).to eq(1)
-      expect(exercises[:data][:type]).to eq('exercise')
-      expect(exercises[:data][:attributes][:name]).to eq('Squats')
-      expect(exercises[:data][:attributes][:category]).to eq('legs')
-      expect(exercises[:data][:attributes][:equipment_required]).to eq('none')
+      exercise = JSON.parse(response.body, symbolize_names: true)
+      expect(exercise[:data]).to be_a(Hash)
+      expect(exercise[:data][:id]).to eq(1)
+      expect(exercise[:data][:type]).to eq('exercise')
+      expect(exercise[:data][:attributes][:name]).to eq('Squats')
+      expect(exercise[:data][:attributes][:category]).to eq('legs')
+      expect(exercise[:data][:attributes][:equipment_required]).to eq('none')
     end
   end
 end
