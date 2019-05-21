@@ -4,5 +4,6 @@ class Api::V1::ExercisesController < ApplicationController
   end
 
   def show
+    render json: ExerciseSerializer.new(Exercise.find(params[:id]))
   end
 end

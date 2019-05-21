@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'Exercises API' do
   describe 'Endpoints' do
     before :each do
-      Exercise.create(name: 'Squats', category: 'legs', equipment_required: 'none')
+      @exercise = Exercise.create(name: 'Squats', category: 'legs', equipment_required: 'none')
       Exercise.create(name: 'Bicep Curls', category: 'arms', equipment_required: 'Dumb-bells')
       Exercise.create(name: 'Jogging', category: 'legs', equipment_required: 'none')
     end
@@ -25,12 +25,12 @@ describe 'Exercises API' do
     end
 
     it 'can get a single exercise' do
-      get '/api/v1/exercises/1'
+      get "/api/v1/exercises/#{@exercise.id}"
 
       expect(response).to be_successful
       exercise = JSON.parse(response.body, symbolize_names: true)
       expect(exercise[:data]).to be_a(Hash)
-      expect(exercise[:data][:id]).to eq(1)
+      expect(exercise[:data][:id]).to eq(@exercise.id.to_s)
       expect(exercise[:data][:type]).to eq('exercise')
       expect(exercise[:data][:attributes][:name]).to eq('Squats')
       expect(exercise[:data][:attributes][:category]).to eq('legs')
