@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Exercise, type: :model do
   before :each do
-    @exercise = Exercise.create(name: 'Squats', category: 'Legs', equipment_required: 'None')
+    @exercise = Exercise.create(name: 'Squats', category: 'Legs', equipment_required: 'None', muscle: 'Quadriceps')
   end
 
   it 'exists' do

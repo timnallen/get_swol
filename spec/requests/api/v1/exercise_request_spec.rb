@@ -3,9 +3,9 @@ require 'rails_helper'
 describe 'Exercises API' do
   describe 'Endpoints' do
     before :each do
-      @exercise = Exercise.create(name: 'Squats', category: 'legs', equipment_required: 'none')
-      Exercise.create(name: 'Bicep Curls', category: 'arms', equipment_required: 'Dumb-bells')
-      Exercise.create(name: 'Jogging', category: 'legs', equipment_required: 'none')
+      @exercise = Exercise.create(name: 'Squats', category: 'legs', muscle: 'Quadriceps', equipment_required: 'none')
+      Exercise.create(name: 'Bicep Curls', category: 'arms', muscle: 'Biceps', equipment_required: 'Dumb-bells')
+      Exercise.create(name: 'Jogging', category: 'legs', muscle: 'Legs', equipment_required: 'none')
     end
 
     it 'can get a list of exercises' do
@@ -22,6 +22,7 @@ describe 'Exercises API' do
       expect(exercises[:data][0][:attributes][:name]).to eq('Squats')
       expect(exercises[:data][0][:attributes][:category]).to eq('legs')
       expect(exercises[:data][0][:attributes][:equipment_required]).to eq('none')
+      expect(exercises[:data][0][:attributes][:muscle]).to eq('Quadriceps')
     end
 
     it 'can get a single exercise' do
@@ -35,6 +36,7 @@ describe 'Exercises API' do
       expect(exercise[:data][:attributes][:name]).to eq('Squats')
       expect(exercise[:data][:attributes][:category]).to eq('legs')
       expect(exercise[:data][:attributes][:equipment_required]).to eq('none')
+      expect(exercise[:data][:attributes][:muscle]).to eq('Quadriceps')
     end
   end
 end
