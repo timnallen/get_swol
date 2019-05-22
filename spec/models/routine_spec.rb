@@ -20,5 +20,7 @@ RSpec.describe Routine, type: :model do
   describe 'relationships' do
     it { should have_many :user_routines}
     it { should have_many :users}
+    it { should have_many :exercise_routines}
+    it { should have_many :exercises}
   end
 end
