@@ -10,6 +10,7 @@ class RoutineSerializer
         id: ex.id,
         name: ex.name,
         category: ex.category,
+        equipment_required: ex.equipment_required,
         muscle: ex.muscle,
         reps: er.reps,
         sets: er.sets,
