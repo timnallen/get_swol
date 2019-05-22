@@ -37,6 +37,7 @@ gem 'figaro'
 gem 'faraday'
 gem 'fast_jsonapi'
 gem 'date'
+gem 'csv'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
