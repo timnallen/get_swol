@@ -4,7 +4,8 @@ class RoutineSerializer
 
   attribute :exercises do |object|
     object.exercises.map do |ex|
-      er = ExerciseRoutine.find_by(routine_id: object.id, exercise_id: ex.id)
+      ers = object.exercise_routines
+      er = ers.detect {|ex_r| ex_r.exercise_id == ex.id}
       {
         id: ex.id,
         name: ex.name,
