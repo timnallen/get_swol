@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :exercises, only: [:index, :show]
       resources :routines, only: [:index, :show]
       resources :exercise_routines, only: [:index]
+      get '/my_routines', to: 'my_routines#index'
     end
   end
 end

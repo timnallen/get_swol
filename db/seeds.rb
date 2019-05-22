@@ -20,3 +20,7 @@ barbell_curl = Exercise.find_by(name: 'Barbell Curl')
 ExerciseRoutine.create(routine: arm_day, exercise: push_ups, sets: 4, reps: 10)
 ExerciseRoutine.create(routine: arm_day, exercise: chin_up, sets: 4, reps: 5)
 ExerciseRoutine.create(routine: arm_day, exercise: barbell_curl, sets: 4, reps: 10)
+
+user = User.create(name: 'Player One')
+date = Date.today
+UserRoutine.create(user: user, date: date, routine: arm_day)

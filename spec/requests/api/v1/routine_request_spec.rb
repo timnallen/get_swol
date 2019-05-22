@@ -4,7 +4,9 @@ describe 'Routines API' do
   describe 'Endpoints' do
     before :each do
       @routine = Routine.create(name: 'Cardio Day')
-      Routine.create(name: 'Leg Day')
+      @leg_day = Routine.create(name: 'Leg Day')
+      single_leg_press = Exercise.create(name: 'Single-Leg Press', equipment_required: 'legs', muscle: 'legs', category: 'This')
+      ExerciseRoutine.create(routine: @leg_day, exercise: single_leg_press, sets: 4, reps: 12)
       Routine.create(name: 'Arm Day')
     end
 
@@ -23,14 +25,16 @@ describe 'Routines API' do
     end
 
     it 'can get a single routine' do
-      get "/api/v1/routines/#{@routine.id}"
+      get "/api/v1/routines/#{@leg_day.id}"
 
       expect(response).to be_successful
       routine = JSON.parse(response.body, symbolize_names: true)
       expect(routine[:data]).to be_a(Hash)
-      expect(routine[:data][:id]).to eq(@routine.id.to_s)
+      expect(routine[:data][:id]).to eq(@leg_day.id.to_s)
       expect(routine[:data][:type]).to eq('routine')
-      expect(routine[:data][:attributes][:name]).to eq('Cardio Day')
+      expect(routine[:data][:attributes][:name]).to eq('Leg Day')
+      expect(routine[:data][:attributes][:exercises]).to be_a(Array)
+      expect(routine[:data][:attributes][:exercises][0][:name]).to eq('Single-Leg Press')
     end
   end
 end
