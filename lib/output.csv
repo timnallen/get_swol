@@ -1,1095 +1,1110 @@
 category,equipment_required,muscle,name
-Strongman,Forearms,Forearms,Rickshaw Carry
-Strength,Quadriceps,Quadriceps,Single-Leg Press
-Strongman,Lower Back,Lower Back,Atlas Stones
-Strength,Biceps,Biceps,Incline Hammer Curls
-Strength,Forearms,Forearms,Wrist Rotations with Straight Bar
-Strength,Shoulders,Shoulders,Single-Arm Linear Jammer
-Strength,Shoulders,Shoulders,Side Laterals to Front Raise
-Strength,Middle Back,Middle Back,T-Bar Row with Handle
-Strength,Abdominals,Abdominals,One-Arm Medicine Ball Slam
-Strength,Forearms,Forearms,Palms-Down Wrist Curl Over A Bench
-Olympic Weightlifting,Quadriceps,Quadriceps,Clean from Blocks
-Strength,Lats,Lats,Weighted Pull Ups
-Strength,Abdominals,Abdominals,Landmine 180's
-Strength,Triceps,Triceps,Dips - Triceps Version
-Strength,Quadriceps,Quadriceps,Barbell Full Squat
-Strength,Shoulders,Shoulders,Standing Palm-In One-Arm Dumbbell Press
-Strength,Forearms,Forearms,Palms-Up Barbell Wrist Curl Over A Bench
-Strongman,Forearms,Forearms,Farmer's Walk
-Strength,Hamstrings,Hamstrings,Romanian Deadlift With Dumbbells
-Powerlifting,Glutes,Glutes,Barbell Glute Bridge
-Olympic Weightlifting,Hamstrings,Hamstrings,Clean Deadlift
-Powerlifting,Lower Back,Lower Back,Deficit Deadlift
-Strongman,Quadriceps,Quadriceps,Tire Flip
-Strength,Shoulders,Shoulders,Clean and Press
-Strength,Hamstrings,Hamstrings,Barbell Deadlift
-Strength,Forearms,Forearms,Standing Palms-Up Barbell Behind The Back Wrist Curl
-Strength,Neck,Neck,Lying Face Down Plate Neck Resistance
-Strength,Triceps,Triceps,Decline EZ Bar Triceps Extension
-Olympic Weightlifting,Shoulders,Shoulders,Push Press
-Olympic Weightlifting,Quadriceps,Quadriceps,Snatch
-Olympic Weightlifting,Shoulders,Shoulders,Clean and Jerk
-Olympic Weightlifting,Quadriceps,Quadriceps,Hang Clean
-Strength,Forearms,Forearms,Finger Curls
-Strength,Abdominals,Abdominals,Suspended Fallout
-Strength,Biceps,Biceps,Wide-Grip Standing Barbell Curl
-Strength,Shoulders,Shoulders,Standing Palms-In Dumbbell Press
-Strength,Shoulders,Shoulders,Standing Military Press
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Push Press
-Powerlifting,Quadriceps,Quadriceps,Box Squat
-Powerlifting,Triceps,Triceps,Dumbbell Floor Press
-Powerlifting,Hamstrings,Hamstrings,Sumo Deadlift
-Powerlifting,Quadriceps,Quadriceps,Reverse Band Box Squat
-Strength,Abdominals,Abdominals,Plank
-Strength,Abdominals,Abdominals,Standing Cable Lift
-Strength,Abdominals,Abdominals,Bottoms Up
-Strength,Abdominals,Abdominals,Spell Caster
-Strength,Abdominals,Abdominals,Dumbbell V-Sit Cross Jab
-Strength,Chest,Chest,Dumbbell Bench Press
-Strength,Lats,Lats,Pullups
-Strength,Chest,Chest,Pushups
-Strength,Middle Back,Middle Back,Reverse Grip Bent-Over Rows
-Strength,Traps,Traps,Smith Machine Shrug
-Strength,Biceps,Biceps,Spider Curl
-Strength,Abdominals,Abdominals,Decline Reverse Crunch
-Strength,Quadriceps,Quadriceps,Front Squats With Two Kettlebells
-Olympic Weightlifting,Hamstrings,Hamstrings,Power Snatch
-Olympic Weightlifting,Hamstrings,Hamstrings,Romanian Deadlift from Deficit
-Plyometrics,Quadriceps,Quadriceps,Single Leg Push-off
-Stretching,Abductors,Abductors,Hip Circles (prone)
-Strength,Calves,Calves,Smith Machine Calf Raise
-Strength,Forearms,Forearms,Seated Two-Arm Palms-Up Low-Pulley Wrist Curl
-Strength,Shoulders,Shoulders,Seated Barbell Military Press
-Cardio,Quadriceps,Quadriceps,Rope Jumping
-Olympic Weightlifting,Hamstrings,Hamstrings,Power Clean from Blocks
-Strength,Abdominals,Abdominals,Spider Crawl
-Strength,Quadriceps,Quadriceps,Barbell Walking Lunge
-Strength,Chest,Chest,Dumbbell Flyes
-Strength,Triceps,Triceps,Close-Grip Barbell Bench Press
-Strength,Abdominals,Abdominals,Cross-Body Crunch
-Strength,Lats,Lats,Chin-Up
-Strength,Forearms,Forearms,Wrist Roller
-Strength,Triceps,Triceps,Triceps Pushdown - V-Bar Attachment
-Strength,Shoulders,Shoulders,One-Arm Side Laterals
-Strength,Biceps,Biceps,EZ-Bar Curl
-Strength,Shoulders,Shoulders,Power Partials
-Powerlifting,Glutes,Glutes,Barbell Hip Thrust
-Olympic Weightlifting,Quadriceps,Quadriceps,Olympic Squat
-Strongman,Lower Back,Lower Back,Axle Deadlift
-Strength,Traps,Traps,Leverage Shrug
-Strength,Abdominals,Abdominals,One-Arm High-Pulley Cable Side Bends
-Strength,Hamstrings,Hamstrings,Floor Glute-Ham Raise
-Strength,Abdominals,Abdominals,Elbow to Knee
-Strength,Lower Back,Lower Back,Hyperextensions (Back Extensions)
-Strength,Biceps,Biceps,Hammer Curls
-Strength,Biceps,Biceps,Zottman Curl
-Strength,Triceps,Triceps,Weighted Bench Dip
-Strength,Shoulders,Shoulders,Seated Dumbbell Press
-Strength,Shoulders,Shoulders,Standing Dumbbell Straight-Arm Front Delt Raise Above Head
-Strength,Shoulders,Shoulders,Reverse Flyes
-Strength,Chest,Chest,Incline Dumbbell Press
-Strength,Quadriceps,Quadriceps,Kettlebell Pistol Squat
-Cardio,Quadriceps,Quadriceps,Step Mill
-Strength,Hamstrings,Hamstrings,Natural Glute Ham Raise
-Strength,Shoulders,Shoulders,Standing Dumbbell Press
-Strength,Chest,Chest,Low Cable Crossover
-Strength,Abdominals,Abdominals,Cocoons
-Strength,Biceps,Biceps,Biceps Curl To Shoulder Press
-Strength,Chest,Chest,Decline Dumbbell Flyes
-Strength,Abdominals,Abdominals,Plate Twist
-Strength,Biceps,Biceps,Concentration Curls
-Strength,Chest,Chest,Dips - Chest Version
-Strength,Triceps,Triceps,Kneeling Cable Triceps Extension
-Strength,Adductors,Adductors,Thigh Adductor
-Strength,Biceps,Biceps,Barbell Curl
-Strength,Triceps,Triceps,Reverse Grip Triceps Pushdown
-Strength,Abdominals,Abdominals,Gorilla Chin/Crunch
-Strength,Abdominals,Abdominals,Decline Crunch
-Strength,Biceps,Biceps,Overhead Cable Curl
+Strongman,Other,Forearms,Rickshaw Carry
+Strength,Machine,Quadriceps,Single-Leg Press
+Strongman,Other,Lower Back,Atlas Stones
+Strength,Dumbbell,Biceps,Incline Hammer Curls
+Strength,Barbell,Forearms,Wrist Rotations with Straight Bar
+Strength,Barbell,Shoulders,Single-Arm Linear Jammer
+Strength,Dumbbell,Shoulders,Side Laterals to Front Raise
+Strength,Barbell,Middle Back,T-Bar Row with Handle
+Strength,Medicine Ball,Abdominals,One-Arm Medicine Ball Slam
+Strength,Barbell,Forearms,Palms-Down Wrist Curl Over A Bench
+Olympic Weightlifting,Barbell,Quadriceps,Clean from Blocks
+Strength,Other,Lats,Weighted Pull Ups
+Strength,Barbell,Abdominals,Landmine 180's
+Strength,Body Only,Triceps,Dips - Triceps Version
+Strength,Barbell,Quadriceps,Barbell Full Squat
+Strength,Dumbbell,Shoulders,Standing Palm-In One-Arm Dumbbell Press
+Strength,Barbell,Forearms,Palms-Up Barbell Wrist Curl Over A Bench
+Strongman,Other,Forearms,Farmer's Walk
+Strength,Dumbbell,Hamstrings,Romanian Deadlift With Dumbbells
+Powerlifting,Barbell,Glutes,Barbell Glute Bridge
+Olympic Weightlifting,Barbell,Hamstrings,Clean Deadlift
+Powerlifting,Barbell,Lower Back,Deficit Deadlift
+Strongman,Other,Quadriceps,Tire Flip
+Strength,Barbell,Shoulders,Clean and Press
+Strength,Barbell,Hamstrings,Barbell Deadlift
+Strength,Barbell,Forearms,Standing Palms-Up Barbell Behind The Back Wrist Curl
+Strength,Other,Neck,Lying Face Down Plate Neck Resistance
+Strength,Barbell,Triceps,Decline EZ Bar Triceps Extension
+Olympic Weightlifting,Barbell,Shoulders,Push Press
+Olympic Weightlifting,Barbell,Quadriceps,Snatch
+Olympic Weightlifting,Barbell,Shoulders,Clean and Jerk
+Olympic Weightlifting,Barbell,Quadriceps,Hang Clean
+Strength,Barbell,Forearms,Finger Curls
+Strength,Other,Abdominals,Suspended Fallout
+Strength,Barbell,Biceps,Wide-Grip Standing Barbell Curl
+Strength,Dumbbell,Shoulders,Standing Palms-In Dumbbell Press
+Strength,Barbell,Shoulders,Standing Military Press
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Push Press
+Powerlifting,Barbell,Quadriceps,Box Squat
+Powerlifting,Dumbbell,Triceps,Dumbbell Floor Press
+Powerlifting,Barbell,Hamstrings,Sumo Deadlift
+Powerlifting,Barbell,Quadriceps,Reverse Band Box Squat
+Strength,Body Only,Abdominals,Plank
+Strength,Cable,Abdominals,Standing Cable Lift
+Strength,Body Only,Abdominals,Bottoms Up
+Strength,Dumbbell,Abdominals,Spell Caster
+Strength,Dumbbell,Abdominals,Dumbbell V-Sit Cross Jab
+Strength,Dumbbell,Chest,Dumbbell Bench Press
+Strength,Body Only,Lats,Pullups
+Strength,Body Only,Chest,Pushups
+Strength,Barbell,Middle Back,Reverse Grip Bent-Over Rows
+Strength,Machine,Traps,Smith Machine Shrug
+Strength,E-Z Curl Bar,Biceps,Spider Curl
+Strength,Body Only,Abdominals,Decline Reverse Crunch
+Strength,Kettlebells,Quadriceps,Front Squats With Two Kettlebells
+Olympic Weightlifting,Barbell,Hamstrings,Power Snatch
+Olympic Weightlifting,Barbell,Hamstrings,Romanian Deadlift from Deficit
+Plyometrics,Other,Quadriceps,Single Leg Push-off
+Stretching,Body Only,Abductors,Hip Circles (prone)
+Strength,Machine,Calves,Smith Machine Calf Raise
+Strength,Cable,Forearms,Seated Two-Arm Palms-Up Low-Pulley Wrist Curl
+Strength,Barbell,Shoulders,Seated Barbell Military Press
+Cardio,Other,Quadriceps,Rope Jumping
+Olympic Weightlifting,Barbell,Hamstrings,Power Clean from Blocks
+Strength,Body Only,Abdominals,Spider Crawl
+Strength,Barbell,Quadriceps,Barbell Walking Lunge
+Strength,Dumbbell,Chest,Dumbbell Flyes
+Strength,Barbell,Triceps,Close-Grip Barbell Bench Press
+Strength,Body Only,Abdominals,Cross-Body Crunch
+Strength,Body Only,Lats,Chin-Up
+Strength,Other,Forearms,Wrist Roller
+Strength,Cable,Triceps,Triceps Pushdown - V-Bar Attachment
+Strength,Dumbbell,Shoulders,One-Arm Side Laterals
+Strength,E-Z Curl Bar,Biceps,EZ-Bar Curl
+Strength,Dumbbell,Shoulders,Power Partials
+Powerlifting,Barbell,Glutes,Barbell Hip Thrust
+Olympic Weightlifting,Barbell,Quadriceps,Olympic Squat
+Strongman,Other,Lower Back,Axle Deadlift
+Strength,Machine,Traps,Leverage Shrug
+Strength,Cable,Abdominals,One-Arm High-Pulley Cable Side Bends
+Strength,None,Hamstrings,Floor Glute-Ham Raise
+Strength,Body Only,Abdominals,Elbow to Knee
+Strength,Other,Lower Back,Hyperextensions (Back Extensions)
+Strength,Dumbbell,Biceps,Hammer Curls
+Strength,Dumbbell,Biceps,Zottman Curl
+Strength,Other,Triceps,Weighted Bench Dip
+Strength,Dumbbell,Shoulders,Seated Dumbbell Press
+Strength,Dumbbell,Shoulders,Standing Dumbbell Straight-Arm Front Delt Raise Above Head
+Strength,Dumbbell,Shoulders,Reverse Flyes
+Strength,Dumbbell,Chest,Incline Dumbbell Press
+Strength,Kettlebells,Quadriceps,Kettlebell Pistol Squat
+Cardio,Machine,Quadriceps,Step Mill
+Strength,Body Only,Hamstrings,Natural Glute Ham Raise
+Strength,Dumbbell,Shoulders,Standing Dumbbell Press
+Strength,Cable,Chest,Low Cable Crossover
+Strength,Body Only,Abdominals,Cocoons
+Strength,Dumbbell,Biceps,Biceps Curl To Shoulder Press
+Strength,Dumbbell,Chest,Decline Dumbbell Flyes
+Strength,Other,Abdominals,Plate Twist
+Strength,Dumbbell,Biceps,Concentration Curls
+Strength,Other,Chest,Dips - Chest Version
+Strength,Cable,Triceps,Kneeling Cable Triceps Extension
+Strength,Machine,Adductors,Thigh Adductor
+Strength,Barbell,Biceps,Barbell Curl
+Strength,Cable,Triceps,Reverse Grip Triceps Pushdown
+Strength,Body Only,Abdominals,Gorilla Chin/Crunch
+Strength,Body Only,Abdominals,Decline Crunch
+Strength,Cable,Biceps,Overhead Cable Curl
 Strength,Other,Abdominals,Hanging Pike
-Strength,Quadriceps,Quadriceps,Narrow Stance Squats
-Strength,Lats,Lats,Rocky Pull-Ups/Pulldowns
-Strength,Biceps,Biceps,Flexor Incline Dumbbell Curls
-Strength,Shoulders,Shoulders,Dumbbell Lying One-Arm Rear Lateral Raise
-Strength,Triceps,Triceps,Standing Dumbbell Triceps Extension
-Strength,Chest,Chest,Barbell Bench Press - Medium Grip
-Strength,Shoulders,Shoulders,Front Dumbbell Raise
-Strength,Forearms,Forearms,Seated One-Arm Dumbbell Palms-Up Wrist Curl
-Strength,Forearms,Forearms,Seated Palms-Down Barbell Wrist Curl
-Strongman,Quadriceps,Quadriceps,Bear Crawl Sled Drags
-Strength,Shoulders,Shoulders,Alternating Deltoid Raise
-Strength,Biceps,Biceps,Machine Bicep Curl
-Strength,Chest,Chest,Bodyweight Flyes
-Strength,Middle Back,Middle Back,One-Arm Long Bar Row
-Strength,Abdominals,Abdominals,Hanging Oblique Knee Raise
-Strength,Quadriceps,Quadriceps,Bodyweight Lunge
-Strength,Middle Back,Middle Back,One-Arm Dumbbell Row
-Strength,Calves,Calves,Standing Calf Raises
-Strength,Glutes,Glutes,One-Legged Cable Kickback
-Strength,Chest,Chest,Incline Cable Flye
-Strength,Shoulders,Shoulders,Dumbbell Shoulder Press
-Strength,Triceps,Triceps,Push-Ups - Close Triceps Position
-Powerlifting,Quadriceps,Quadriceps,Box Squat with Bands
-Powerlifting,Quadriceps,Quadriceps,Squat with Chains
-Strength,Quadriceps,Quadriceps,Weighted Jump Squat
-Strength,Quadriceps,Quadriceps,Single-Leg High Box Squat
-Strength,Triceps,Triceps,EZ-Bar Skullcrusher
-Strength,Shoulders,Shoulders,Single Dumbbell Raise
-Strength,Shoulders,Shoulders,Car Drivers
-Strength,Shoulders,Shoulders,Standing Alternating Dumbbell Press
-Strength,Abdominals,Abdominals,Weighted Suitcase Crunch
-Strength,Abdominals,Abdominals,Oblique Cable Crunch
-Strength,Shoulders,Shoulders,Snatch-Grip Behind-The-Neck Overhead Press
-Strength,Middle Back,Middle Back,Bent Over One-Arm Long Bar Row
-Strength,Chest,Chest,Wide-Grip Decline Barbell Bench Press
-Strength,Quadriceps,Quadriceps,Front Barbell Squat
-Strength,Hamstrings,Hamstrings,Lying Leg Curls
-Strength,Triceps,Triceps,Triceps Pushdown - Rope Attachment
-Strength,Shoulders,Shoulders,Smith Machine Overhead Shoulder Press
-Strength,Triceps,Triceps,Cable One Arm Tricep Extension
-Strength,Shoulders,Shoulders,Arnold Dumbbell Press
-Strength,Abdominals,Abdominals,Exercise Ball Pull-In
-Strength,Abdominals,Abdominals,Cable Crunch
-Strength,Lats,Lats,V-Bar Pulldown
-Strength,Abdominals,Abdominals,Barbell Ab Rollout
-Strength,Abdominals,Abdominals,Hanging Leg Raise
-Strength,Biceps,Biceps,Dumbbell Bicep Curl
-Strength,Triceps,Triceps,Decline Close-Grip Bench To Skull Crusher
-Strength,Forearms,Forearms,Dumbbell Lying Supination
-Cardio,Quadriceps,Quadriceps,Bicycling
-Cardio,Quadriceps,Quadriceps,"Rowing, Stationary"
-Strength,Shoulders,Shoulders,Leverage Shoulder Press
-Strength,Abdominals,Abdominals,Kneeling Cable Crunch With Alternating Oblique Twists
-Strength,Lats,Lats,Muscle Up
-Strength,Lats,Lats,Shotgun Row
-Strength,Chest,Chest,Incline Dumbbell Press Reverse-Grip
-Strength,Middle Back,Middle Back,T-Bar Row
-Strength,Quadriceps,Quadriceps,Barbell Squat
-Strength,Middle Back,Middle Back,Bent Over Two-Arm Long Bar Row
-Strength,Chest,Chest,Wide-Grip Barbell Bench Press
-Strength,Chest,Chest,Decline Barbell Bench Press
-Strength,Quadriceps,Quadriceps,Dumbbell Squat
-Strength,Abdominals,Abdominals,Ab Roller
-Strength,Abdominals,Abdominals,Barbell Ab Rollout - On Knees
-Strength,Shoulders,Shoulders,Front Plate Raise
-Strength,Biceps,Biceps,Cross Body Hammer Curl
-Strength,Biceps,Biceps,Close-Grip EZ Bar Curl
-Strength,Triceps,Triceps,Seated Triceps Press
-Strength,Triceps,Triceps,Incline Barbell Triceps Extension
-Olympic Weightlifting,Hamstrings,Hamstrings,Snatch Deadlift
-Plyometrics,Quadriceps,Quadriceps,Side to Side Box Shuffle
-Strength,Abdominals,Abdominals,Weighted Crunches
-Strength,Quadriceps,Quadriceps,Dumbbell Goblet Squat
-Strength,Lats,Lats,Wide-Grip Pull-Up
-Strength,Lower Back,Lower Back,Hyperextensions With No Hyperextension Bench
-Strength,Quadriceps,Quadriceps,Dumbbell Lunges
-Strength,Quadriceps,Quadriceps,Leg Press
-Strength,Glutes,Glutes,Butt Lift (Bridge)
-Strength,Abdominals,Abdominals,Reverse Crunch
-Strength,Abdominals,Abdominals,Air Bike
-Strength,Quadriceps,Quadriceps,Narrow Stance Hack Squats
-Strength,Quadriceps,Quadriceps,Narrow Stance Leg Press
-Strength,Biceps,Biceps,Barbell Curls Lying Against An Incline
-Strength,Forearms,Forearms,Dumbbell Lying Pronation
-Stretching,Adductors,Adductors,Groiners
-Cardio,Quadriceps,Quadriceps,Elliptical Trainer
-Cardio,Quadriceps,Quadriceps,Stairmaster
-Plyometrics,Quadriceps,Quadriceps,Double Leg Butt Kick
-Plyometrics,Quadriceps,Quadriceps,Standing Long Jump
-Strength,Hamstrings,Hamstrings,Ball Leg Curl
-Strength,Chest,Chest,Incline Push-Up
-Strength,Glutes,Glutes,Single Leg Glute Bridge
-Strength,Middle Back,Middle Back,Dumbbell Incline Row
-Strength,Triceps,Triceps,Close-Grip EZ-Bar Press
-Strength,Middle Back,Middle Back,Bodyweight Mid Row
-Cardio,Quadriceps,Quadriceps,Burpee
-Strength,Biceps,Biceps,Reverse Barbell Preacher Curls
-Strength,Lats,Lats,Close-Grip Front Lat Pulldown
-Strength,Middle Back,Middle Back,Bent Over Two-Dumbbell Row With Palms In
-Strength,Hamstrings,Hamstrings,Stiff-Legged Dumbbell Deadlift
-Strength,Chest,Chest,Incline Dumbbell Flyes
-Strength,Quadriceps,Quadriceps,Barbell Lunge
-Strength,Middle Back,Middle Back,Seated Cable Rows
-Strength,Chest,Chest,Cable Crossover
-Strength,Lats,Lats,V-Bar Pullup
-Strength,Triceps,Triceps,Dip Machine
-Strength,Biceps,Biceps,Preacher Curl
-Strength,Biceps,Biceps,Standing One-Arm Cable Curl
-Strength,Calves,Calves,Standing Dumbbell Calf Raise
-Strength,Chest,Chest,Neck Press
-Strength,Biceps,Biceps,Seated Close-Grip Concentration Barbell Curl
-Strength,Shoulders,Shoulders,Dumbbell One-Arm Shoulder Press
-Strength,Triceps,Triceps,Tricep Dumbbell Kickback
-Strength,Triceps,Triceps,Standing Bent-Over Two-Arm Dumbbell Triceps Extension
-Strength,Shoulders,Shoulders,Front Two-Dumbbell Raise
-Plyometrics,Quadriceps,Quadriceps,Mountain Climbers
-Plyometrics,Chest,Chest,Drop Push
-Strength,Quadriceps,Quadriceps,Bodyweight Squat
-Stretching,Abductors,Abductors,Standing Hip Circles
-Strength,Quadriceps,Quadriceps,Trap Bar Deadlift
-Strength,Triceps,Triceps,Ring Dips
-Strength,Triceps,Triceps,Parallel Bar Dip
-Strength,Quadriceps,Quadriceps,Chair Squat
-Strength,Abdominals,Abdominals,3/4 Sit-Up
-Strength,Abdominals,Abdominals,Otis-Up
-Strength,Abductors,Abductors,Clam
-Strength,Quadriceps,Quadriceps,Machine Squat
-Strength,Chest,Chest,Barbell Incline Bench Press Medium-Grip
-Strength,Shoulders,Shoulders,Front Cable Raise
-Strength,Abdominals,Abdominals,Crunches
-Strength,Quadriceps,Quadriceps,Dumbbell Rear Lunge
-Strength,Biceps,Biceps,Alternate Incline Dumbbell Curl
-Strength,Hamstrings,Hamstrings,Power Clean
-Strength,Lats,Lats,Wide-Grip Rear Pull-Up
-Strength,Shoulders,Shoulders,Handstand Push-Ups
-Strength,Biceps,Biceps,Dumbbell Alternate Bicep Curl
-Strength,Biceps,Biceps,One Arm Dumbbell Preacher Curl
-Strength,Triceps,Triceps,Bench Dips
-Strength,Traps,Traps,Standing Dumbbell Upright Row
-Strength,Quadriceps,Quadriceps,Goblet Squat
-Strength,Traps,Traps,Kettlebell Sumo High Pull
-Cardio,Quadriceps,Quadriceps,Trail Running/Walking
-Powerlifting,Lower Back,Lower Back,Deadlift with Bands
-Olympic Weightlifting,Hamstrings,Hamstrings,Hang Snatch
-Strength,Shoulders,Shoulders,External Rotation with Cable
-Strength,Chest,Chest,Incline Push-Up Medium
-Strength,Chest,Chest,Incline Cable Chest Press
-Strength,Hamstrings,Hamstrings,Lunge Pass Through
-Strength,Lats,Lats,Rope Straight-Arm Pulldown
-Strength,Glutes,Glutes,Step-up with Knee Raise
-Strength,Middle Back,Middle Back,Bent Over Barbell Row
-Strength,Quadriceps,Quadriceps,Barbell Step Ups
-Strength,Quadriceps,Quadriceps,Smith Machine Squat
-Strength,Traps,Traps,Dumbbell Shrug
-Strength,Biceps,Biceps,Reverse Cable Curl
-Strength,Calves,Calves,Seated Calf Raise
-Strength,Traps,Traps,Calf-Machine Shoulder Shrug
-Strength,Calves,Calves,Rocking Standing Calf Raise
-Strength,Calves,Calves,Calf Press On The Leg Press Machine
-Strength,Shoulders,Shoulders,Front Incline Dumbbell Raise
-Strength,Shoulders,Shoulders,Barbell Shoulder Press
-Strength,Triceps,Triceps,Lying Close-Grip Barbell Triceps Extension Behind The Head
-Strength,Forearms,Forearms,Seated Palm-Up Barbell Wrist Curl
-Strength,Shoulders,Shoulders,Two-Arm Kettlebell Military Press
-Powerlifting,Triceps,Triceps,Bench Press - Powerlifting
-Strength,Chest,Chest,Cable Chest Press
-Strength,Chest,Chest,Dumbbell Bench Press with Neutral Grip
-Strength,Lats,Lats,Rope Climb
-Strength,Biceps,Biceps,Standing Concentration Curl
-Strength,Shoulders,Shoulders,Standing Bradford Press
-Strength,Shoulders,Shoulders,Dumbbell Rear Delt Row
-Strength,Forearms,Forearms,Palms-Up Dumbbell Wrist Curl Over A Bench
-Strength,Abdominals,Abdominals,Dumbbell Side Bend
-Strength,Biceps,Biceps,Incline Dumbbell Curl
-Strength,Triceps,Triceps,Cable Lying Triceps Extension
-Strength,Biceps,Biceps,Close-Grip Standing Barbell Curl
-Strength,Triceps,Triceps,Standing Overhead Barbell Triceps Extension
-Strength,Hamstrings,Hamstrings,One-Arm Kettlebell Clean
-Strength,Shoulders,Shoulders,Kettlebell Turkish Get-Up (Squat style)
-Powerlifting,Lower Back,Lower Back,Deadlift with Chains
-Strength,Abdominals,Abdominals,Rope Crunch
-Strength,Chest,Chest,Leverage Incline Chest Press
-Strength,Triceps,Triceps,Triceps Overhead Extension with Rope
-Strength,Chest,Chest,Single-Arm Push-Up
-Strength,Abdominals,Abdominals,Standing Rope Crunch
-Strength,Chest,Chest,Single-Arm Cable Crossover
-Strength,Abdominals,Abdominals,Dead Bug
-Strength,Forearms,Forearms,Standing Olympic Plate Hand Squeeze
-Strength,Lats,Lats,Wide-Grip Lat Pulldown
-Strength,Abdominals,Abdominals,Crunch - Hands Overhead
-Strength,Biceps,Biceps,Preacher Hammer Dumbbell Curl
-Strength,Biceps,Biceps,Alternate Hammer Curl
-Strength,Biceps,Biceps,Seated Dumbbell Curl
-Strength,Triceps,Triceps,JM Press
-Strength,Shoulders,Shoulders,Cable Internal Rotation
-Strength,Biceps,Biceps,Standing One-Arm Dumbbell Curl Over Incline Bench
-Strength,Abdominals,Abdominals,Knee/Hip Raise On Parallel Bars
-Strength,Triceps,Triceps,Triceps Pushdown
-Strength,Shoulders,Shoulders,Side Lateral Raise
-Strength,Shoulders,Shoulders,Alternating Kettlebell Press
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Snatch
-Strength,Hamstrings,Hamstrings,Kettlebell One-Legged Deadlift
-Strength,Shoulders,Shoulders,Kettlebell Thruster
-Powerlifting,Glutes,Glutes,Kneeling Squat
-Plyometrics,Hamstrings,Hamstrings,Front Box Jump
-Strength,Quadriceps,Quadriceps,Split Squat with Dumbbells
-Strength,Adductors,Adductors,Band Hip Adductions
-Plyometrics,Abdominals,Abdominals,Sledgehammer Swings
-Strength,Chest,Chest,Decline Push-Up
-Strength,Shoulders,Shoulders,Battling Ropes
-Strength,Chest,Chest,Hammer Grip Incline DB Bench Press
-Strength,Shoulders,Shoulders,Bent Over Low-Pulley Side Lateral
-Strength,Chest,Chest,Pushups (Close and Wide Hand Positions)
-Strength,Abdominals,Abdominals,Jackknife Sit-Up
-Strength,Chest,Chest,Push-Ups With Feet Elevated
-Strength,Quadriceps,Quadriceps,One Leg Barbell Squat
-Strength,Chest,Chest,Push-Ups With Feet On An Exercise Ball
-Strength,Biceps,Biceps,Standing Biceps Cable Curl
-Strength,Shoulders,Shoulders,Low Pulley Row To Neck
-Strength,Abdominals,Abdominals,Decline Oblique Crunch
-Strength,Shoulders,Shoulders,External Rotation
-Stretching,Abdominals,Abdominals,Stomach Vacuum
-Strength,Shoulders,Shoulders,Barbell Rear Delt Row
-Strength,Middle Back,Middle Back,Alternating Renegade Row
-Olympic Weightlifting,Hamstrings,Hamstrings,Clean
-Powerlifting,Hamstrings,Hamstrings,Good Morning
-Olympic Weightlifting,Hamstrings,Hamstrings,Wide Stance Stiff Legs
-Plyometrics,Quadriceps,Quadriceps,Scissors Jump
-Strength,Calves,Calves,Calf Press
-Strength,Shoulders,Shoulders,Seated Cable Shoulder Press
-Strength,Chest,Chest,Decline Dumbbell Bench Press
-Strength,Quadriceps,Quadriceps,Leg Extensions
-Strength,Quadriceps,Quadriceps,Barbell Hack Squat
-Strength,Lats,Lats,Underhand Cable Pulldowns
-Strength,Triceps,Triceps,Decline Dumbbell Triceps Extension
-Strength,Shoulders,Shoulders,One-Arm Incline Lateral Raise
-Strength,Biceps,Biceps,Drag Curl
-Strength,Abdominals,Abdominals,Press Sit-Up
-Strength,Chest,Chest,Butterfly
-Strength,Chest,Chest,One Arm Dumbbell Bench Press
-Strength,Lats,Lats,Gironda Sternum Chins
-Strength,Middle Back,Middle Back,Seated One-arm Cable Pulley Rows
-Strength,Triceps,Triceps,Dumbbell One-Arm Triceps Extension
-Olympic Weightlifting,Quadriceps,Quadriceps,Hang Clean - Below the Knees
-Powerlifting,Lower Back,Lower Back,Rack Pull with Bands
-Strength,Chest,Chest,Leverage Chest Press
-Strength,Abdominals,Abdominals,Bosu Ball Cable Crunch With Side Bends
-Strength,Chest,Chest,Incline Push-Up Wide
-Plyometrics,Quadriceps,Quadriceps,Jumping Jacks
-Strength,Neck,Neck,Lying Face Up Plate Neck Resistance
-Strength,Chest,Chest,Straight-Arm Dumbbell Pullover
-Strength,Quadriceps,Quadriceps,Hack Squat
-Strength,Traps,Traps,Barbell Shrug
-Strength,Quadriceps,Quadriceps,Freehand Jump Squat
-Strength,Abdominals,Abdominals,Tuck Crunch
-Strength,Triceps,Triceps,Lying Dumbbell Tricep Extension
-Strength,Shoulders,Shoulders,Cable Rope Rear-Delt Rows
-Strength,Shoulders,Shoulders,Dumbbell Raise
-Strength,Quadriceps,Quadriceps,Weighted Sissy Squat
-Strength,Forearms,Forearms,Seated Dumbbell Palms-Down Wrist Curl
-Stretching,Hamstrings,Hamstrings,Front Leg Raises
-Cardio,Quadriceps,Quadriceps,Skating
-Strength,Shoulders,Shoulders,Face Pull
-Powerlifting,Hamstrings,Hamstrings,Glute Ham Raise
-Strength,Triceps,Triceps,Band Skull Crusher
-Strength,Chest,Chest,Isometric Wipers
-Strength,Abdominals,Abdominals,Pallof Press
-Cardio,Quadriceps,Quadriceps,Jog In Place
-Strength,Middle Back,Middle Back,Man Maker
-Strength,Forearms,Forearms,Palms-Down Dumbbell Wrist Curl Over A Bench
-Strength,Chest,Chest,Incline Dumbbell Bench With Palms Facing In
-Strength,Abdominals,Abdominals,Flat Bench Lying Leg Raise
-Strength,Abdominals,Abdominals,Seated Flat Bench Leg Pull-In
-Strength,Abdominals,Abdominals,Exercise Ball Crunch
-Strength,Abdominals,Abdominals,Russian Twist
-Strength,Lats,Lats,Side To Side Chins
-Strength,Triceps,Triceps,One Arm Pronated Dumbbell Triceps Extension
-Strength,Triceps,Triceps,One Arm Supinated Dumbbell Triceps Extension
-Strength,Shoulders,Shoulders,Seated Bent-Over Rear Delt Raise
-Stretching,Shoulders,Shoulders,Side Wrist Pull
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Clean and Jerk
-Cardio,Quadriceps,Quadriceps,"Running, Treadmill"
-Strength,Lats,Lats,Leverage Iso Row
-Strength,Chest,Chest,Clock Push-Up
-Strength,Chest,Chest,Decline Smith Press
-Strength,Chest,Chest,Cable Iron Cross
-Strength,Quadriceps,Quadriceps,Plie Dumbbell Squat
-Strength,Chest,Chest,Incline Dumbbell Flyes - With A Twist
-Strength,Shoulders,Shoulders,Standing Low-Pulley Deltoid Raise
-Strength,Abdominals,Abdominals,Oblique Crunches
-Strength,Biceps,Biceps,Machine Preacher Curls
-Strength,Forearms,Forearms,Plate Pinch
-Strength,Triceps,Triceps,Reverse Triceps Bench Press
-Strength,Shoulders,Shoulders,Upright Barbell Row
-Strength,Shoulders,Shoulders,Seated Side Lateral Raise
-Strength,Forearms,Forearms,Seated One-Arm Dumbbell Palms-Down Wrist Curl
-Strength,Abdominals,Abdominals,Advanced Kettlebell Windmill
-Strength,Forearms,Forearms,Bottoms-Up Clean From The Hang Position
-Powerlifting,Lower Back,Lower Back,Rack Pulls
-Olympic Weightlifting,Quadriceps,Quadriceps,Split Jerk
-Powerlifting,Triceps,Triceps,Chain Handle Extension
-Powerlifting,Hamstrings,Hamstrings,Band Good Morning (Pull Through)
-Strength,Chest,Chest,Leverage Decline Chest Press
-Plyometrics,Hamstrings,Hamstrings,Linear Acceleration Wall Drill
-Plyometrics,Quadriceps,Quadriceps,Dumbbell Seated Box Jump
-Strength,Chest,Chest,Push-Up Wide
-Strength,Abdominals,Abdominals,Barbell Rollout from Bench
-Strength,Quadriceps,Quadriceps,Barbell Thruster
-Strength,Lats,Lats,Straight-Arm Pulldown
-Strength,Middle Back,Middle Back,Bent Over Two-Dumbbell Row
-Strength,Hamstrings,Hamstrings,Stiff-Legged Barbell Deadlift
-Strength,Glutes,Glutes,Glute Kickback
-Strength,Abdominals,Abdominals,Butt-Ups
-Strength,Chest,Chest,Smith Machine Bench Press
-Strength,Middle Back,Middle Back,Middle Back Shrug
-Strength,Shoulders,Shoulders,Iron Cross
-Strength,Biceps,Biceps,Lying Supine Dumbbell Curl
-Strength,Traps,Traps,Barbell Shrug Behind The Back
-Stretching,Lower Back,Lower Back,Superman
-Strength,Chest,Chest,Cross Over - With Bands
-Strength,Biceps,Biceps,Two-Arm Dumbbell Preacher Curl
-Strength,Glutes,Glutes,Flutter Kicks
-Strength,Chest,Chest,Front Raise And Pullover
-Strength,Lats,Lats,Elevated Cable Rows
-Strength,Shoulders,Shoulders,Dumbbell Lying Rear Lateral Raise
-Strength,Lower Back,Lower Back,Weighted Ball Hyperextension
-Strength,Triceps,Triceps,Standing One-Arm Dumbbell Triceps Extension
-Cardio,Quadriceps,Quadriceps,"Bicycling, Stationary"
-Cardio,Quadriceps,Quadriceps,Jogging-Treadmill
-Powerlifting,Triceps,Triceps,Floor Press
-Powerlifting,Triceps,Triceps,Bench Press with Chains
-Plyometrics,Chest,Chest,Chest Push (multiple response)
-Plyometrics,Chest,Chest,Incline Push-Up Depth Jump
-Strength,Shoulders,Shoulders,Internal Rotation with Band
-Strength,Shoulders,Shoulders,Straight Raises on Incline Bench
-Strength,Lats,Lats,Kneeling Single-Arm High Pulley Row
-Strength,Triceps,Triceps,Cobra Triceps Extension
-Strength,Quadriceps,Quadriceps,Bodyweight Reverse Lunge
-Strength,Middle Back,Middle Back,Yates Row Reverse Grip
-Strength,Chest,Chest,Bent-Arm Dumbbell Pullover
-Strength,Shoulders,Shoulders,Bent Over Dumbbell Rear Delt Raise With Head On Bench
-Strength,Biceps,Biceps,Lying Cable Curl
-Strength,Biceps,Biceps,Cable Hammer Curls - Rope Attachment
-Strength,Middle Back,Middle Back,Mixed Grip Chin
-Strength,Quadriceps,Quadriceps,Cable Hip Adduction
-Strength,Shoulders,Shoulders,Lying Rear Delt Raise
-Strength,Middle Back,Middle Back,One-Arm Kettlebell Row
-Cardio,Quadriceps,Quadriceps,Recumbent Bike
-Cardio,Quadriceps,Quadriceps,"Walking, Treadmill"
-Strength,Middle Back,Middle Back,Inverted Row
-Strength,Chest,Chest,Standing Cable Chest Press
-Strength,Abdominals,Abdominals,Cable Reverse Crunch
-Strength,Triceps,Triceps,Body Tricep Press
-Strength,Shoulders,Shoulders,Band Pull Apart
-Strength,Hamstrings,Hamstrings,Dumbbell Clean
-Cardio,Quadriceps,Quadriceps,Butt Kicks
-Strength,Lats,Lats,Neutral-Grip Pull Ups
-Strength,Lats,Lats,Machine-Assisted Pull-Up
-Strength,Quadriceps,Quadriceps,Wide-Stance Barbell Squat
-Plyometrics,Quadriceps,Quadriceps,Alien Squat
-Strength,Biceps,Biceps,Reverse Barbell Curl
-Strength,Quadriceps,Quadriceps,Dumbbell Step Ups
-Strength,Abductors,Abductors,Thigh Abductor
-Strength,Triceps,Triceps,Low Cable Triceps Extension
-Strength,Calves,Calves,Standing Barbell Calf Raise
-Strength,Chest,Chest,Machine Bench Press
-Strength,Shoulders,Shoulders,Bradford/Rocky Presses
-Strength,Triceps,Triceps,Seated Bent-Over Two-Arm Dumbbell Triceps Extension
-Strength,Shoulders,Shoulders,Kettlebell Turkish Get-Up (Lunge style)
-Stretching,Abductors,Abductors,Iliotibial Tract-SMR
-Olympic Weightlifting,Quadriceps,Quadriceps,Power Jerk
-Plyometrics,Triceps,Triceps,Supine Chest Throw
-Strength,Shoulders,Shoulders,Cable Rear Delt Fly
-Strength,Shoulders,Shoulders,Reverse Machine Flyes
-Strength,Abdominals,Abdominals,Standing Cable Wood Chop
-Strength,Shoulders,Shoulders,Anti-Gravity Press
-Strength,Hamstrings,Hamstrings,Single Leg Deadlift
-Strength,Lower Back,Lower Back,Seated Back Extension
-Strength,Middle Back,Middle Back,Pendlay Rown
-Strength,Lower Back,Lower Back,Stiff Leg Barbell Good Morning
-Strength,Lats,Lats,Full Range-Of-Motion Lat Pulldown
-Strength,Triceps,Triceps,Cable Rope Overhead Triceps Extension
-Strength,Triceps,Triceps,Tate Press
-Strength,Shoulders,Shoulders,Back Flyes - With Bands
-Powerlifting,Lower Back,Lower Back,Seated Good Mornings
-Plyometrics,Hamstrings,Hamstrings,Box Jump (Multiple Response)
-Plyometrics,Hamstrings,Hamstrings,Knee Tuck Jump
-Strength,Triceps,Triceps,Close-Grip Dumbbell Press
-Strength,Traps,Traps,Upright Cable Row
-Strength,Abdominals,Abdominals,Bent-Knee Hip Raise
-Strength,Middle Back,Middle Back,Smith Machine Bent Over Row
-Strength,Biceps,Biceps,Standing Dumbbell Reverse Curl
-Strength,Quadriceps,Quadriceps,Zercher Squats
-Strength,Triceps,Triceps,Lying Triceps Press
-Strength,Triceps,Triceps,Lying Close-Grip Barbell Triceps Press To Chin
-Strength,Shoulders,Shoulders,Cable Shoulder Press
-Strength,Abdominals,Abdominals,Cable Russian Twists
-Strength,Hamstrings,Hamstrings,Romanian Deadlift
-Strength,Lats,Lats,Bent-Arm Barbell Pullover
-Strength,Quadriceps,Quadriceps,Lying Machine Squat
-Strength,Shoulders,Shoulders,Machine Shoulder (Military) Press
-Strength,Triceps,Triceps,Standing Low-Pulley One-Arm Triceps Extension
-Strength,Chest,Chest,Smith Machine Incline Bench Press
-Strength,Shoulders,Shoulders,Cuban Press
-Strength,Abdominals,Abdominals,Ab Crunch Machine
-Strength,Abdominals,Abdominals,Weighted Sit-Ups - With Bands
-Strength,Quadriceps,Quadriceps,Jefferson Squats
-Stretching,Abductors,Abductors,Windmills
-Olympic Weightlifting,Quadriceps,Quadriceps,Jerk Dip Squat
-Strongman,Quadriceps,Quadriceps,Yoke Walk
-Plyometrics,Quadriceps,Quadriceps,Rocket Jump
-Strength,Quadriceps,Quadriceps,Smith Machine Leg Press
-Strength,Abdominals,Abdominals,Wind Sprints
-Strength,Quadriceps,Quadriceps,Bodyweight Walking Lunge
-Strength,Abdominals,Abdominals,Smith Machine Hip Raise
-Strength,Hamstrings,Hamstrings,Romanian Deadlift with Kettlebell
-Strength,Abductors,Abductors,Fire Hydrant
-Strength,Triceps,Triceps,Body-Up
-Plyometrics,Quadriceps,Quadriceps,Wall Ball Squat
-Strength,Abdominals,Abdominals,Alternate Heel Touchers
-Strength,Triceps,Triceps,Smith Machine Close-Grip Bench Press
-Strength,Shoulders,Shoulders,Reverse Flyes With External Rotation
-Strength,Biceps,Biceps,Incline Inner Biceps Curl
-Strength,Chest,Chest,Plyo Kettlebell Pushups
-Plyometrics,Quadriceps,Quadriceps,Depth Jump Leap
-Strength,Hamstrings,Hamstrings,Reverse Hyperextension
-Strength,Shoulders,Shoulders,Alternating Cable Shoulder Press
-Strength,Hamstrings,Hamstrings,Seated Leg Curl
-Strength,Traps,Traps,Cable Shrugs
-Olympic Weightlifting,Quadriceps,Quadriceps,Overhead Squat
-Strength,Middle Back,Middle Back,Alternating Kettlebell Row
-Strength,Quadriceps,Quadriceps,Single-Leg Leg Extension
-Strength,Quadriceps,Quadriceps,Pistol Squat
-Strength,Middle Back,Middle Back,Lying T-Bar Row
-Strength,Shoulders,Shoulders,Lying One-Arm Lateral Raise
-Strength,Shoulders,Shoulders,Lateral Raise - With Bands
-Strength,Biceps,Biceps,High Cable Curls
-Strength,Triceps,Triceps,Standing Bent-Over One-Arm Dumbbell Triceps Extension
-Strength,Shoulders,Shoulders,Standing Barbell Press Behind Neck
-Powerlifting,Hamstrings,Hamstrings,Band Good Morning
-Strength,Middle Back,Middle Back,Leverage High Row
-Plyometrics,Lats,Lats,Overhead Slam
-Strength,Abdominals,Abdominals,Pallof Press With Rotation
-Strength,Biceps,Biceps,Close-Grip EZ-Bar Curl with Band
-Strength,Lats,Lats,Kneeling High Pulley Row
-Strength,Traps,Traps,Upright Row - With Bands
-Strength,Quadriceps,Quadriceps,Barbell Side Split Squat
-Stretching,Hamstrings,Hamstrings,Leg-Up Hamstring Stretch
-Powerlifting,Hamstrings,Hamstrings,Sumo Deadlift with Chains
-Strength,Glutes,Glutes,Physioball Hip Bridge
-Strength,Abdominals,Abdominals,Suspended Reverse Crunch
-Strength,Shoulders,Shoulders,Kettlebell Pirate Ships
-Strength,Quadriceps,Quadriceps,Side Lunge
-Cardio,Quadriceps,Quadriceps,Walking High Knees
-Strength,Chest,Chest,Close-Hands Push-Up
-Strength,Shoulders,Shoulders,See-Saw Press (Alternating Side Press)
-Strength,Forearms,Forearms,Cable Wrist Curl
-Strength,Shoulders,Shoulders,Dumbbell One-Arm Upright Row
-Strength,Shoulders,Shoulders,Dumbbell Scaption
-Strength,Traps,Traps,Smith Machine Behind the Back Shrug
-Strength,Abdominals,Abdominals,Flat Bench Leg Pull-In
-Strength,Quadriceps,Quadriceps,Speed Squats
-Strength,Abdominals,Abdominals,Cable Seated Crunch
-Strength,Quadriceps,Quadriceps,Smith Single-Leg Split Squat
-Strength,Quadriceps,Quadriceps,Seated Leg Press
-Strength,Quadriceps,Quadriceps,Kettlebell Curtsy Lunge
-Strength,Abdominals,Abdominals,Frog Sit-Ups
-Strength,Abdominals,Abdominals,Kettlebell Windmill
-Strength,Abdominals,Abdominals,Kettlebell Figure 8
-Stretching,Adductors,Adductors,Side Leg Raises
-Powerlifting,Triceps,Triceps,Board Press
-Strongman,Shoulders,Shoulders,Circus Bell
-Olympic Weightlifting,Quadriceps,Quadriceps,Frankenstein Squat
-Plyometrics,Quadriceps,Quadriceps,Single Leg Butt Kick
-Strength,Quadriceps,Quadriceps,Cable Deadlifts
-Strength,Biceps,Biceps,One-Arm Plank Dumbbell Biceps Curl
-Strength,Chest,Chest,Around The Worlds
-Strength,Middle Back,Middle Back,Incline Bench Pull
-Strength,Biceps,Biceps,Dumbbell Prone Incline Curl
-Strength,Lats,Lats,Band Assisted Pull-Up
-Strength,Middle Back,Middle Back,Suspended Row
-Plyometrics,Quadriceps,Quadriceps,Jump Squat
-Strength,Chest,Chest,Tiger-Bend Push-Up
-Strength,Neck,Neck,Seated Head Harness Neck Resistance
-Strength,Calves,Calves,Barbell Seated Calf Raise
-Strength,Shoulders,Shoulders,Shoulder Press - With Bands
-Olympic Weightlifting,Glutes,Glutes,Kneeling Jump Squat
-Strength,Chest,Chest,Barbell Bench Press-Wide Grip
-Strength,Quadriceps,Quadriceps,One-Arm Side Deadlift
-Strength,Biceps,Biceps,Zottman Preacher Curl
-Strength,Abdominals,Abdominals,Sit-Up
-Strength,Triceps,Triceps,Seated Bent-Over One-Arm Dumbbell Triceps Extension
-Strength,Shoulders,Shoulders,Two-Arm Kettlebell Clean
-Plyometrics,Hamstrings,Hamstrings,Vertical Swing
-Stretching,Hamstrings,Hamstrings,Inchworm
-Strength,Biceps,Biceps,Cable Preacher Curl
-Strength,Abdominals,Abdominals,Side Bridge
-Strength,Calves,Calves,Balance Board
-Strength,Shoulders,Shoulders,Double Kettlebell Push Press
-Plyometrics,Quadriceps,Quadriceps,Split Jump
-Plyometrics,Chest,Chest,Plyo Push-up
-Plyometrics,Quadriceps,Quadriceps,Bench Jump
-Strength,Neck,Neck,Isometric Neck Exercise - Sides
-Strength,Hamstrings,Hamstrings,Standing Leg Curl
-Strength,Abdominals,Abdominals,Leg Pull-In
-Strength,Biceps,Biceps,Standing Inner-Biceps Curl
-Strength,Shoulders,Shoulders,Dumbbell Incline Shoulder Raise
-Strength,Hamstrings,Hamstrings,One-Arm Kettlebell Swings
-Strength,Triceps,Triceps,Machine Triceps Extension
-Cardio,Hamstrings,Hamstrings,Prowler Sprint
-Strength,Shoulders,Shoulders,Barbell Front Raise
-Strength,Quadriceps,Quadriceps,Barbell Squat To A Bench
-Strength,Abdominals,Abdominals,Oblique Crunches - On The Floor
-Strength,Abdominals,Abdominals,Janda Sit-Up
-Strength,Biceps,Biceps,Seated Dumbbell Inner Biceps Curl
-Strength,Calves,Calves,Donkey Calf Raises
-Strength,Glutes,Glutes,Pull Through
-Strength,Triceps,Triceps,Incline Push-Up Close-Grip
-Strength,Traps,Traps,Smith Machine Upright Row
-Strength,Abdominals,Abdominals,Crunch - Legs On Exercise Ball
-Strength,Abdominals,Abdominals,Side Jackknife
-Strength,Abdominals,Abdominals,Kettlebell Pass Between The Legs
-Plyometrics,Hamstrings,Hamstrings,Moving Claw Series
-Strength,Chest,Chest,Suspended Push-Up
-Strength,Quadriceps,Quadriceps,Dumbbell Walking Lunge
-Strength,Chest,Chest,Flat Bench Cable Flyes
-Strength,Triceps,Triceps,One Arm Floor Press
-Strength,Chest,Chest,Wide-Grip Decline Barbell Pullover
-Strength,Calves,Calves,Smith Machine Reverse Calf Raises
-Strength,Middle Back,Middle Back,Two-Arm Kettlebell Row
-Plyometrics,Quadriceps,Quadriceps,Front Cone Hops (or hurdle hops)
-Plyometrics,Adductors,Adductors,Lateral Bound
-Strength,Lats,Lats,One Arm Lat Pulldown
-Strength,Triceps,Triceps,Close-Grip Push-Up off of a Dumbbell
-Strength,Chest,Chest,Smith Machine Decline Press
-Strength,Calves,Calves,Dumbbell Seated One-Leg Calf Raise
-Strength,Quadriceps,Quadriceps,Weighted Squat
-Olympic Weightlifting,Quadriceps,Quadriceps,Clean Pull
-Strength,Shoulders,Shoulders,Smith Machine One-Arm Upright Row
-Strength,Shoulders,Shoulders,Machine Lateral Raise
-Strength,Lats,Lats,Cable Incline Pushdown
-Strength,Biceps,Biceps,Reverse Plate Curls
-Strength,Shoulders,Shoulders,Standing Front Barbell Raise Over Head
-Stretching,Calves,Calves,Ankle Circles
-Strength,Glutes,Glutes,Hip Extension with Bands
-Strength,Lats,Lats,Kipping Muscle Up
-Plyometrics,Chest,Chest,Isometric Chest Squeezes
-Strength,Triceps,Triceps,Cable Incline Triceps Extension
-Strength,Biceps,Biceps,Lying Close-Grip Bar Curl On High Pulley
-Stretching,Adductors,Adductors,Groin and Back Stretch
-Strength,Chest,Chest,Push Up to Side Plank
-Strength,Lats,Lats,Wide-Grip Pulldown Behind The Neck
-Strength,Abdominals,Abdominals,Seated Leg Tucks
-Stretching,Biceps,Biceps,Standing Biceps Stretch
-Strength,Quadriceps,Quadriceps,Dumbbell Squat To A Bench
-Strength,Hamstrings,Hamstrings,Smith Machine Stiff-Legged Deadlift
-Stretching,Abdominals,Abdominals,Scissor Kick
-Powerlifting,Triceps,Triceps,Pin Presses
-Strength,Lats,Lats,London Bridges
-Plyometrics,Quadriceps,Quadriceps,90-Degree Jump Squat Twist
-Strength,Abdominals,Abdominals,Barbell Side Bend
-Strength,Quadriceps,Quadriceps,One-Arm Overhead Kettlebell Squats
-Strength,Shoulders,Shoulders,Kettlebell Seated Press
-Strength,Shoulders,Shoulders,Double Kettlebell Jerk
-Strength,Quadriceps,Quadriceps,Smith Machine Pistol Squat
-Plyometrics,Quadriceps,Quadriceps,Bench Sprint
-Strength,Quadriceps,Quadriceps,Wide-Stance Leg Press
-Stretching,Abdominals,Abdominals,Toe Touchers
-Strongman,Quadriceps,Quadriceps,Backward Drag
-Plyometrics,Quadriceps,Quadriceps,Alternate Leg Diagonal Bound
-Strongman,Quadriceps,Quadriceps,Sled Push
-Plyometrics,Shoulders,Shoulders,Backward Medicine Ball Throw
-Strength,Shoulders,Shoulders,Kettlebell Arnold Press
-Olympic Weightlifting,Traps,Traps,Clean Shrug
-Strength,Shoulders,Shoulders,Landmine Linear Jammer
-Stretching,Hamstrings,Hamstrings,Standing Toe Touches
-Strength,Chest,Chest,Barbell Guillotine Bench Press
-Stretching,Shoulders,Shoulders,Upward Stretch
-Stretching,Shoulders,Shoulders,Shoulder Circles
-Stretching,Hamstrings,Hamstrings,Intermediate Groin Stretch
-Stretching,Hamstrings,Hamstrings,Standing Hamstring and Calf Stretch
-Strength,Abductors,Abductors,Monster Walk
-Strength,Quadriceps,Quadriceps,Squat with Plate Movers
-Strength,Chest,Chest,Side To Side Push-Up
-Stretching,Glutes,Glutes,Piriformis-SMR
-Strength,Traps,Traps,Scapular Pull-Up
-Strength,Shoulders,Shoulders,Cable Seated Lateral Raise
-Strength,Triceps,Triceps,Standing Towel Triceps Extension
-Stretching,Abdominals,Abdominals,Lower Back Curl
-Strength,Middle Back,Middle Back,Straight Bar Bench Mid Rows
-Strength,Glutes,Glutes,Leg Lift
-Strength,Chest,Chest,One-Arm Flat Bench Dumbbell Flye
-Strength,Shoulders,Shoulders,Barbell Incline Shoulder Raise
-Olympic Weightlifting,Shoulders,Shoulders,Push Press - Behind the Neck
-Strength,Quadriceps,Quadriceps,Suspended Split Squat
-Strength,Neck,Neck,Isometric Neck Exercise - Front And Back
-Strength,Abdominals,Abdominals,Weighted Ball Side Bend
-Strength,Middle Back,Middle Back,Inverted Row with Straps
-Stretching,Calves,Calves,Peroneals-SMR
-Strongman,Lower Back,Lower Back,Atlas Stone Trainer
-Stretching,Calves,Calves,Knee Circles
-Stretching,Quadriceps,Quadriceps,Intermediate Hip Flexor and Quad Stretch
-Stretching,Hamstrings,Hamstrings,Lying Hamstring
-Strength,Triceps,Triceps,Dumbbell Tricep Extension -Pronated Grip
-Strength,Abdominals,Abdominals,Bent Press
-Strength,Middle Back,Middle Back,One Arm Chin-Up
-Strength,Chest,Chest,Extended Range One-Arm Kettlebell Floor Press
-Strength,Forearms,Forearms,Seated Dumbbell Palms-Up Wrist Curl
-Strength,Middle Back,Middle Back,Lying Cambered Barbell Row
-Olympic Weightlifting,Traps,Traps,Snatch Shrug
-Stretching,Quadriceps,Quadriceps,Sit Squats
-Strongman,Shoulders,Shoulders,Crucifix
-Powerlifting,Glutes,Glutes,Hip Lift with Band
-Strength,Chest,Chest,Alternating Floor Press
-Stretching,Calves,Calves,Calves-SMR
-Strongman,Chest,Chest,Forward Drag with Press
-Stretching,Shoulders,Shoulders,Shoulder Stretch
-Stretching,Hamstrings,Hamstrings,Hamstring Stretch
-Plyometrics,Chest,Chest,Medicine Ball Chest Pass
-Strength,Biceps,Biceps,Lying High Bench Barbell Curl
-Stretching,Lats,Lats,One Arm Against Wall
-Strength,Quadriceps,Quadriceps,Squats - With Bands
-Stretching,Chest,Chest,Dynamic Chest Stretch
-Plyometrics,Lats,Lats,Catch and Overhead Throw
-Strength,Hamstrings,Hamstrings,Smith Machine Hang Power Clean
-Stretching,Middle Back,Middle Back,Rhomboids-SMR
-Strength,Neck,Neck,Neck Bridge Prone
-Stretching,Calves,Calves,Standing Gastrocnemius Calf Stretch
-Powerlifting,Chest,Chest,Chain Press
-Strength,Chest,Chest,Bench Press - With Bands
-Stretching,Triceps,Triceps,Tricep Side Stretch
-Stretching,Hamstrings,Hamstrings,Hamstring-SMR
-Plyometrics,Quadriceps,Quadriceps,Fast Skipping
-Stretching,Lower Back,Lower Back,Hug A Ball
-Stretching,Lower Back,Lower Back,Dancer's Stretch
-Stretching,Hamstrings,Hamstrings,Upper Back-Leg Grab
-Stretching,Quadriceps,Quadriceps,Kneeling Hip Flexor
-Stretching,Quadriceps,Quadriceps,Quadriceps-SMR
-Strength,Quadriceps,Quadriceps,Front Barbell Squat To A Bench
-Stretching,Calves,Calves,Calf Stretch Hands Against Wall
-Strength,Hamstrings,Hamstrings,Kettlebell Dead Clean
-Plyometrics,Abdominals,Abdominals,Supine Two-Arm Overhead Throw
-Strength,Forearms,Forearms,Partner Farmer's Walk Competition
-Stretching,Lower Back,Lower Back,Child's Pose
-Stretching,Shoulders,Shoulders,Round The World Shoulder Stretch
-Stretching,Middle Back,Middle Back,Spinal Stretch
-Stretching,Shoulders,Shoulders,Elbow Circles
-Stretching,Hamstrings,Hamstrings,Seated Hamstring
-Stretching,Calves,Calves,Anterior Tibialis-SMR
-Stretching,Forearms,Forearms,Kneeling Forearm Stretch
-Stretching,Quadriceps,Quadriceps,Iron Crosses (stretch)
-Stretching,Lower Back,Lower Back,Pelvic Tilt Into Bridge
-Stretching,Hamstrings,Hamstrings,Seated Floor Hamstring Stretch
-Stretching,Shoulders,Shoulders,Arm Circles
-Stretching,Hamstrings,Hamstrings,90/90 Hamstring
-Stretching,Quadriceps,Quadriceps,All Fours Quad Stretch
-Stretching,Biceps,Biceps,Seated Biceps
-Stretching,Abdominals,Abdominals,Torso Rotation
-Strength,Abdominals,Abdominals,Cable Judo Flip
-Stretching,Lower Back,Lower Back,Cat Stretch
-Stretching,Calves,Calves,Calf Stretch Elbows Against Wall
-Stretching,Chest,Chest,Behind Head Chest Stretch
-Stretching,Quadriceps,Quadriceps,Quad Stretch
-Strength,Hamstrings,Hamstrings,Alternating Hang Clean
-Strength,Calves,Calves,Calf Raises - With Bands
-Stretching,Neck,Neck,Side Neck Stretch
-Stretching,Chest,Chest,Elbows Back
-Stretching,Lats,Lats,Dynamic Back Stretch
-Strength,Calves,Calves,Calf Raise On A Dumbbell
-Stretching,Glutes,Glutes,Ankle On The Knee
-Stretching,Triceps,Triceps,Triceps Stretch
-Strength,Abdominals,Abdominals,Seated Barbell Twist
-Stretching,Quadriceps,Quadriceps,One Half Locust
-Stretching,Lats,Lats,Latissimus Dorsi-SMR
-Stretching,Abdominals,Abdominals,Seated Overhead Stretch
-Stretching,Lower Back,Lower Back,Lower Back-SMR
-Stretching,Shoulders,Shoulders,Seated Front Deltoid
-Stretching,Lower Back,Lower Back,Hug Knees To Chest
-Stretching,Quadriceps,Quadriceps,Standing Hip Flexors
-Stretching,Hamstrings,Hamstrings,World's Greatest Stretch
-Stretching,Quadriceps,Quadriceps,Looking At Ceiling
-Stretching,Hamstrings,Hamstrings,The Straddle
-Stretching,Middle Back,Middle Back,Upper Back Stretch
-Stretching,Hamstrings,Hamstrings,Split Squats
-Stretching,Calves,Calves,Standing Soleus And Achilles Stretch
-Stretching,Calves,Calves,Seated Calf Stretch
-Stretching,Shoulders,Shoulders,Shoulder Raise
-Stretching,Shoulders,Shoulders,Chair Upper Body Stretch
-Strength,Glutes,Glutes,Downward Facing Balance
-Stretching,Adductors,Adductors,Adductor
-Plyometrics,Shoulders,Shoulders,Kneeling Arm Drill
-Stretching,Quadriceps,Quadriceps,Frog Hops
-Stretching,Abdominals,Abdominals,Overhead Stretch
-Stretching,Lower Back,Lower Back,Crossover Reverse Lunge
-Stretching,Middle Back,Middle Back,Middle Back Stretch
-Stretching,Adductors,Adductors,Side Lying Groin Stretch
-Stretching,Neck,Neck,Chin To Chest Stretch
-Stretching,Chest,Chest,Chest Stretch on Stability Ball
-Stretching,Hamstrings,Hamstrings,Runner's Stretch
-Stretching,Lats,Lats,One Handed Hang
-Stretching,Adductors,Adductors,Adductor/Groin
-Stretching,Glutes,Glutes,Knee Across The Body
-Plyometrics,Shoulders,Shoulders,Medicine Ball Scoop Throw
-Stretching,Quadriceps,Quadriceps,Rear Leg Raises
-Stretching,Calves,Calves,Peroneals Stretch
-Stretching,Quadriceps,Quadriceps,On Your Side Quad Stretch
-Stretching,Quadriceps,Quadriceps,On-Your-Back Quad Stretch
-Stretching,Triceps,Triceps,Overhead Triceps
-Stretching,Biceps,Biceps,Brachialis-SMR
-Stretching,Abdominals,Abdominals,Standing Lateral Stretch
-Stretching,Lats,Lats,Chair Lower Back Stretch
-Stretching,Lower Back,Lower Back,Standing Pelvic Tilt
-Stretching,Glutes,Glutes,Seated Glute
-Stretching,Chest,Chest,Chest And Front Of Shoulder Stretch
-Strength,Abdominals,Abdominals,Double Kettlebell Windmill
-Stretching,Glutes,Glutes,Lying Glute
-Stretching,Adductors,Adductors,Lying Bent Leg Groin
-Stretching,Neck,Neck,Neck-SMR
-Stretching,Quadriceps,Quadriceps,Standing Elevated Quad Stretch
-Stretching,Calves,Calves,Foot-SMR
-Stretching,Glutes,Glutes,One Knee To Chest
-Stretching,Forearms,Forearms,Wrist Circles
-Stretching,Hamstrings,Hamstrings,Chair Leg Extended Stretch
-Stretching,Abductors,Abductors,IT Band and Glute Stretch
-Stretching,Abductors,Abductors,Lying Crossover
-Stretching,Lower Back,Lower Back,Pyramid
-Stretching,Lats,Lats,Overhead Lat
-Stretching,Calves,Calves,Posterior Tibialis Stretch
-Stretching,Lats,Lats,Side-Lying Floor Stretch
-Strength,Shoulders,Shoulders,Smith Incline Shoulder Raise
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Jerk
-Strength,Chest,Chest,One-Arm Kettlebell Floor Press
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Military Press To The Side
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Para Press
-Strength,Shoulders,Shoulders,Two-Arm Kettlebell Jerk
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Split Jerk
-Strength,Chest,Chest,Leg-Over Floor Press
-Strength,Hamstrings,Hamstrings,Kettlebell Hang Clean
-Strength,Hamstrings,Hamstrings,Double Kettlebell Alternating Hang Clean
-Stretching,Hamstrings,Hamstrings,Seated Hamstring and Calf Stretch
-Strength,Quadriceps,Quadriceps,Box Squat with Chains
-Strongman,Quadriceps,Quadriceps,Car Deadlift
-Powerlifting,Hamstrings,Hamstrings,Good Morning off Pins
-Olympic Weightlifting,Hamstrings,Hamstrings,Hang Snatch - Below Knees
-Olympic Weightlifting,Shoulders,Shoulders,Jerk Balance
-Strongman,Lower Back,Lower Back,Keg Load
-Strongman,Shoulders,Shoulders,Log Lift
-Olympic Weightlifting,Hamstrings,Hamstrings,Muscle Snatch
-Powerlifting,Quadriceps,Quadriceps,Squat with Bands
-Strongman,Quadriceps,Quadriceps,Sandbag Load
-Strongman,Quadriceps,Quadriceps,Sled Drag - Harness
-Strength,Quadriceps,Quadriceps,Squat Jerk
-Powerlifting,Hamstrings,Hamstrings,Sumo Deadlift with Bands
-Powerlifting,Triceps,Triceps,Floor Press with Chains
-Olympic Weightlifting,Quadriceps,Quadriceps,Snatch from Blocks
-Olympic Weightlifting,Quadriceps,Quadriceps,Split Clean
-Powerlifting,Lower Back,Lower Back,Reverse Band Deadlift
-Powerlifting,Quadriceps,Quadriceps,Reverse Band Power Squat
-Powerlifting,Hamstrings,Hamstrings,Reverse Band Sumo Deadlift
-Plyometrics,Chest,Chest,Chest Push (single response)
-Plyometrics,Hamstrings,Hamstrings,Hurdle Hops
-Plyometrics,Shoulders,Shoulders,Return Push from Stance
-Plyometrics,Quadriceps,Quadriceps,Side Hop-Sprint
-Plyometrics,Quadriceps,Quadriceps,Single-Leg Hop Progression
-Plyometrics,Shoulders,Shoulders,Standing Two-Arm Overhead Throw
-Plyometrics,Quadriceps,Quadriceps,Stride Jump Crossover
-Strength,Shoulders,Shoulders,External Rotation with Band
-Stretching,Abdominals,Abdominals,Hip Crossover
-Strength,Quadriceps,Quadriceps,Hip Flexion with Band
-Strength,Abdominals,Abdominals,Plank with Twist
-Plyometrics,Adductors,Adductors,Carioca Quick Step
-Plyometrics,Quadriceps,Quadriceps,Side Standing Long Jump
-Plyometrics,Quadriceps,Quadriceps,Single-Cone Sprint Drill
-Plyometrics,Hamstrings,Hamstrings,Linear 3-Part Start Technique
-Plyometrics,Quadriceps,Quadriceps,Linear Depth Jump
-Strength,Quadriceps,Quadriceps,Elevated Back Lunge
-Strength,Hamstrings,Hamstrings,Seated Band Hamstring Curl
-Strength,Triceps,Triceps,Speed Band Overhead Triceps
-Strength,Triceps,Triceps,Sled Overhead Triceps Extension
-Strength,Chest,Chest,Incline Push-Up Reverse Grip
-Strength,Quadriceps,Quadriceps,Lunge Sprint
-Strength,Quadriceps,Quadriceps,Single Arm Overhead Kettlebell Squat
-Strength,Abdominals,Abdominals,Suitcase Crunch
-Strength,Glutes,Glutes,Glute Bridge Hamstring Walkout
-Strength,Abdominals,Abdominals,Seated Scissor Kick
-Cardio,Shoulders,Shoulders,Punches
-Cardio,Quadriceps,Quadriceps,Slow Jog
-Cardio,Quadriceps,Quadriceps,Defensive Slide
-Strength,Abdominals,Abdominals,Cross Crunch
-Plyometrics,Quadriceps,Quadriceps,Square Hop
-Cardio,Quadriceps,Quadriceps,Lateral Speed Step
-Strength,Hamstrings,Hamstrings,Stiff-Legged Deadlift
-Strength,Chest,Chest,Suspended Chest Fly
-Strength,Chest,Chest,Staggered Push-Up
-Strength,Triceps,Triceps,JM Press
-Strength,Triceps,Triceps,JM Press With Bands
-Strength,Lats,Lats,Rockers (Pullover To Press) Straight Bar
-Strength,Abdominals,Abdominals,Straight-Legged Hip Raise
-Strength,Lower Back,Lower Back,Partner Supermans With Alternating High-Five
-Strength,Abdominals,Abdominals,Partner Facing Planks With Alternating High-Five
-Strength,Middle Back,Middle Back,Partner Facing Side Plank With Band Row
-Strength,Middle Back,Middle Back,Partner Facing Feet-Elevated Side Plank With Band Row
-Strength,Abdominals,Abdominals,Partner 3-Touch Motion Russian Twist
-Strength,Abdominals,Abdominals,Partner Side-To-Side Russian Twist & Pass
-Strength,Chest,Chest,Medicine-Ball Push-Up
-Strength,Lower Back,Lower Back,Partner Flat-Bench Back Extension
-Strength,Lower Back,Lower Back,Partner Flat-Bench Back Extension With Hold
-Strength,Abdominals,Abdominals,Partner Hanging Knee Raise With Throw Down
-Strength,Abdominals,Abdominals,Partner Hanging Knee Raise With Manual Resistance
-Strength,Abductors,Abductors,Lateral Band Walk
-Strength,Shoulders,Shoulders,Dumbbell Squat To Shoulder Press
-Strength,Quadriceps,Quadriceps,Dumbbell Overhead Squat
-Strength,Quadriceps,Quadriceps,Single-Arm Dumbbell Overhead Squat
-Strength,Middle Back,Middle Back,Single-Arm Landmine Row
-Strength,Abdominals,Abdominals,Medicine Ball Rotational Throw
-Strength,Hamstrings,Hamstrings,Suspended Leg Curl
-Strength,Abdominals,Abdominals,Suspended Crunch
-Strength,Abdominals,Abdominals,Bosu Ball Crunch
-Strength,Triceps,Triceps,Triceps Plank Extension
-Plyometrics,Quadriceps,Quadriceps,Single-Leg Box Jump
-Strength,Chest,Chest,Suspended Push-Up
-Plyometrics,Quadriceps,Quadriceps,Burpee Over Barbell
-Strength,Shoulders,Shoulders,Hand Stand Push-Up
-Strength,Quadriceps,Quadriceps,Kettlebell Sumo Squat
-Strength,Quadriceps,Quadriceps,Barbell Reverse Lunge
-Strength,Lats,Lats,Assisted Chin-Up
-Strength,Abdominals,Abdominals,Stability Ball Pike With Knee Tuck
-Strength,Chest,Chest,Diamond Push-Up
-Strength,Chest,Chest,Typewriter Push-Up
-Plyometrics,Chest,Chest,Clapping Push-Up
-Plyometrics,Chest,Chest,Triple Clap Push-Up
-Strength,Chest,Chest,Weighted Push-Up
-Strength,Chest,Chest,One-Arm Push-Up
-Strength,Quadriceps,Quadriceps,Close-Stance Dumbbell Front Squat
-Strength,Shoulders,Shoulders,Front Dumbbell Raise Using Towel
-Strength,Abdominals,Abdominals,Shoulder Tap
-Strength,Triceps,Triceps,V-Sit Dumbbell Triceps Extension
-Strength,Middle Back,Middle Back,Barbell Deadlift Bent Row Complex
-Strength,Chest,Chest,Bar Throw And Press
-Plyometrics,Chest,Chest,Decline Explosive Push-Up
-Strength,Lats,Lats,Around The World Pull-Up
-Strength,Shoulders,Shoulders,Plate Shoulder Circle Big To Small Rotation
-Cardio,Quadriceps,Quadriceps,Double Under
-Cardio,Quadriceps,Quadriceps,Jumping Jack
-Plyometrics,Quadriceps,Quadriceps,Sprawl Frog Kick
-Strength,Quadriceps,Quadriceps,Kettlebell Side Squat
-Strength,Quadriceps,Quadriceps,Kettlebell Thruster Progression
-Strength,Abdominals,Abdominals,Kettlebell 3-Point Extension
-Plyometrics,Quadriceps,Quadriceps,Running Lunge
-Plyometrics,Quadriceps,Quadriceps,Southpaw Sprawl
-Cardio,Shoulders,Shoulders,Bear Crawl Fire Feet
-Strength,Abdominals,Abdominals,Breakdancer
-Plyometrics,Quadriceps,Quadriceps,Lunge Heel Kick
-Plyometrics,Quadriceps,Quadriceps,Gorilla Squat
-Plyometrics,Quadriceps,Quadriceps,Burppe Box Jump
-Strength,Quadriceps,Quadriceps,Dumbbell Squat Snatch
-Strength,Shoulders,Shoulders,Wall Shoulder Tap
-Strength,Shoulders,Shoulders,Bear Crawl Shoulder Tap
-Strength,Quadriceps,Quadriceps,Thigh Killa
-Strength,Shoulders,Shoulders,Double Kettlebell Snatch
-Strength,Shoulders,Shoulders,One-Arm Kettlebell Split Snatch
-Strength,Hamstrings,Hamstrings,Open Palm Kettlebell Clean
-Strength,Hamstrings,Hamstrings,One-Arm Open Palm Kettlebell Clean
-Strength,Shoulders,Shoulders,Kettlebell Seesaw Press
-Stretching,Quadriceps,Quadriceps,Lying Prone Quadriceps
-Strongman,Quadriceps,Quadriceps,Conan's Wheel
-Powerlifting,Hamstrings,Hamstrings,Hanging Bar Good Morning
-Olympic Weightlifting,Quadriceps,Quadriceps,Heaving Snatch Balance
-Strongman,Hamstrings,Hamstrings,Power Stairs
-Olympic Weightlifting,Shoulders,Shoulders,Rack Delivery
-Olympic Weightlifting,Quadriceps,Quadriceps,Snatch Balance
-Strength,Hamstrings,Hamstrings,Snatch Pull
-Olympic Weightlifting,Hamstrings,Hamstrings,Split Snatch
-Strongman,Quadriceps,Quadriceps,Rickshaw Deadlift
-Olympic Weightlifting,Quadriceps,Quadriceps,Power Snatch from Blocks
-Powerlifting,Triceps,Triceps,Reverse Band Bench Press
-Plyometrics,Hamstrings,Hamstrings,Box Skip
-Plyometrics,Chest,Chest,Chest Push from 3 point stance
-Plyometrics,Chest,Chest,Chest Push with Run Release
-Plyometrics,Chest,Chest,Heavy Bag Thrust
-Plyometrics,Adductors,Adductors,Lateral Box Jump
-Plyometrics,Adductors,Adductors,Lateral Cone Hops
-Plyometrics,Abdominals,Abdominals,Medicine Ball Full Twist
-Plyometrics,Quadriceps,Quadriceps,Quick Leap
-Plyometrics,Quadriceps,Quadriceps,Single-Leg Lateral Hop
-Plyometrics,Quadriceps,Quadriceps,Single-Leg Stride Jump
-Plyometrics,Quadriceps,Quadriceps,Star Jump
-Plyometrics,Abdominals,Abdominals,Supine One-Arm Overhead Throw
-Strength,Quadriceps,Quadriceps,Leverage Deadlift
-Strength,Shoulders,Shoulders,Sled Overhead Backward Walk
-Strength,Shoulders,Shoulders,Sled Reverse Flye
-Strength,Middle Back,Middle Back,Sled Row
-Strength,Hamstrings,Hamstrings,Platform Hamstring Slides
-Strength,Hamstrings,Hamstrings,Prone Manual Hamstring
-Powerlifting,Quadriceps,Quadriceps,Speed Box Squat
-Strength,Glutes,Glutes,Neck Bridge Supine
-Plyometrics,Quadriceps,Quadriceps,Feet Jack
-Cardio,Quadriceps,Quadriceps,Fast Kick With Arm Circles
-Cardio,Quadriceps,Quadriceps,Football Up-Down
-Plyometrics,Quadriceps,Quadriceps,Jump Lunge To Feet Jack
-Cardio,Quadriceps,Quadriceps,Vertical Mountain Climber
-Stretching,Glutes,Glutes,Seated Glute Stretch
-Plyometrics,Quadriceps,Quadriceps,Slide Jump Shot
-Cardio,Quadriceps,Quadriceps,High Knee Jog
-Strongman,Shoulders,Shoulders,Axle Clean And Press
-Strength,Shoulders,Shoulders,Suspended Back Fly
-Strength,Quadriceps,Quadriceps,Front-To-Back Squat With Belt
-Powerlifting,Chest,Chest,Bench Press With Short Bands
-Strength,Middle Back,Middle Back,Plate Row
-Strength,Quadriceps,Quadriceps,Bosu Ball Squat
-Strength,Abdominals,Abdominals,Partner Target Sit-Up
-Strength,Abdominals,Abdominals,Partner Lying Leg Raise With Throw Down
-Strength,Middle Back,Middle Back,Partner Facing Plank With Band Row
-Strength,Abdominals,Abdominals,Partner Sit-Up With High-Five
-Strength,Abdominals,Abdominals,Partner Lying Leg Raise With Lateral Throw Down
-Strength,Forearms,Forearms,Partner Suitcase Carry Competition
-Stretching,Hamstrings,Hamstrings,Alternating Leg Swing
-Stretching,Abductors,Abductors,Hip Circle
-Strength,Quadriceps,Quadriceps,Forward Band Walk
-Olympic Weightlifting,Shoulders,Shoulders,Tall Muscle Snatch
-Strength,Quadriceps,Quadriceps,Barbell Squat To A Box
-Strength,Biceps,Biceps,Suspended Curl
-Strength,Glutes,Glutes,Suspended Hip Thrust
-Strength,Triceps,Triceps,Suspended Triceps Press
-Strength,Chest,Chest,Bosu Ball Push-Up
-Stretching,Hamstrings,Hamstrings,Single-Leg Balance
-Strength,Shoulders,Shoulders,Half-kneeling Dumbbell Shoulder Press
-Plyometrics,Quadriceps,Quadriceps,Ice Skater
-Strength,Forearms,Forearms,Suitcase Dumbbell Carry
-Strength,Middle Back,Middle Back,Yates Row
-Strength,Quadriceps,Quadriceps,Split Squat With Kettlebells
-Plyometrics,Lats,Lats,Burpee Pull-Up
-Strength,Lats,Lats,Negative Pull-Up
-Strength,Chest,Chest,Hand Release Push-Up
-Strength,Shoulders,Shoulders,Wall Walk
-Strength,Shoulders,Shoulders,Dumbbell Clean And Jerk
-Strength,Quadriceps,Quadriceps,Walking Lunge With Overhead Weight
-Strength,Abdominals,Abdominals,Waiter's Carry
-Stretching,Hamstrings,Hamstrings,High Kick
-Stretching,Hamstrings,Hamstrings,Knee To Chest
-Stretching,Hamstrings,Hamstrings,Hip Stretch With Twist
-Strength,Chest,Chest,Svend Press
-Strength,Chest,Chest,Wide-Hands Push-Up
-Strength,Chest,Chest,Dive Bomber Push-Up
-Strength,Quadriceps,Quadriceps,Front Squat Push Press
-Strength,Quadriceps,Quadriceps,Front Squat (Bodybuilder)
-Strength,Quadriceps,Quadriceps,Front Squat (Clean Grip)
-Strength,Quadriceps,Quadriceps,Single-Leg Squat To Box
-Strength,Quadriceps,Quadriceps,Single-Leg Skater Squat
-Strength,Quadriceps,Quadriceps,Wall Squat
-Plyometrics,Quadriceps,Quadriceps,Pop Squat
-Plyometrics,Quadriceps,Quadriceps,Trap Bar Jump
-Strength,Abdominals,Abdominals,Skin The Cat To Push-Up
-Strength,Chest,Chest,Weighted Push-Up
-Strength,Quadriceps,Quadriceps,Dumbbell Lunge and Curl
-Plyometrics,Quadriceps,Quadriceps,Dumbbell Jump Squat
-Plyometrics,Quadriceps,Quadriceps,Lateral Hop Holding Dumbbells
-Strength,Quadriceps,Quadriceps,Dumbbell Front Squat
-Plyometrics,Quadriceps,Quadriceps,Lateral Hop 4 Times To Sprint
-Strength,Lats,Lats,L-Sit Chin-Up
-Strength,Triceps,Triceps,Body Triceps Press Using Flat Bench
-Strength,Triceps,Triceps,Russian Bar Dip
-Plyometrics,Quadriceps,Quadriceps,Wide-Stance Jump Squat To Close-Stance
-Plyometrics,Chest,Chest,Bar Push-Up Smith Machine
-Strength,Chest,Chest,Burpee To Medicine Ball Press
-Strength,Abdominals,Abdominals,V-Sit Lying Down Ball Throw And Catch
-Plyometrics,Chest,Chest,Superman Push-Up
-Strength,Quadriceps,Quadriceps,Barbell Front-To-Back Squat
-Strength,Biceps,Biceps,Seated Straight-Bar Curl Superset
-Strength,Biceps,Biceps,Hammer Plate Curl
-Strength,Quadriceps,Quadriceps,Dumbbell Pistol Squat
-Strength,Quadriceps,Quadriceps,Dumbbell Alternating Lunge
-Strength,Quadriceps,Quadriceps,Side Lunge Touching Heel
-Plyometrics,Quadriceps,Quadriceps,Jumping Knee Up Down
-Plyometrics,Quadriceps,Quadriceps,Burpee Tuck Jump
-Plyometrics,Quadriceps,Quadriceps,Wall Sprawl
-Plyometrics,Abdominals,Abdominals,Wall Mountain Climber
-Strength,Abdominals,Abdominals,Full Moon
-Plyometrics,Quadriceps,Quadriceps,Medicine Ball Ninja
-Plyometrics,Quadriceps,Quadriceps,Kettlebell Fire Feet
-Plyometrics,Quadriceps,Quadriceps,Reverse Burpee
-Strength,Chest,Chest,Feet-Elevated TRX Push-Up
-Strength,Abdominals,Abdominals,Crab Toe Touch
-Strength,Quadriceps,Quadriceps,Kettlebell Squat Clean
-Plyometrics,Quadriceps,Quadriceps,Burpee Box Jump
+Strength,Barbell,Quadriceps,Narrow Stance Squats
+Strength,Other,Lats,Rocky Pull-Ups/Pulldowns
+Strength,Dumbbell,Biceps,Flexor Incline Dumbbell Curls
+Strength,Dumbbell,Shoulders,Dumbbell Lying One-Arm Rear Lateral Raise
+Strength,Dumbbell,Triceps,Standing Dumbbell Triceps Extension
+Strength,Barbell,Chest,Barbell Bench Press - Medium Grip
+Strength,Dumbbell,Shoulders,Front Dumbbell Raise
+Strength,Dumbbell,Forearms,Seated One-Arm Dumbbell Palms-Up Wrist Curl
+Strength,Barbell,Forearms,Seated Palms-Down Barbell Wrist Curl
+Strongman,Other,Quadriceps,Bear Crawl Sled Drags
+Strength,Dumbbell,Shoulders,Alternating Deltoid Raise
+Strength,Machine,Biceps,Machine Bicep Curl
+Strength,E-Z Curl Bar,Chest,Bodyweight Flyes
+Strength,Barbell,Middle Back,One-Arm Long Bar Row
+Strength,Body Only,Abdominals,Hanging Oblique Knee Raise
+Strength,Body Only,Quadriceps,Bodyweight Lunge
+Strength,Dumbbell,Middle Back,One-Arm Dumbbell Row
+Strength,Machine,Calves,Standing Calf Raises
+Strength,Cable,Glutes,One-Legged Cable Kickback
+Strength,Cable,Chest,Incline Cable Flye
+Strength,Dumbbell,Shoulders,Dumbbell Shoulder Press
+Strength,Body Only,Triceps,Push-Ups - Close Triceps Position
+Powerlifting,Barbell,Quadriceps,Box Squat with Bands
+Powerlifting,Barbell,Quadriceps,Squat with Chains
+Strength,Barbell,Quadriceps,Weighted Jump Squat
+Strength,Other,Quadriceps,Single-Leg High Box Squat
+Strength,E-Z Curl Bar,Triceps,EZ-Bar Skullcrusher
+Strength,Dumbbell,Shoulders,Single Dumbbell Raise
+Strength,Barbell,Shoulders,Car Drivers
+Strength,Dumbbell,Shoulders,Standing Alternating Dumbbell Press
+Strength,Medicine Ball,Abdominals,Weighted Suitcase Crunch
+Strength,Cable,Abdominals,Oblique Cable Crunch
+Strength,Barbell,Shoulders,Snatch-Grip Behind-The-Neck Overhead Press
+Strength,Barbell,Middle Back,Bent Over One-Arm Long Bar Row
+Strength,Barbell,Chest,Wide-Grip Decline Barbell Bench Press
+Strength,Barbell,Quadriceps,Front Barbell Squat
+Strength,Machine,Hamstrings,Lying Leg Curls
+Strength,Cable,Triceps,Triceps Pushdown - Rope Attachment
+Strength,Machine,Shoulders,Smith Machine Overhead Shoulder Press
+Strength,Cable,Triceps,Cable One Arm Tricep Extension
+Strength,Dumbbell,Shoulders,Arnold Dumbbell Press
+Strength,Exercise Ball,Abdominals,Exercise Ball Pull-In
+Strength,Cable,Abdominals,Cable Crunch
+Strength,Cable,Lats,V-Bar Pulldown
+Strength,Barbell,Abdominals,Barbell Ab Rollout
+Strength,Body Only,Abdominals,Hanging Leg Raise
+Strength,Dumbbell,Biceps,Dumbbell Bicep Curl
+Strength,Barbell,Triceps,Decline Close-Grip Bench To Skull Crusher
+Strength,Dumbbell,Forearms,Dumbbell Lying Supination
+Cardio,Other,Quadriceps,Bicycling
+Cardio,Machine,Quadriceps,"Rowing, Stationary"
+Strength,Machine,Shoulders,Leverage Shoulder Press
+Strength,Cable,Abdominals,Kneeling Cable Crunch With Alternating Oblique Twists
+Strength,Other,Lats,Muscle Up
+Strength,Cable,Lats,Shotgun Row
+Strength,Dumbbell,Chest,Incline Dumbbell Press Reverse-Grip
+Strength,Barbell,Middle Back,T-Bar Row
+Strength,Barbell,Quadriceps,Barbell Squat
+Strength,Barbell,Middle Back,Bent Over Two-Arm Long Bar Row
+Strength,Barbell,Chest,Wide-Grip Barbell Bench Press
+Strength,Barbell,Chest,Decline Barbell Bench Press
+Strength,Dumbbell,Quadriceps,Dumbbell Squat
+Strength,Other,Abdominals,Ab Roller
+Strength,Barbell,Abdominals,Barbell Ab Rollout - On Knees
+Strength,Other,Shoulders,Front Plate Raise
+Strength,Dumbbell,Biceps,Cross Body Hammer Curl
+Strength,Barbell,Biceps,Close-Grip EZ Bar Curl
+Strength,Dumbbell,Triceps,Seated Triceps Press
+Strength,Barbell,Triceps,Incline Barbell Triceps Extension
+Olympic Weightlifting,Barbell,Hamstrings,Snatch Deadlift
+Plyometrics,Other,Quadriceps,Side to Side Box Shuffle
+Strength,Medicine Ball,Abdominals,Weighted Crunches
+Strength,Dumbbell,Quadriceps,Dumbbell Goblet Squat
+Strength,Body Only,Lats,Wide-Grip Pull-Up
+Strength,Body Only,Lower Back,Hyperextensions With No Hyperextension Bench
+Strength,Dumbbell,Quadriceps,Dumbbell Lunges
+Strength,Machine,Quadriceps,Leg Press
+Strength,Body Only,Glutes,Butt Lift (Bridge)
+Strength,Body Only,Abdominals,Reverse Crunch
+Strength,Body Only,Abdominals,Air Bike
+Strength,Machine,Quadriceps,Narrow Stance Hack Squats
+Strength,Machine,Quadriceps,Narrow Stance Leg Press
+Strength,Barbell,Biceps,Barbell Curls Lying Against An Incline
+Strength,Dumbbell,Forearms,Dumbbell Lying Pronation
+Stretching,Body Only,Adductors,Groiners
+Cardio,Machine,Quadriceps,Elliptical Trainer
+Cardio,Machine,Quadriceps,Stairmaster
+Plyometrics,Body Only,Quadriceps,Double Leg Butt Kick
+Plyometrics,Body Only,Quadriceps,Standing Long Jump
+Strength,Exercise Ball,Hamstrings,Ball Leg Curl
+Strength,Body Only,Chest,Incline Push-Up
+Strength,Body Only,Glutes,Single Leg Glute Bridge
+Strength,Dumbbell,Middle Back,Dumbbell Incline Row
+Strength,E-Z Curl Bar,Triceps,Close-Grip EZ-Bar Press
+Strength,Other,Middle Back,Bodyweight Mid Row
+Cardio,Body Only,Quadriceps,Burpee
+Strength,E-Z Curl Bar,Biceps,Reverse Barbell Preacher Curls
+Strength,Cable,Lats,Close-Grip Front Lat Pulldown
+Strength,Dumbbell,Middle Back,Bent Over Two-Dumbbell Row With Palms In
+Strength,Dumbbell,Hamstrings,Stiff-Legged Dumbbell Deadlift
+Strength,Dumbbell,Chest,Incline Dumbbell Flyes
+Strength,Barbell,Quadriceps,Barbell Lunge
+Strength,Cable,Middle Back,Seated Cable Rows
+Strength,Cable,Chest,Cable Crossover
+Strength,Body Only,Lats,V-Bar Pullup
+Strength,Machine,Triceps,Dip Machine
+Strength,Barbell,Biceps,Preacher Curl
+Strength,Cable,Biceps,Standing One-Arm Cable Curl
+Strength,Dumbbell,Calves,Standing Dumbbell Calf Raise
+Strength,Barbell,Chest,Neck Press
+Strength,Barbell,Biceps,Seated Close-Grip Concentration Barbell Curl
+Strength,Dumbbell,Shoulders,Dumbbell One-Arm Shoulder Press
+Strength,Dumbbell,Triceps,Tricep Dumbbell Kickback
+Strength,Dumbbell,Triceps,Standing Bent-Over Two-Arm Dumbbell Triceps Extension
+Strength,Dumbbell,Shoulders,Front Two-Dumbbell Raise
+Plyometrics,None,Quadriceps,Mountain Climbers
+Plyometrics,Other,Chest,Drop Push
+Strength,Body Only,Quadriceps,Bodyweight Squat
+Stretching,Body Only,Abductors,Standing Hip Circles
+Strength,Other,Quadriceps,Trap Bar Deadlift
+Strength,Other,Triceps,Ring Dips
+Strength,Other,Triceps,Parallel Bar Dip
+Strength,Machine,Quadriceps,Chair Squat
+Strength,Body Only,Abdominals,3/4 Sit-Up
+Strength,Other,Abdominals,Otis-Up
+Strength,Body Only,Abductors,Clam
+Strength,Machine,Quadriceps,Machine Squat
+Strength,Barbell,Chest,Barbell Incline Bench Press Medium-Grip
+Strength,Cable,Shoulders,Front Cable Raise
+Strength,Body Only,Abdominals,Crunches
+Strength,Dumbbell,Quadriceps,Dumbbell Rear Lunge
+Strength,Dumbbell,Biceps,Alternate Incline Dumbbell Curl
+Strength,Barbell,Hamstrings,Power Clean
+Strength,Body Only,Lats,Wide-Grip Rear Pull-Up
+Strength,Body Only,Shoulders,Handstand Push-Ups
+Strength,Dumbbell,Biceps,Dumbbell Alternate Bicep Curl
+Strength,Dumbbell,Biceps,One Arm Dumbbell Preacher Curl
+Strength,Body Only,Triceps,Bench Dips
+Strength,Dumbbell,Traps,Standing Dumbbell Upright Row
+Strength,Kettlebells,Quadriceps,Goblet Squat
+Strength,Kettlebells,Traps,Kettlebell Sumo High Pull
+Cardio,None,Quadriceps,Trail Running/Walking
+Powerlifting,Barbell,Lower Back,Deadlift with Bands
+Olympic Weightlifting,Barbell,Hamstrings,Hang Snatch
+Strength,Cable,Shoulders,External Rotation with Cable
+Strength,Body Only,Chest,Incline Push-Up Medium
+Strength,Cable,Chest,Incline Cable Chest Press
+Strength,Kettlebells,Hamstrings,Lunge Pass Through
+Strength,Cable,Lats,Rope Straight-Arm Pulldown
+Strength,Body Only,Glutes,Step-up with Knee Raise
+Strength,Barbell,Middle Back,Bent Over Barbell Row
+Strength,Barbell,Quadriceps,Barbell Step Ups
+Strength,Machine,Quadriceps,Smith Machine Squat
+Strength,Dumbbell,Traps,Dumbbell Shrug
+Strength,Cable,Biceps,Reverse Cable Curl
+Strength,Machine,Calves,Seated Calf Raise
+Strength,Machine,Traps,Calf-Machine Shoulder Shrug
+Strength,Barbell,Calves,Rocking Standing Calf Raise
+Strength,Machine,Calves,Calf Press On The Leg Press Machine
+Strength,Dumbbell,Shoulders,Front Incline Dumbbell Raise
+Strength,Barbell,Shoulders,Barbell Shoulder Press
+Strength,Barbell,Triceps,Lying Close-Grip Barbell Triceps Extension Behind The Head
+Strength,Barbell,Forearms,Seated Palm-Up Barbell Wrist Curl
+Strength,Kettlebells,Shoulders,Two-Arm Kettlebell Military Press
+Powerlifting,Barbell,Triceps,Bench Press - Powerlifting
+Strength,Cable,Chest,Cable Chest Press
+Strength,Dumbbell,Chest,Dumbbell Bench Press with Neutral Grip
+Strength,Other,Lats,Rope Climb
+Strength,Dumbbell,Biceps,Standing Concentration Curl
+Strength,Barbell,Shoulders,Standing Bradford Press
+Strength,Dumbbell,Shoulders,Dumbbell Rear Delt Row
+Strength,Dumbbell,Forearms,Palms-Up Dumbbell Wrist Curl Over A Bench
+Strength,Dumbbell,Abdominals,Dumbbell Side Bend
+Strength,Dumbbell,Biceps,Incline Dumbbell Curl
+Strength,Cable,Triceps,Cable Lying Triceps Extension
+Strength,Barbell,Biceps,Close-Grip Standing Barbell Curl
+Strength,Barbell,Triceps,Standing Overhead Barbell Triceps Extension
+Strength,Kettlebells,Hamstrings,One-Arm Kettlebell Clean
+Strength,Kettlebells,Shoulders,Kettlebell Turkish Get-Up (Squat style)
+Powerlifting,Barbell,Lower Back,Deadlift with Chains
+Strength,Cable,Abdominals,Rope Crunch
+Strength,Machine,Chest,Leverage Incline Chest Press
+Strength,Cable,Triceps,Triceps Overhead Extension with Rope
+Strength,Body Only,Chest,Single-Arm Push-Up
+Strength,Cable,Abdominals,Standing Rope Crunch
+Strength,Cable,Chest,Single-Arm Cable Crossover
+Strength,Body Only,Abdominals,Dead Bug
+Strength,Other,Forearms,Standing Olympic Plate Hand Squeeze
+Strength,Cable,Lats,Wide-Grip Lat Pulldown
+Strength,Body Only,Abdominals,Crunch - Hands Overhead
+Strength,Dumbbell,Biceps,Preacher Hammer Dumbbell Curl
+Strength,Dumbbell,Biceps,Alternate Hammer Curl
+Strength,Dumbbell,Biceps,Seated Dumbbell Curl
+Strength,Barbell,Triceps,JM Press
+Strength,Cable,Shoulders,Cable Internal Rotation
+Strength,Dumbbell,Biceps,Standing One-Arm Dumbbell Curl Over Incline Bench
+Strength,Other,Abdominals,Knee/Hip Raise On Parallel Bars
+Strength,Cable,Triceps,Triceps Pushdown
+Strength,Dumbbell,Shoulders,Side Lateral Raise
+Strength,Kettlebells,Shoulders,Alternating Kettlebell Press
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Snatch
+Strength,Kettlebells,Hamstrings,Kettlebell One-Legged Deadlift
+Strength,Kettlebells,Shoulders,Kettlebell Thruster
+Powerlifting,Barbell,Glutes,Kneeling Squat
+Plyometrics,Other,Hamstrings,Front Box Jump
+Strength,Dumbbell,Quadriceps,Split Squat with Dumbbells
+Strength,Bands,Adductors,Band Hip Adductions
+Plyometrics,Other,Abdominals,Sledgehammer Swings
+Strength,None,Chest,Decline Push-Up
+Strength,Other,Shoulders,Battling Ropes
+Strength,Dumbbell,Chest,Hammer Grip Incline DB Bench Press
+Strength,Cable,Shoulders,Bent Over Low-Pulley Side Lateral
+Strength,Body Only,Chest,Pushups (Close and Wide Hand Positions)
+Strength,Body Only,Abdominals,Jackknife Sit-Up
+Strength,Body Only,Chest,Push-Ups With Feet Elevated
+Strength,Barbell,Quadriceps,One Leg Barbell Squat
+Strength,Exercise Ball,Chest,Push-Ups With Feet On An Exercise Ball
+Strength,Cable,Biceps,Standing Biceps Cable Curl
+Strength,Cable,Shoulders,Low Pulley Row To Neck
+Strength,Body Only,Abdominals,Decline Oblique Crunch
+Strength,Dumbbell,Shoulders,External Rotation
+Stretching,Body Only,Abdominals,Stomach Vacuum
+Strength,Barbell,Shoulders,Barbell Rear Delt Row
+Strength,Kettlebells,Middle Back,Alternating Renegade Row
+Olympic Weightlifting,Barbell,Hamstrings,Clean
+Powerlifting,Barbell,Hamstrings,Good Morning
+Olympic Weightlifting,Barbell,Hamstrings,Wide Stance Stiff Legs
+Plyometrics,Body Only,Quadriceps,Scissors Jump
+Strength,Machine,Calves,Calf Press
+Strength,Cable,Shoulders,Seated Cable Shoulder Press
+Strength,Dumbbell,Chest,Decline Dumbbell Bench Press
+Strength,Machine,Quadriceps,Leg Extensions
+Strength,Barbell,Quadriceps,Barbell Hack Squat
+Strength,Cable,Lats,Underhand Cable Pulldowns
+Strength,Dumbbell,Triceps,Decline Dumbbell Triceps Extension
+Strength,Dumbbell,Shoulders,One-Arm Incline Lateral Raise
+Strength,Barbell,Biceps,Drag Curl
+Strength,Barbell,Abdominals,Press Sit-Up
+Strength,Machine,Chest,Butterfly
+Strength,Dumbbell,Chest,One Arm Dumbbell Bench Press
+Strength,Other,Lats,Gironda Sternum Chins
+Strength,Cable,Middle Back,Seated One-arm Cable Pulley Rows
+Strength,Dumbbell,Triceps,Dumbbell One-Arm Triceps Extension
+Olympic Weightlifting,Barbell,Quadriceps,Hang Clean - Below the Knees
+Powerlifting,Barbell,Lower Back,Rack Pull with Bands
+Strength,Machine,Chest,Leverage Chest Press
+Strength,Cable,Abdominals,Bosu Ball Cable Crunch With Side Bends
+Strength,Body Only,Chest,Incline Push-Up Wide
+Plyometrics,None,Quadriceps,Jumping Jacks
+Strength,Other,Neck,Lying Face Up Plate Neck Resistance
+Strength,Dumbbell,Chest,Straight-Arm Dumbbell Pullover
+Strength,Machine,Quadriceps,Hack Squat
+Strength,Barbell,Traps,Barbell Shrug
+Strength,Body Only,Quadriceps,Freehand Jump Squat
+Strength,Body Only,Abdominals,Tuck Crunch
+Strength,Dumbbell,Triceps,Lying Dumbbell Tricep Extension
+Strength,Cable,Shoulders,Cable Rope Rear-Delt Rows
+Strength,Dumbbell,Shoulders,Dumbbell Raise
+Strength,Barbell,Quadriceps,Weighted Sissy Squat
+Strength,Dumbbell,Forearms,Seated Dumbbell Palms-Down Wrist Curl
+Stretching,Body Only,Hamstrings,Front Leg Raises
+Cardio,Other,Quadriceps,Skating
+Strength,Cable,Shoulders,Face Pull
+Powerlifting,Machine,Hamstrings,Glute Ham Raise
+Strength,Bands,Triceps,Band Skull Crusher
+Strength,Body Only,Chest,Isometric Wipers
+Strength,Cable,Abdominals,Pallof Press
+Cardio,Body Only,Quadriceps,Jog In Place
+Strength,Dumbbell,Middle Back,Man Maker
+Strength,Dumbbell,Forearms,Palms-Down Dumbbell Wrist Curl Over A Bench
+Strength,Dumbbell,Chest,Incline Dumbbell Bench With Palms Facing In
+Strength,Body Only,Abdominals,Flat Bench Lying Leg Raise
+Strength,Body Only,Abdominals,Seated Flat Bench Leg Pull-In
+Strength,Exercise Ball,Abdominals,Exercise Ball Crunch
+Strength,Body Only,Abdominals,Russian Twist
+Strength,Other,Lats,Side To Side Chins
+Strength,Dumbbell,Triceps,One Arm Pronated Dumbbell Triceps Extension
+Strength,Dumbbell,Triceps,One Arm Supinated Dumbbell Triceps Extension
+Strength,Dumbbell,Shoulders,Seated Bent-Over Rear Delt Raise
+Stretching,None,Shoulders,Side Wrist Pull
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Clean and Jerk
+Cardio,Machine,Quadriceps,"Running, Treadmill"
+Strength,Machine,Lats,Leverage Iso Row
+Strength,Body Only,Chest,Clock Push-Up
+Strength,Machine,Chest,Decline Smith Press
+Strength,Cable,Chest,Cable Iron Cross
+Strength,Dumbbell,Quadriceps,Plie Dumbbell Squat
+Strength,Dumbbell,Chest,Incline Dumbbell Flyes - With A Twist
+Strength,Cable,Shoulders,Standing Low-Pulley Deltoid Raise
+Strength,Body Only,Abdominals,Oblique Crunches
+Strength,Machine,Biceps,Machine Preacher Curls
+Strength,Other,Forearms,Plate Pinch
+Strength,Barbell,Triceps,Reverse Triceps Bench Press
+Strength,Barbell,Shoulders,Upright Barbell Row
+Strength,Dumbbell,Shoulders,Seated Side Lateral Raise
+Strength,Dumbbell,Forearms,Seated One-Arm Dumbbell Palms-Down Wrist Curl
+Strength,Kettlebells,Abdominals,Advanced Kettlebell Windmill
+Strength,Kettlebells,Forearms,Bottoms-Up Clean From The Hang Position
+Powerlifting,Barbell,Lower Back,Rack Pulls
+Olympic Weightlifting,Barbell,Quadriceps,Split Jerk
+Powerlifting,Other,Triceps,Chain Handle Extension
+Powerlifting,Bands,Hamstrings,Band Good Morning (Pull Through)
+Strength,Machine,Chest,Leverage Decline Chest Press
+Plyometrics,None,Hamstrings,Linear Acceleration Wall Drill
+Plyometrics,Dumbbell,Quadriceps,Dumbbell Seated Box Jump
+Strength,Body Only,Chest,Push-Up Wide
+Strength,Barbell,Abdominals,Barbell Rollout from Bench
+Strength,Barbell,Quadriceps,Barbell Thruster
+Strength,Cable,Lats,Straight-Arm Pulldown
+Strength,Dumbbell,Middle Back,Bent Over Two-Dumbbell Row
+Strength,Barbell,Hamstrings,Stiff-Legged Barbell Deadlift
+Strength,Body Only,Glutes,Glute Kickback
+Strength,Body Only,Abdominals,Butt-Ups
+Strength,Machine,Chest,Smith Machine Bench Press
+Strength,Dumbbell,Middle Back,Middle Back Shrug
+Strength,Dumbbell,Shoulders,Iron Cross
+Strength,Dumbbell,Biceps,Lying Supine Dumbbell Curl
+Strength,Barbell,Traps,Barbell Shrug Behind The Back
+Stretching,Body Only,Lower Back,Superman
+Strength,Bands,Chest,Cross Over - With Bands
+Strength,Dumbbell,Biceps,Two-Arm Dumbbell Preacher Curl
+Strength,Body Only,Glutes,Flutter Kicks
+Strength,Barbell,Chest,Front Raise And Pullover
+Strength,Cable,Lats,Elevated Cable Rows
+Strength,Dumbbell,Shoulders,Dumbbell Lying Rear Lateral Raise
+Strength,Exercise Ball,Lower Back,Weighted Ball Hyperextension
+Strength,Dumbbell,Triceps,Standing One-Arm Dumbbell Triceps Extension
+Cardio,Machine,Quadriceps,"Bicycling, Stationary"
+Cardio,Machine,Quadriceps,Jogging-Treadmill
+Powerlifting,Barbell,Triceps,Floor Press
+Powerlifting,Barbell,Triceps,Bench Press with Chains
+Plyometrics,Medicine Ball,Chest,Chest Push (multiple response)
+Plyometrics,Other,Chest,Incline Push-Up Depth Jump
+Strength,Bands,Shoulders,Internal Rotation with Band
+Strength,Barbell,Shoulders,Straight Raises on Incline Bench
+Strength,Cable,Lats,Kneeling Single-Arm High Pulley Row
+Strength,Body Only,Triceps,Cobra Triceps Extension
+Strength,Body Only,Quadriceps,Bodyweight Reverse Lunge
+Strength,Barbell,Middle Back,Yates Row Reverse Grip
+Strength,Dumbbell,Chest,Bent-Arm Dumbbell Pullover
+Strength,Dumbbell,Shoulders,Bent Over Dumbbell Rear Delt Raise With Head On Bench
+Strength,Dumbbell,Triceps,Standing One-Arm Dumbbell Triceps Extension
+Cardio,Machine,Quadriceps,"Bicycling, Stationary"
+Cardio,Machine,Quadriceps,Jogging-Treadmill
+Powerlifting,Barbell,Triceps,Floor Press
+Powerlifting,Barbell,Triceps,Bench Press with Chains
+Plyometrics,Medicine Ball,Chest,Chest Push (multiple response)
+Plyometrics,Other,Chest,Incline Push-Up Depth Jump
+Strength,Bands,Shoulders,Internal Rotation with Band
+Strength,Barbell,Shoulders,Straight Raises on Incline Bench
+Strength,Cable,Lats,Kneeling Single-Arm High Pulley Row
+Strength,Body Only,Triceps,Cobra Triceps Extension
+Strength,Body Only,Quadriceps,Bodyweight Reverse Lunge
+Strength,Barbell,Middle Back,Yates Row Reverse Grip
+Strength,Dumbbell,Chest,Bent-Arm Dumbbell Pullover
+Strength,Dumbbell,Shoulders,Bent Over Dumbbell Rear Delt Raise With Head On Bench
+Strength,Cable,Biceps,Lying Cable Curl
+Strength,Cable,Biceps,Cable Hammer Curls - Rope Attachment
+Strength,Other,Middle Back,Mixed Grip Chin
+Strength,Cable,Quadriceps,Cable Hip Adduction
+Strength,Dumbbell,Shoulders,Lying Rear Delt Raise
+Strength,Kettlebells,Middle Back,One-Arm Kettlebell Row
+Cardio,Machine,Quadriceps,Recumbent Bike
+Cardio,Machine,Quadriceps,"Walking, Treadmill"
+Strength,None,Middle Back,Inverted Row
+Strength,Cable,Chest,Standing Cable Chest Press
+Strength,Cable,Abdominals,Cable Reverse Crunch
+Strength,Body Only,Triceps,Body Tricep Press
+Strength,Bands,Shoulders,Band Pull Apart
+Strength,Dumbbell,Hamstrings,Dumbbell Clean
+Cardio,Body Only,Quadriceps,Butt Kicks
+Strength,Body Only,Lats,Neutral-Grip Pull Ups
+Strength,Machine,Lats,Machine-Assisted Pull-Up
+Strength,Barbell,Quadriceps,Wide-Stance Barbell Squat
+Plyometrics,Body Only,Quadriceps,Alien Squat
+Strength,Barbell,Biceps,Reverse Barbell Curl
+Strength,Dumbbell,Quadriceps,Dumbbell Step Ups
+Strength,Machine,Abductors,Thigh Abductor
+Strength,Cable,Triceps,Low Cable Triceps Extension
+Strength,Barbell,Calves,Standing Barbell Calf Raise
+Strength,Machine,Chest,Machine Bench Press
+Strength,Barbell,Shoulders,Bradford/Rocky Presses
+Strength,Dumbbell,Triceps,Seated Bent-Over Two-Arm Dumbbell Triceps Extension
+Strength,Kettlebells,Shoulders,Kettlebell Turkish Get-Up (Lunge style)
+Stretching,Foam Roll,Abductors,Iliotibial Tract-SMR
+Olympic Weightlifting,Barbell,Quadriceps,Power Jerk
+Plyometrics,Medicine Ball,Triceps,Supine Chest Throw
+Strength,Cable,Shoulders,Cable Rear Delt Fly
+Strength,Machine,Shoulders,Reverse Machine Flyes
+Strength,Cable,Abdominals,Standing Cable Wood Chop
+Strength,Barbell,Shoulders,Anti-Gravity Press
+Strength,Kettlebells,Hamstrings,Single Leg Deadlift
+Strength,Machine,Lower Back,Seated Back Extension
+Strength,Barbell,Middle Back,Pendlay Rown
+Strength,Barbell,Lower Back,Stiff Leg Barbell Good Morning
+Strength,Cable,Lats,Full Range-Of-Motion Lat Pulldown
+Strength,Cable,Triceps,Cable Rope Overhead Triceps Extension
+Strength,Dumbbell,Triceps,Tate Press
+Strength,Bands,Shoulders,Back Flyes - With Bands
+Powerlifting,Barbell,Lower Back,Seated Good Mornings
+Plyometrics,Other,Hamstrings,Box Jump (Multiple Response)
+Plyometrics,Body Only,Hamstrings,Knee Tuck Jump
+Strength,Dumbbell,Triceps,Close-Grip Dumbbell Press
+Strength,Cable,Traps,Upright Cable Row
+Strength,Body Only,Abdominals,Bent-Knee Hip Raise
+Strength,Machine,Middle Back,Smith Machine Bent Over Row
+Strength,Dumbbell,Biceps,Standing Dumbbell Reverse Curl
+Strength,Barbell,Quadriceps,Zercher Squats
+Strength,E-Z Curl Bar,Triceps,Lying Triceps Press
+Strength,E-Z Curl Bar,Triceps,Lying Close-Grip Barbell Triceps Press To Chin
+Strength,Cable,Shoulders,Cable Shoulder Press
+Strength,Cable,Abdominals,Cable Russian Twists
+Strength,Barbell,Hamstrings,Romanian Deadlift
+Strength,Barbell,Lats,Bent-Arm Barbell Pullover
+Strength,Machine,Quadriceps,Lying Machine Squat
+Strength,Machine,Shoulders,Machine Shoulder (Military) Press
+Strength,Cable,Triceps,Standing Low-Pulley One-Arm Triceps Extension
+Strength,Machine,Chest,Smith Machine Incline Bench Press
+Strength,Dumbbell,Shoulders,Cuban Press
+Strength,Machine,Abdominals,Ab Crunch Machine
+Strength,Other,Abdominals,Weighted Sit-Ups - With Bands
+Strength,Barbell,Quadriceps,Jefferson Squats
+Stretching,None,Abductors,Windmills
+Olympic Weightlifting,Barbell,Quadriceps,Jerk Dip Squat
+Strongman,Other,Quadriceps,Yoke Walk
+Plyometrics,Body Only,Quadriceps,Rocket Jump
+Strength,Machine,Quadriceps,Smith Machine Leg Press
+Strength,Body Only,Abdominals,Wind Sprints
+Strength,None,Quadriceps,Bodyweight Walking Lunge
+Strength,Machine,Abdominals,Smith Machine Hip Raise
+Strength,Kettlebells,Hamstrings,Romanian Deadlift with Kettlebell
+Strength,Body Only,Abductors,Fire Hydrant
+Strength,Body Only,Triceps,Body-Up
+Plyometrics,Medicine Ball,Quadriceps,Wall Ball Squat
+Strength,Body Only,Abdominals,Alternate Heel Touchers
+Strength,Machine,Triceps,Smith Machine Close-Grip Bench Press
+Strength,Dumbbell,Shoulders,Reverse Flyes With External Rotation
+Strength,Dumbbell,Biceps,Incline Inner Biceps Curl
+Strength,Kettlebells,Chest,Plyo Kettlebell Pushups
+Plyometrics,Other,Quadriceps,Depth Jump Leap
+Strength,Machine,Hamstrings,Reverse Hyperextension
+Strength,Cable,Shoulders,Alternating Cable Shoulder Press
+Strength,Machine,Hamstrings,Seated Leg Curl
+Strength,Cable,Traps,Cable Shrugs
+Olympic Weightlifting,Barbell,Quadriceps,Overhead Squat
+Strength,Kettlebells,Middle Back,Alternating Kettlebell Row
+Strength,Machine,Quadriceps,Single-Leg Leg Extension
+Strength,Body Only,Quadriceps,Pistol Squat
+Strength,Machine,Middle Back,Lying T-Bar Row
+Strength,Dumbbell,Shoulders,Lying One-Arm Lateral Raise
+Strength,Bands,Shoulders,Lateral Raise - With Bands
+Strength,Cable,Biceps,High Cable Curls
+Strength,Dumbbell,Triceps,Standing Bent-Over One-Arm Dumbbell Triceps Extension
+Strength,Barbell,Shoulders,Standing Barbell Press Behind Neck
+Powerlifting,Bands,Hamstrings,Band Good Morning
+Strength,Machine,Middle Back,Leverage High Row
+Plyometrics,Medicine Ball,Lats,Overhead Slam
+Strength,Cable,Abdominals,Pallof Press With Rotation
+Strength,E-Z Curl Bar,Biceps,Close-Grip EZ-Bar Curl with Band
+Strength,Cable,Lats,Kneeling High Pulley Row
+Strength,Bands,Traps,Upright Row - With Bands
+Strength,Barbell,Quadriceps,Barbell Side Split Squat
+Stretching,None,Hamstrings,Leg-Up Hamstring Stretch
+Powerlifting,Barbell,Hamstrings,Sumo Deadlift with Chains
+Strength,Exercise Ball,Glutes,Physioball Hip Bridge
+Strength,Other,Abdominals,Suspended Reverse Crunch
+Strength,Kettlebells,Shoulders,Kettlebell Pirate Ships
+Strength,Body Only,Quadriceps,Side Lunge
+Cardio,Body Only,Quadriceps,Walking High Knees
+Strength,Body Only,Chest,Close-Hands Push-Up
+Strength,Dumbbell,Shoulders,See-Saw Press (Alternating Side Press)
+Strength,Cable,Forearms,Cable Wrist Curl
+Strength,Dumbbell,Shoulders,Dumbbell One-Arm Upright Row
+Strength,Dumbbell,Shoulders,Dumbbell Scaption
+Strength,Machine,Traps,Smith Machine Behind the Back Shrug
+Strength,Body Only,Abdominals,Flat Bench Leg Pull-In
+Strength,Barbell,Quadriceps,Speed Squats
+Strength,Cable,Abdominals,Cable Seated Crunch
+Strength,Machine,Quadriceps,Smith Single-Leg Split Squat
+Strength,Machine,Quadriceps,Seated Leg Press
+Strength,Kettlebells,Quadriceps,Kettlebell Curtsy Lunge
+Strength,Body Only,Abdominals,Frog Sit-Ups
+Strength,Kettlebells,Abdominals,Kettlebell Windmill
+Strength,Kettlebells,Abdominals,Kettlebell Figure 8
+Stretching,Body Only,Adductors,Side Leg Raises
+Powerlifting,Barbell,Triceps,Board Press
+Strongman,Other,Shoulders,Circus Bell
+Olympic Weightlifting,Barbell,Quadriceps,Frankenstein Squat
+Plyometrics,Body Only,Quadriceps,Single Leg Butt Kick
+Strength,Cable,Quadriceps,Cable Deadlifts
+Strength,Dumbbell,Biceps,One-Arm Plank Dumbbell Biceps Curl
+Strength,Dumbbell,Chest,Around The Worlds
+Strength,Barbell,Middle Back,Incline Bench Pull
+Strength,Dumbbell,Biceps,Dumbbell Prone Incline Curl
+Strength,Other,Lats,Band Assisted Pull-Up
+Strength,Other,Middle Back,Suspended Row
+Plyometrics,Body Only,Quadriceps,Jump Squat
+Strength,Body Only,Chest,Tiger-Bend Push-Up
+Strength,Other,Neck,Seated Head Harness Neck Resistance
+Strength,Barbell,Calves,Barbell Seated Calf Raise
+Strength,Bands,Shoulders,Shoulder Press - With Bands
+Olympic Weightlifting,Barbell,Glutes,Kneeling Jump Squat
+Strength,Barbell,Chest,Barbell Bench Press-Wide Grip
+Strength,Barbell,Quadriceps,One-Arm Side Deadlift
+Strength,Dumbbell,Biceps,Zottman Preacher Curl
+Strength,Body Only,Abdominals,Sit-Up
+Strength,Dumbbell,Triceps,Seated Bent-Over One-Arm Dumbbell Triceps Extension
+Strength,Kettlebells,Shoulders,Two-Arm Kettlebell Clean
+Plyometrics,Dumbbell,Hamstrings,Vertical Swing
+Stretching,Body Only,Hamstrings,Inchworm
+Strength,Cable,Biceps,Cable Preacher Curl
+Strength,Body Only,Abdominals,Side Bridge
+Strength,Other,Calves,Balance Board
+Strength,Kettlebells,Shoulders,Double Kettlebell Push Press
+Plyometrics,Body Only,Quadriceps,Split Jump
+Plyometrics,Body Only,Chest,Plyo Push-up
+Plyometrics,Body Only,Quadriceps,Bench Jump
+Strength,Body Only,Neck,Isometric Neck Exercise - Sides
+Strength,Machine,Hamstrings,Standing Leg Curl
+Strength,Body Only,Abdominals,Leg Pull-In
+Strength,Dumbbell,Biceps,Standing Inner-Biceps Curl
+Strength,Dumbbell,Shoulders,Dumbbell Incline Shoulder Raise
+Strength,Kettlebells,Hamstrings,One-Arm Kettlebell Swings
+Strength,Machine,Triceps,Machine Triceps Extension
+Cardio,Other,Hamstrings,Prowler Sprint
+Strength,Barbell,Shoulders,Barbell Front Raise
+Strength,Barbell,Quadriceps,Barbell Squat To A Bench
+Strength,Body Only,Abdominals,Oblique Crunches - On The Floor
+Strength,Body Only,Abdominals,Janda Sit-Up
+Strength,Dumbbell,Biceps,Seated Dumbbell Inner Biceps Curl
+Strength,Other,Calves,Donkey Calf Raises
+Strength,Cable,Glutes,Pull Through
+Strength,Body Only,Triceps,Incline Push-Up Close-Grip
+Strength,Machine,Traps,Smith Machine Upright Row
+Strength,Body Only,Abdominals,Crunch - Legs On Exercise Ball
+Strength,Body Only,Abdominals,Side Jackknife
+Strength,Kettlebells,Abdominals,Kettlebell Pass Between The Legs
+Plyometrics,None,Hamstrings,Moving Claw Series
+Strength,Other,Chest,Suspended Push-Up
+Strength,Dumbbell,Quadriceps,Dumbbell Walking Lunge
+Strength,Cable,Chest,Flat Bench Cable Flyes
+Strength,Barbell,Triceps,One Arm Floor Press
+Strength,Barbell,Chest,Wide-Grip Decline Barbell Pullover
+Strength,Machine,Calves,Smith Machine Reverse Calf Raises
+Strength,Kettlebells,Middle Back,Two-Arm Kettlebell Row
+Plyometrics,Other,Quadriceps,Front Cone Hops (or hurdle hops)
+Plyometrics,Body Only,Adductors,Lateral Bound
+Strength,Cable,Lats,One Arm Lat Pulldown
+Strength,Body Only,Triceps,Close-Grip Push-Up off of a Dumbbell
+Strength,Machine,Chest,Smith Machine Decline Press
+Strength,Dumbbell,Calves,Dumbbell Seated One-Leg Calf Raise
+Strength,Other,Quadriceps,Weighted Squat
+Olympic Weightlifting,Barbell,Quadriceps,Clean Pull
+Strength,Machine,Shoulders,Smith Machine One-Arm Upright Row
+Strength,Machine,Shoulders,Machine Lateral Raise
+Strength,Cable,Lats,Cable Incline Pushdown
+Strength,Other,Biceps,Reverse Plate Curls
+Strength,Barbell,Shoulders,Standing Front Barbell Raise Over Head
+Stretching,None,Calves,Ankle Circles
+Strength,Bands,Glutes,Hip Extension with Bands
+Strength,Other,Lats,Kipping Muscle Up
+Plyometrics,Body Only,Chest,Isometric Chest Squeezes
+Strength,Cable,Triceps,Cable Incline Triceps Extension
+Strength,Cable,Biceps,Lying Close-Grip Bar Curl On High Pulley
+Stretching,None,Adductors,Groin and Back Stretch
+Strength,Body Only,Chest,Push Up to Side Plank
+Strength,Cable,Lats,Wide-Grip Pulldown Behind The Neck
+Strength,Body Only,Abdominals,Seated Leg Tucks
+Stretching,Other,Biceps,Standing Biceps Stretch
+Strength,Dumbbell,Quadriceps,Dumbbell Squat To A Bench
+Strength,Machine,Hamstrings,Smith Machine Stiff-Legged Deadlift
+Stretching,Body Only,Abdominals,Scissor Kick
+Powerlifting,Barbell,Triceps,Pin Presses
+Strength,Other,Lats,London Bridges
+Plyometrics,Body Only,Quadriceps,90-Degree Jump Squat Twist
+Strength,Barbell,Abdominals,Barbell Side Bend
+Strength,Kettlebells,Quadriceps,One-Arm Overhead Kettlebell Squats
+Strength,Kettlebells,Shoulders,Kettlebell Seated Press
+Strength,Kettlebells,Shoulders,Double Kettlebell Jerk
+Strength,Machine,Quadriceps,Smith Machine Pistol Squat
+Plyometrics,Other,Quadriceps,Bench Sprint
+Strength,Machine,Quadriceps,Wide-Stance Leg Press
+Stretching,Body Only,Abdominals,Toe Touchers
+Strongman,Other,Quadriceps,Backward Drag
+Plyometrics,None,Quadriceps,Alternate Leg Diagonal Bound
+Strongman,Other,Quadriceps,Sled Push
+Plyometrics,Medicine Ball,Shoulders,Backward Medicine Ball Throw
+Strength,Kettlebells,Shoulders,Kettlebell Arnold Press
+Olympic Weightlifting,Barbell,Traps,Clean Shrug
+Strength,Barbell,Shoulders,Landmine Linear Jammer
+Stretching,None,Hamstrings,Standing Toe Touches
+Strength,Barbell,Chest,Barbell Guillotine Bench Press
+Stretching,None,Shoulders,Upward Stretch
+Stretching,None,Shoulders,Shoulder Circles
+Stretching,Other,Hamstrings,Intermediate Groin Stretch
+Stretching,Other,Hamstrings,Standing Hamstring and Calf Stretch
+Strength,Bands,Abductors,Monster Walk
+Strength,Barbell,Quadriceps,Squat with Plate Movers
+Strength,Body Only,Chest,Side To Side Push-Up
+Stretching,Foam Roll,Glutes,Piriformis-SMR
+Strength,None,Traps,Scapular Pull-Up
+Strength,Cable,Shoulders,Cable Seated Lateral Raise
+Strength,Body Only,Triceps,Standing Towel Triceps Extension
+Stretching,Body Only,Abdominals,Lower Back Curl
+Strength,Barbell,Middle Back,Straight Bar Bench Mid Rows
+Strength,Body Only,Glutes,Leg Lift
+Strength,Dumbbell,Chest,One-Arm Flat Bench Dumbbell Flye
+Strength,Barbell,Shoulders,Barbell Incline Shoulder Raise
+Olympic Weightlifting,Barbell,Shoulders,Push Press - Behind the Neck
+Strength,Other,Quadriceps,Suspended Split Squat
+Strength,Body Only,Neck,Isometric Neck Exercise - Front And Back
+Strength,Exercise Ball,Abdominals,Weighted Ball Side Bend
+Strength,Other,Middle Back,Inverted Row with Straps
+Stretching,Foam Roll,Calves,Peroneals-SMR
+Strongman,Other,Lower Back,Atlas Stone Trainer
+Stretching,Body Only,Calves,Knee Circles
+Stretching,Other,Quadriceps,Intermediate Hip Flexor and Quad Stretch
+Stretching,Other,Hamstrings,Lying Hamstring
+Strength,Dumbbell,Triceps,Dumbbell Tricep Extension -Pronated Grip
+Strength,Kettlebells,Abdominals,Bent Press
+Strength,Other,Middle Back,One Arm Chin-Up
+Strength,Kettlebells,Chest,Extended Range One-Arm Kettlebell Floor Press
+Strength,Dumbbell,Forearms,Seated Dumbbell Palms-Up Wrist Curl
+Strength,Barbell,Middle Back,Lying Cambered Barbell Row
+Olympic Weightlifting,Barbell,Traps,Snatch Shrug
+Stretching,None,Quadriceps,Sit Squats
+Strongman,Other,Shoulders,Crucifix
+Powerlifting,Bands,Glutes,Hip Lift with Band
+Strength,Kettlebells,Chest,Alternating Floor Press
+Stretching,Foam Roll,Calves,Calves-SMR
+Strongman,Other,Chest,Forward Drag with Press
+Stretching,None,Shoulders,Shoulder Stretch
+Stretching,None,Hamstrings,Hamstring Stretch
+Plyometrics,Medicine Ball,Chest,Medicine Ball Chest Pass
+Strength,Barbell,Biceps,Lying High Bench Barbell Curl
+Stretching,None,Lats,One Arm Against Wall
+Strength,Bands,Quadriceps,Squats - With Bands
+Stretching,None,Chest,Dynamic Chest Stretch
+Plyometrics,Medicine Ball,Lats,Catch and Overhead Throw
+Strength,Machine,Hamstrings,Smith Machine Hang Power Clean
+Stretching,Foam Roll,Middle Back,Rhomboids-SMR
+Strength,Body Only,Neck,Neck Bridge Prone
+Stretching,None,Calves,Standing Gastrocnemius Calf Stretch
+Powerlifting,Other,Chest,Chain Press
+Strength,Bands,Chest,Bench Press - With Bands
+Stretching,None,Triceps,Tricep Side Stretch
+Stretching,Foam Roll,Hamstrings,Hamstring-SMR
+Plyometrics,Body Only,Quadriceps,Fast Skipping
+Stretching,Exercise Ball,Lower Back,Hug A Ball
+Stretching,None,Lower Back,Dancer's Stretch
+Stretching,None,Hamstrings,Upper Back-Leg Grab
+Stretching,None,Quadriceps,Kneeling Hip Flexor
+Stretching,Foam Roll,Quadriceps,Quadriceps-SMR
+Strength,Barbell,Quadriceps,Front Barbell Squat To A Bench
+Stretching,None,Calves,Calf Stretch Hands Against Wall
+Strength,Kettlebells,Hamstrings,Kettlebell Dead Clean
+Plyometrics,Medicine Ball,Abdominals,Supine Two-Arm Overhead Throw
+Strength,Dumbbell,Forearms,Partner Farmer's Walk Competition
+Stretching,None,Lower Back,Child's Pose
+Stretching,Other,Shoulders,Round The World Shoulder Stretch
+Stretching,None,Middle Back,Spinal Stretch
+Stretching,None,Shoulders,Elbow Circles
+Stretching,None,Hamstrings,Seated Hamstring
+Stretching,Other,Calves,Anterior Tibialis-SMR
+Stretching,None,Forearms,Kneeling Forearm Stretch
+Stretching,None,Quadriceps,Iron Crosses (stretch)
+Stretching,None,Lower Back,Pelvic Tilt Into Bridge
+Stretching,None,Hamstrings,Seated Floor Hamstring Stretch
+Stretching,None,Shoulders,Arm Circles
+Stretching,Body Only,Hamstrings,90/90 Hamstring
+Stretching,Body Only,Quadriceps,All Fours Quad Stretch
+Stretching,Body Only,Biceps,Seated Biceps
+Stretching,Exercise Ball,Abdominals,Torso Rotation
+Strength,Cable,Abdominals,Cable Judo Flip
+Stretching,None,Lower Back,Cat Stretch
+Stretching,None,Calves,Calf Stretch Elbows Against Wall
+Stretching,Other,Chest,Behind Head Chest Stretch
+Stretching,Other,Quadriceps,Quad Stretch
+Strength,Kettlebells,Hamstrings,Alternating Hang Clean
+Strength,Bands,Calves,Calf Raises - With Bands
+Stretching,None,Neck,Side Neck Stretch
+Stretching,None,Chest,Elbows Back
+Stretching,None,Lats,Dynamic Back Stretch
+Strength,Dumbbell,Calves,Calf Raise On A Dumbbell
+Stretching,None,Glutes,Ankle On The Knee
+Stretching,None,Triceps,Triceps Stretch
+Strength,Barbell,Abdominals,Seated Barbell Twist
+Stretching,None,Quadriceps,One Half Locust
+Stretching,Foam Roll,Lats,Latissimus Dorsi-SMR
+Stretching,None,Abdominals,Seated Overhead Stretch
+Stretching,Foam Roll,Lower Back,Lower Back-SMR
+Stretching,Body Only,Shoulders,Seated Front Deltoid
+Stretching,None,Lower Back,Hug Knees To Chest
+Stretching,None,Quadriceps,Standing Hip Flexors
+Stretching,None,Hamstrings,World's Greatest Stretch
+Stretching,None,Quadriceps,Looking At Ceiling
+Stretching,None,Hamstrings,The Straddle
+Stretching,None,Middle Back,Upper Back Stretch
+Stretching,None,Hamstrings,Split Squats
+Stretching,None,Calves,Standing Soleus And Achilles Stretch
+Stretching,None,Calves,Seated Calf Stretch
+Stretching,None,Shoulders,Shoulder Raise
+Stretching,Other,Shoulders,Chair Upper Body Stretch
+Strength,Exercise Ball,Glutes,Downward Facing Balance
+Stretching,Foam Roll,Adductors,Adductor
+Plyometrics,None,Shoulders,Kneeling Arm Drill
+Stretching,None,Quadriceps,Frog Hops
+Stretching,None,Abdominals,Overhead Stretch
+Stretching,None,Lower Back,Crossover Reverse Lunge
+Stretching,None,Middle Back,Middle Back Stretch
+Stretching,None,Adductors,Side Lying Groin Stretch
+Stretching,None,Neck,Chin To Chest Stretch
+Stretching,Exercise Ball,Chest,Chest Stretch on Stability Ball
+Stretching,None,Hamstrings,Runner's Stretch
+Stretching,Other,Lats,One Handed Hang
+Stretching,None,Adductors,Adductor/Groin
+Stretching,None,Glutes,Knee Across The Body
+Plyometrics,Medicine Ball,Shoulders,Medicine Ball Scoop Throw
+Stretching,Body Only,Quadriceps,Rear Leg Raises
+Stretching,Other,Calves,Peroneals Stretch
+Stretching,None,Quadriceps,On Your Side Quad Stretch
+Stretching,Other,Quadriceps,On-Your-Back Quad Stretch
+Stretching,Body Only,Triceps,Overhead Triceps
+Stretching,Foam Roll,Biceps,Brachialis-SMR
+Stretching,None,Abdominals,Standing Lateral Stretch
+Stretching,None,Lats,Chair Lower Back Stretch
+Stretching,None,Lower Back,Standing Pelvic Tilt
+Stretching,Body Only,Glutes,Seated Glute
+Stretching,Other,Chest,Chest And Front Of Shoulder Stretch
+Strength,Kettlebells,Abdominals,Double Kettlebell Windmill
+Stretching,Body Only,Glutes,Lying Glute
+Stretching,Other,Adductors,Lying Bent Leg Groin
+Stretching,Other,Neck,Neck-SMR
+Stretching,Other,Quadriceps,Standing Elevated Quad Stretch
+Stretching,Other,Calves,Foot-SMR
+Stretching,None,Glutes,One Knee To Chest
+Stretching,Body Only,Forearms,Wrist Circles
+Stretching,Other,Hamstrings,Chair Leg Extended Stretch
+Stretching,Other,Abductors,IT Band and Glute Stretch
+Stretching,Body Only,Abductors,Lying Crossover
+Stretching,Exercise Ball,Lower Back,Pyramid
+Stretching,Other,Lats,Overhead Lat
+Stretching,Other,Calves,Posterior Tibialis Stretch
+Stretching,None,Lats,Side-Lying Floor Stretch
+Strength,Barbell,Shoulders,Smith Incline Shoulder Raise
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Jerk
+Strength,Kettlebells,Chest,One-Arm Kettlebell Floor Press
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Military Press To The Side
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Para Press
+Strength,Kettlebells,Shoulders,Two-Arm Kettlebell Jerk
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Split Jerk
+Strength,Kettlebells,Chest,Leg-Over Floor Press
+Strength,Kettlebells,Hamstrings,Kettlebell Hang Clean
+Strength,Kettlebells,Hamstrings,Double Kettlebell Alternating Hang Clean
+Stretching,Other,Hamstrings,Seated Hamstring and Calf Stretch
+Strength,Barbell,Quadriceps,Box Squat with Chains
+Strongman,Other,Quadriceps,Car Deadlift
+Powerlifting,Barbell,Hamstrings,Good Morning off Pins
+Olympic Weightlifting,Barbell,Hamstrings,Hang Snatch - Below Knees
+Olympic Weightlifting,Barbell,Shoulders,Jerk Balance
+Strongman,Other,Lower Back,Keg Load
+Strongman,Other,Shoulders,Log Lift
+Olympic Weightlifting,Barbell,Hamstrings,Muscle Snatch
+Powerlifting,Barbell,Quadriceps,Squat with Bands
+Strongman,Other,Quadriceps,Sandbag Load
+Strongman,Other,Quadriceps,Sled Drag - Harness
+Strength,Barbell,Quadriceps,Squat Jerk
+Powerlifting,Barbell,Hamstrings,Sumo Deadlift with Bands
+Powerlifting,Barbell,Triceps,Floor Press with Chains
+Olympic Weightlifting,Barbell,Quadriceps,Snatch from Blocks
+Olympic Weightlifting,Barbell,Quadriceps,Split Clean
+Powerlifting,Barbell,Lower Back,Reverse Band Deadlift
+Powerlifting,Barbell,Quadriceps,Reverse Band Power Squat
+Powerlifting,Barbell,Hamstrings,Reverse Band Sumo Deadlift
+Plyometrics,Medicine Ball,Chest,Chest Push (single response)
+Plyometrics,Other,Hamstrings,Hurdle Hops
+Plyometrics,Medicine Ball,Shoulders,Return Push from Stance
+Plyometrics,Other,Quadriceps,Side Hop-Sprint
+Plyometrics,Other,Quadriceps,Single-Leg Hop Progression
+Plyometrics,Medicine Ball,Shoulders,Standing Two-Arm Overhead Throw
+Plyometrics,Other,Quadriceps,Stride Jump Crossover
+Strength,Bands,Shoulders,External Rotation with Band
+Stretching,Body Only,Abdominals,Hip Crossover
+Strength,Bands,Quadriceps,Hip Flexion with Band
+Strength,Body Only,Abdominals,Plank with Twist
+Plyometrics,None,Adductors,Carioca Quick Step
+Plyometrics,None,Quadriceps,Side Standing Long Jump
+Plyometrics,Other,Quadriceps,Single-Cone Sprint Drill
+Plyometrics,None,Hamstrings,Linear 3-Part Start Technique
+Plyometrics,Other,Quadriceps,Linear Depth Jump
+Strength,Barbell,Quadriceps,Elevated Back Lunge
+Strength,Other,Hamstrings,Seated Band Hamstring Curl
+Strength,Bands,Triceps,Speed Band Overhead Triceps
+Strength,Other,Triceps,Sled Overhead Triceps Extension
+Strength,Body Only,Chest,Incline Push-Up Reverse Grip
+Strength,Machine,Quadriceps,Lunge Sprint
+Strength,Kettlebells,Quadriceps,Single Arm Overhead Kettlebell Squat
+Strength,Body Only,Abdominals,Suitcase Crunch
+Strength,Body Only,Glutes,Glute Bridge Hamstring Walkout
+Strength,Body Only,Abdominals,Seated Scissor Kick
+Cardio,Body Only,Shoulders,Punches
+Cardio,Body Only,Quadriceps,Slow Jog
+Cardio,Body Only,Quadriceps,Defensive Slide
+Strength,Body Only,Abdominals,Cross Crunch
+Plyometrics,Body Only,Quadriceps,Square Hop
+Cardio,Body Only,Quadriceps,Lateral Speed Step
+Strength,Barbell,Hamstrings,Stiff-Legged Deadlift
+Strength,Other,Chest,Suspended Chest Fly
+Strength,Body Only,Chest,Staggered Push-Up
+Strength,Barbell,Triceps,JM Press
+Strength,Barbell,Triceps,JM Press With Bands
+Strength,Barbell,Lats,Rockers (Pullover To Press) Straight Bar
+Strength,Body Only,Abdominals,Straight-Legged Hip Raise
+Strength,Body Only,Lower Back,Partner Supermans With Alternating High-Five
+Strength,Body Only,Abdominals,Partner Facing Planks With Alternating High-Five
+Strength,Bands,Middle Back,Partner Facing Side Plank With Band Row
+Strength,Bands,Middle Back,Partner Facing Feet-Elevated Side Plank With Band Row
+Strength,Medicine Ball,Abdominals,Partner 3-Touch Motion Russian Twist
+Strength,Medicine Ball,Abdominals,Partner Side-To-Side Russian Twist & Pass
+Strength,Medicine Ball,Chest,Medicine-Ball Push-Up
+Strength,Other,Lower Back,Partner Flat-Bench Back Extension
+Strength,Other,Lower Back,Partner Flat-Bench Back Extension With Hold
+Strength,Body Only,Abdominals,Partner Hanging Knee Raise With Throw Down
+Strength,Body Only,Abdominals,Partner Hanging Knee Raise With Manual Resistance
+Strength,Bands,Abductors,Lateral Band Walk
+Strength,Dumbbell,Shoulders,Dumbbell Squat To Shoulder Press
+Strength,Dumbbell,Quadriceps,Dumbbell Overhead Squat
+Strength,Dumbbell,Quadriceps,Single-Arm Dumbbell Overhead Squat
+Strength,Barbell,Middle Back,Single-Arm Landmine Row
+Strength,Medicine Ball,Abdominals,Medicine Ball Rotational Throw
+Strength,Other,Hamstrings,Suspended Leg Curl
+Strength,Body Only,Abdominals,Suspended Crunch
+Strength,Exercise Ball,Abdominals,Bosu Ball Crunch
+Strength,Dumbbell,Triceps,Triceps Plank Extension
+Plyometrics,Other,Quadriceps,Single-Leg Box Jump
+Strength,Other,Chest,Suspended Push-Up
+Plyometrics,Barbell,Quadriceps,Burpee Over Barbell
+Strength,Body Only,Shoulders,Hand Stand Push-Up
+Strength,Kettlebells,Quadriceps,Kettlebell Sumo Squat
+Strength,Barbell,Quadriceps,Barbell Reverse Lunge
+Strength,Bands,Lats,Assisted Chin-Up
+Strength,Exercise Ball,Abdominals,Stability Ball Pike With Knee Tuck
+Strength,Body Only,Chest,Diamond Push-Up
+Strength,Body Only,Chest,Typewriter Push-Up
+Plyometrics,Body Only,Chest,Clapping Push-Up
+Plyometrics,Body Only,Chest,Triple Clap Push-Up
+Strength,Other,Chest,Weighted Push-Up
+Strength,Body Only,Chest,One-Arm Push-Up
+Strength,Dumbbell,Quadriceps,Close-Stance Dumbbell Front Squat
+Strength,Dumbbell,Shoulders,Front Dumbbell Raise Using Towel
+Strength,Body Only,Abdominals,Shoulder Tap
+Strength,Dumbbell,Triceps,V-Sit Dumbbell Triceps Extension
+Strength,Barbell,Middle Back,Barbell Deadlift Bent Row Complex
+Strength,Machine,Chest,Bar Throw And Press
+Plyometrics,Other,Chest,Decline Explosive Push-Up
+Strength,Other,Lats,Around The World Pull-Up
+Strength,Other,Shoulders,Plate Shoulder Circle Big To Small Rotation
+Cardio,Other,Quadriceps,Double Under
+Cardio,Body Only,Quadriceps,Jumping Jack
+Plyometrics,Body Only,Quadriceps,Sprawl Frog Kick
+Strength,Kettlebells,Quadriceps,Kettlebell Side Squat
+Strength,Kettlebells,Quadriceps,Kettlebell Thruster Progression
+Strength,Body Only,Abdominals,Kettlebell 3-Point Extension
+Plyometrics,Body Only,Quadriceps,Running Lunge
+Plyometrics,Body Only,Quadriceps,Southpaw Sprawl
+Cardio,Body Only,Shoulders,Bear Crawl Fire Feet
+Strength,Body Only,Abdominals,Breakdancer
+Plyometrics,Body Only,Quadriceps,Lunge Heel Kick
+Plyometrics,Body Only,Quadriceps,Gorilla Squat
+Plyometrics,Other,Quadriceps,Burppe Box Jump
+Strength,Dumbbell,Quadriceps,Dumbbell Squat Snatch
+Strength,Body Only,Shoulders,Wall Shoulder Tap
+Strength,Body Only,Shoulders,Bear Crawl Shoulder Tap
+Strength,Body Only,Quadriceps,Thigh Killa
+Strength,Kettlebells,Shoulders,Double Kettlebell Snatch
+Strength,Kettlebells,Shoulders,One-Arm Kettlebell Split Snatch
+Strength,Kettlebells,Hamstrings,Open Palm Kettlebell Clean
+Strength,Kettlebells,Hamstrings,One-Arm Open Palm Kettlebell Clean
+Strength,Kettlebells,Shoulders,Kettlebell Seesaw Press
+Stretching,Body Only,Quadriceps,Lying Prone Quadriceps
+Strongman,Other,Quadriceps,Conan's Wheel
+Powerlifting,Barbell,Hamstrings,Hanging Bar Good Morning
+Olympic Weightlifting,Barbell,Quadriceps,Heaving Snatch Balance
+Strongman,Other,Hamstrings,Power Stairs
+Olympic Weightlifting,Barbell,Shoulders,Rack Delivery
+Olympic Weightlifting,Barbell,Quadriceps,Snatch Balance
+Strength,Barbell,Hamstrings,Snatch Pull
+Olympic Weightlifting,Barbell,Hamstrings,Split Snatch
+Strongman,Other,Quadriceps,Rickshaw Deadlift
+Olympic Weightlifting,Barbell,Quadriceps,Power Snatch from Blocks
+Powerlifting,Barbell,Triceps,Reverse Band Bench Press
+Plyometrics,Other,Hamstrings,Box Skip
+Plyometrics,Medicine Ball,Chest,Chest Push from 3 point stance
+Plyometrics,Medicine Ball,Chest,Chest Push with Run Release
+Plyometrics,Other,Chest,Heavy Bag Thrust
+Plyometrics,Other,Adductors,Lateral Box Jump
+Plyometrics,Other,Adductors,Lateral Cone Hops
+Plyometrics,Medicine Ball,Abdominals,Medicine Ball Full Twist
+Plyometrics,Other,Quadriceps,Quick Leap
+Plyometrics,Other,Quadriceps,Single-Leg Lateral Hop
+Plyometrics,Other,Quadriceps,Single-Leg Stride Jump
+Plyometrics,Body Only,Quadriceps,Star Jump
+Plyometrics,Medicine Ball,Abdominals,Supine One-Arm Overhead Throw
+Strength,Machine,Quadriceps,Leverage Deadlift
+Strength,Other,Shoulders,Sled Overhead Backward Walk
+Strength,Other,Shoulders,Sled Reverse Flye
+Strength,Other,Middle Back,Sled Row
+Strength,Other,Hamstrings,Platform Hamstring Slides
+Strength,None,Hamstrings,Prone Manual Hamstring
+Powerlifting,Barbell,Quadriceps,Speed Box Squat
+Strength,Body Only,Glutes,Neck Bridge Supine
+Plyometrics,Body Only,Quadriceps,Feet Jack
+Cardio,Body Only,Quadriceps,Fast Kick With Arm Circles
+Cardio,Body Only,Quadriceps,Football Up-Down
+Plyometrics,Body Only,Quadriceps,Jump Lunge To Feet Jack
+Cardio,Body Only,Quadriceps,Vertical Mountain Climber
+Stretching,Body Only,Glutes,Seated Glute Stretch
+Plyometrics,Body Only,Quadriceps,Slide Jump Shot
+Cardio,Body Only,Quadriceps,High Knee Jog
+Strongman,Barbell,Shoulders,Axle Clean And Press
+Strength,Other,Shoulders,Suspended Back Fly
+Strength,Barbell,Quadriceps,Front-To-Back Squat With Belt
+Powerlifting,Bands,Chest,Bench Press With Short Bands
+Strength,Barbell,Middle Back,Plate Row
+Strength,Exercise Ball,Quadriceps,Bosu Ball Squat
+Strength,Body Only,Abdominals,Partner Target Sit-Up
+Strength,Body Only,Abdominals,Partner Lying Leg Raise With Throw Down
+Strength,Bands,Middle Back,Partner Facing Plank With Band Row
+Strength,Body Only,Abdominals,Partner Sit-Up With High-Five
+Strength,Body Only,Abdominals,Partner Lying Leg Raise With Lateral Throw Down
+Strength,Barbell,Forearms,Partner Suitcase Carry Competition
+Stretching,Body Only,Hamstrings,Alternating Leg Swing
+Stretching,Body Only,Abductors,Hip Circle
+Strength,Bands,Quadriceps,Forward Band Walk
+Olympic Weightlifting,Barbell,Shoulders,Tall Muscle Snatch
+Strength,Other,Quadriceps,Barbell Squat To A Box
+Strength,Other,Biceps,Suspended Curl
+Strength,Other,Glutes,Suspended Hip Thrust
+Strength,Other,Triceps,Suspended Triceps Press
+Strength,Exercise Ball,Chest,Bosu Ball Push-Up
+Stretching,Body Only,Hamstrings,Single-Leg Balance
+Strength,Dumbbell,Shoulders,Half-kneeling Dumbbell Shoulder Press
+Plyometrics,Body Only,Quadriceps,Ice Skater
+Strength,Dumbbell,Forearms,Suitcase Dumbbell Carry
+Strength,Barbell,Middle Back,Yates Row
+Strength,Kettlebells,Quadriceps,Split Squat With Kettlebells
+Plyometrics,Other,Lats,Burpee Pull-Up
+Strength,Other,Lats,Negative Pull-Up
+Strength,Body Only,Chest,Hand Release Push-Up
+Strength,Body Only,Shoulders,Wall Walk
+Strength,Dumbbell,Shoulders,Dumbbell Clean And Jerk
+Strength,Other,Quadriceps,Walking Lunge With Overhead Weight
+Strength,Other,Abdominals,Waiter's Carry
+Stretching,Body Only,Hamstrings,High Kick
+Stretching,Body Only,Hamstrings,Knee To Chest
+Stretching,Body Only,Hamstrings,Hip Stretch With Twist
+Strength,Other,Chest,Svend Press
+Strength,Body Only,Chest,Wide-Hands Push-Up
+Strength,Body Only,Chest,Dive Bomber Push-Up
+Strength,Barbell,Quadriceps,Front Squat Push Press
+Strength,Barbell,Quadriceps,Front Squat (Bodybuilder)
+Strength,Barbell,Quadriceps,Front Squat (Clean Grip)
+Strength,Other,Quadriceps,Single-Leg Squat To Box
+Strength,Other,Quadriceps,Single-Leg Skater Squat
+Strength,Body Only,Quadriceps,Wall Squat
+Plyometrics,Body Only,Quadriceps,Pop Squat
+Plyometrics,Other,Quadriceps,Trap Bar Jump
+Strength,Other,Abdominals,Skin The Cat To Push-Up
+Strength,Other,Chest,Weighted Push-Up
+Strength,Dumbbell,Quadriceps,Dumbbell Lunge and Curl
+Plyometrics,Dumbbell,Quadriceps,Dumbbell Jump Squat
+Plyometrics,Dumbbell,Quadriceps,Lateral Hop Holding Dumbbells
+Strength,Dumbbell,Quadriceps,Dumbbell Front Squat
+Plyometrics,Dumbbell,Quadriceps,Lateral Hop 4 Times To Sprint
+Strength,Other,Lats,L-Sit Chin-Up
+Strength,Other,Triceps,Body Triceps Press Using Flat Bench
+Strength,Other,Triceps,Russian Bar Dip
+Plyometrics,Body Only,Quadriceps,Wide-Stance Jump Squat To Close-Stance
+Plyometrics,Other,Chest,Bar Push-Up Smith Machine
+Strength,Medicine Ball,Chest,Burpee To Medicine Ball Press
+Strength,Medicine Ball,Abdominals,V-Sit Lying Down Ball Throw And Catch
+Plyometrics,Body Only,Chest,Superman Push-Up
+Strength,Barbell,Quadriceps,Barbell Front-To-Back Squat
+Strength,Barbell,Biceps,Seated Straight-Bar Curl Superset
+Strength,Other,Biceps,Hammer Plate Curl
+Strength,Dumbbell,Quadriceps,Dumbbell Pistol Squat
+Strength,Dumbbell,Quadriceps,Dumbbell Alternating Lunge
+Strength,Body Only,Quadriceps,Side Lunge Touching Heel
+Plyometrics,Body Only,Quadriceps,Jumping Knee Up Down
+Plyometrics,Body Only,Quadriceps,Burpee Tuck Jump
+Plyometrics,Body Only,Quadriceps,Wall Sprawl
+Plyometrics,Body Only,Abdominals,Wall Mountain Climber
+Strength,Body Only,Abdominals,Full Moon
+Plyometrics,Medicine Ball,Quadriceps,Medicine Ball Ninja
+Plyometrics,Kettlebells,Quadriceps,Kettlebell Fire Feet
+Plyometrics,Body Only,Quadriceps,Reverse Burpee
+Strength,Bands,Chest,Feet-Elevated TRX Push-Up
+Strength,Body Only,Abdominals,Crab Toe Touch
+Strength,Kettlebells,Quadriceps,Kettlebell Squat Clean
+Plyometrics,Other,Quadriceps,Burpee Box Jump
