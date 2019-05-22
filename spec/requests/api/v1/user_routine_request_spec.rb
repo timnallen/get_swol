@@ -2,15 +2,18 @@ require 'rails_helper'
 
 describe 'User Routines API' do
   describe 'Endpoints' do
-    it 'can get a list of routines' do
-      user = User.create(name: 'ME, the programmer')
-      leg_day = Routine.create(name: 'Leg Day')
+    before :each do
+      @user = User.create(name: 'ME, the programmer')
+      @leg_day = Routine.create(name: 'Leg Day')
       single_leg_press = Exercise.create(name: 'Single-Leg Press', equipment_required: 'legs', muscle: 'legs', category: 'This')
-      ExerciseRoutine.create(routine: leg_day, exercise: single_leg_press, sets: 4, reps: 12)
-      today = Date.today
-      UserRoutine.create(routine: leg_day, user: user, date: today)
+      ExerciseRoutine.create(routine: @leg_day, exercise: single_leg_press, sets: 4, reps: 12)
+    end
 
-      get "/api/v1/my_routines?date=#{today}&id=#{user.id}"
+    it 'can get a list of routines' do
+      today = Date.today
+      UserRoutine.create(routine: @leg_day, user: @user, date: today)
+
+      get "/api/v1/my_routines?date=#{today}&id=#{@user.id}"
 
       expect(response).to be_successful
       routines = JSON.parse(response.body, symbolize_names: true)
@@ -22,6 +25,21 @@ describe 'User Routines API' do
       expect(routines[:data][0][:attributes][:exercises]).to be_a(Array)
       expect(routines[:data][0][:attributes][:exercises][0][:name]).to eq('Single-Leg Press')
       expect(routines[:data][0][:attributes][:exercises][0][:reps]).to eq(12)
+    end
+
+    it 'can schedule a routine' do
+      date = "2019-05-25"
+      body = {
+        date: date,
+        routine_id: @leg_day.id,
+        user_id: @user_id
+      }
+
+      post "/api/v1/my_routines", params: body
+
+      expect(response).to be_successful
+      message = JSON.parse(response.body, symbolize_names: true)
+      expect(message[:message]).to eq("You have successfully scheduled #{@leg_day.name} on #{date}!")
     end
   end
 end
