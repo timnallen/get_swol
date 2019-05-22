@@ -10,7 +10,7 @@ describe 'User Routines API' do
       today = Date.today
       UserRoutine.create(routine: leg_day, user: user, date: today)
 
-      get "/api/v1/my_routines?date=#{today}"
+      get "/api/v1/my_routines?date=#{today}&id=#{user.id}"
 
       expect(response).to be_successful
       routines = JSON.parse(response.body, symbolize_names: true)
