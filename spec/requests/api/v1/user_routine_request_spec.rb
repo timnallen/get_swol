@@ -7,13 +7,12 @@ describe 'User Routines API' do
       @leg_day = Routine.create(name: 'Leg Day')
       single_leg_press = Exercise.create(name: 'Single-Leg Press', equipment_required: 'legs', muscle: 'legs', category: 'This')
       ExerciseRoutine.create(routine: @leg_day, exercise: single_leg_press, sets: 4, reps: 12)
+      @today = Date.today
+      @user_routine = UserRoutine.create(routine: @leg_day, user: @user, date: @today)
     end
 
     it 'can get a list of routines' do
-      today = Date.today
-      UserRoutine.create(routine: @leg_day, user: @user, date: today)
-
-      get "/api/v1/my_routines?date=#{today}&id=#{@user.id}"
+      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}"
 
       expect(response).to be_successful
       routines = JSON.parse(response.body, symbolize_names: true)
@@ -45,6 +44,14 @@ describe 'User Routines API' do
       expect(ur.routine_id).to eq(@leg_day.id)
       expect(ur.user_id).to eq(@user.id)
       expect(ur.date.to_s).to eq(date)
+    end
+
+    it 'can cancel a routine' do
+      delete "/api/v1/my_routines/#{@user_routine.id}"
+
+      expect(response.code).to eq(204)
+      routines = JSON.parse(response.body, symbolize_names: true)
+      expect(routines[:data].count).to eq(0)
     end
   end
 end
