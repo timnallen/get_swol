@@ -168,7 +168,7 @@ open coverage/index.html
 #### This will open a file in your browser that will show details about test coverage.
 
 ## Contributors
-- [Tim Allen](https://github.com/timallen)
+- [Tim Allen](https://github.com/timnallen)
 - [Eric Fitzsimons](https://github.com/ericfitzsimons451)
 - [Jake Admire](https://github.com/JakeAdmire)
 - [David Cisneros](https://github.com/developingdavid)
@@ -179,4 +179,5 @@ open coverage/index.html
 - Ruby
 - Rails
 - Postgresql
+---
 **[Back to Top](https://github.com/timnallen/BE-GetSwole/blob/master/README.md)**
