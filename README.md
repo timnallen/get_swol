@@ -1,34 +1,157 @@
-# README
+# GetSwoleAPI
+
+## Introduction
 
 This is a Backend Application for GetSwole, an app designed to help users schedule workout routines.
 
-Things you may want to cover:
+## Initial Setup
 
-* Ruby version
+If you would like to use the API in production mode, you can skip this section, and look down to the "How To Use" Section.
 
-This was written in Ruby 2.4.1
+If you are wanting to interact with the repo on your machine, you will need to clone down the repo:
+```
+git clone git@github.com:timnallen/BE-GetSwole.git
+```
+You will need to set up the dependencies in the Gemfile:
 
-* System dependencies
-
+```
 bundle install
+```
 
-* Configuration
+Finally, you will need to set up the database:
 
-* Database creation
+First create and migrate it:
 
-rake db:create
+```
+rake db:{create,migrate}
+```
 
-* Database initialization
+Then you will need to import the exercises from the .csv file in the /lib directory:
 
-rake db:migrate
+```
 rake import:exercises
+```
 
-* How to run the test suite
+Then you can seed the other db items in the seed file with this command:
 
+```
+rake db:seed
+```
+
+The repo is ready to be run in development mode by running this command:
+
+```
+rails s
+```
+And opening a browser and going to http://localhost:3000
+
+## How to Use
+
+If you would like to use the development environment and see the code, read the above walkthrough section titled: "Initial Setup".
+
+All of the following endpoints are written with the Fast JSON API standards in mind and have the following domain name url in front of the route:
+
+https://warm-cove-89223.herokuapp.com/api/v1
+
+### Getting All Exercises
+
+In order to get all exercises in the database, make a GET request to the following URI:
+
+```
+GET /exercises
+```
+
+This will return an array of the all the exercises in our database.
+
+### Getting One Exercise
+
+In order to get a single exercise, you must have that exercises id handy, and make a GET request to:
+
+```
+GET /exercises/<INSERT THE EXERCISE ID HERE>
+Example: /exercises/1
+```
+
+This will return a single exercise.
+
+### Getting All Routines
+
+In order to get all routines in the database, make a GET request to the following URI:
+
+```
+GET /routines
+```
+
+This will return an array of the all the routines in our database, but each routine will also include all exercises that are a part of that routine with the specific reps, sets, weights, and/or durations specific to that routine for a particular exercise.
+
+### Getting One Routine
+
+In order to get a single routine, you must have that routines id handy, and make a GET request to:
+
+```
+GET /routines/<INSERT THE ROUTINE ID HERE>
+Example: /routines/1
+```
+
+This will return a single routine, with all included exercises.
+
+### Getting All Routines A User Has Scheduled On A Date
+
+In order to get all scheduled routines on a given date for a user, with the included exercises, make a GET request to:
+
+```
+GET /my_routines?date=<DATE REQUESTED>?id=<SPECIFIC USER ID>
+Example: /my_routines?date=2019-05-22&id=1
+```
+
+Note: both a date and an id MUST be included as query parameters in order to get a valid response. This will return an array of routines with the included exercises and relevant information.
+
+### Scheduling A Routine On A Day For A User
+
+In order to schedule a routine on a particular day for a user, a request body must be provided with the following syntax:
+
+```
+body:
+{
+  date: <DATE OF DESIRED SCHEDULING>,
+  routine_id: <ID OF ROUTINE BEING SCHEDULED>,
+  user_id: <ID OF USER SCHEDULING>
+}
+example:
+{
+  date: "2019-05-22",
+  routine_id: 2,
+  user_id: 1
+}
+```
+
+A POST request must be made with the body to the following:
+
+```
+POST /my_routines
+```
+
+## Running Tests
+
+The Application uses rspec as a testing suite. To run the test suite, after completing the steps from "Initial Set Up" above, simply run:
+
+```
 rspec
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+To check out test coverage after running the tests, you can run:
 
-* Deployment instructions
+```
+open coverage/index.html
+```
 
-* ...
+This will open a file in your browser that will show details about test coverage.
+
+## Core Contributors
+
+## Schema Design
+
+## Tech Stack List
+Ruby
+Rails
+Postgresql
