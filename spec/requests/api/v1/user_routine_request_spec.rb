@@ -47,9 +47,12 @@ describe 'User Routines API' do
     end
 
     it 'can cancel a routine' do
-      delete "/api/v1/my_routines/#{@user_routine.id}"
+      delete "/api/v1/my_routines/#{@user_routine.id}?id=#{@user.id}"
 
-      expect(response.code).to eq(204)
+      expect(response.code).to eq("204")
+
+      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}"
+
       routines = JSON.parse(response.body, symbolize_names: true)
       expect(routines[:data].count).to eq(0)
     end

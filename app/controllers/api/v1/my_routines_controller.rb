@@ -1,4 +1,6 @@
 class Api::V1::MyRoutinesController < ApplicationController
+  skip_before_action :verify_authenticity_token
+
   def index
     render json: RoutineSerializer.new(routine_finder(params))
   end
@@ -11,6 +13,10 @@ class Api::V1::MyRoutinesController < ApplicationController
     else
       four_oh_four
     end
+  end
+
+  def destroy
+    
   end
 
   private
