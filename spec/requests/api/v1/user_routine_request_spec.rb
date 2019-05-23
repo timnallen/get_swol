@@ -32,14 +32,19 @@ describe 'User Routines API' do
       body = {
         date: date,
         routine_id: @leg_day.id,
-        user_id: @user_id
+        user_id: @user.id
       }
 
       post "/api/v1/my_routines", params: body
 
+      ur = UserRoutine.last
+
       expect(response).to be_successful
       message = JSON.parse(response.body, symbolize_names: true)
       expect(message[:message]).to eq("You have successfully scheduled #{@leg_day.name} on #{date}!")
+      expect(ur.routine_id).to eq(@leg_day.id)
+      expect(ur.user_id).to eq(@user.id)
+      expect(ur.date).to eq(date)
     end
   end
 end
