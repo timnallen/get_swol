@@ -56,5 +56,17 @@ describe 'User Routines API' do
       routines = JSON.parse(response.body, symbolize_names: true)
       expect(routines[:data].count).to eq(0)
     end
+
+    it 'cannot cancel a routine without the correct info' do
+      delete "/api/v1/my_routines/#{@user_routine.id}"
+
+      expect(response.code).to eq("404")
+    end
+
+    it 'cannot schedule a routine without the correct info' do
+      post "/api/v1/my_routines/"
+
+      expect(response.code).to eq("404")
+    end
   end
 end

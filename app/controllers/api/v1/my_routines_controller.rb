@@ -6,9 +6,9 @@ class Api::V1::MyRoutinesController < ApplicationController
   end
 
   def create
-    routine = Routine.find(params[:routine_id])
-    user_routine = UserRoutine.new(user_routine_params)
-    if user_routine.save
+    routine = Routine.find(params[:routine_id]) if params[:routine_id]
+    user_routine = UserRoutine.new(user_routine_params) if routine
+    if user_routine&.save
       render json: {message: "You have successfully scheduled #{routine.name} on #{user_routine.date}!"}
     else
       four_oh_four
@@ -16,7 +16,12 @@ class Api::V1::MyRoutinesController < ApplicationController
   end
 
   def destroy
-    
+    user_routine = UserRoutine.find_by(id: params[:id], user_id: params[:user_id])
+    if user_routine
+      user_routine.destroy
+    else
+      four_oh_four
+    end
   end
 
   private
