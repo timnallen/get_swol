@@ -47,7 +47,7 @@ describe 'User Routines API' do
     end
 
     it 'can cancel a routine' do
-      delete "/api/v1/my_routines/#{@user_routine.id}?id=#{@user.id}"
+      delete "/api/v1/my_routines/#{@user_routine.id}?user_id=#{@user.id}"
 
       expect(response.code).to eq("204")
 
