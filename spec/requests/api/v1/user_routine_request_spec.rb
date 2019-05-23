@@ -44,7 +44,7 @@ describe 'User Routines API' do
       expect(message[:message]).to eq("You have successfully scheduled #{@leg_day.name} on #{date}!")
       expect(ur.routine_id).to eq(@leg_day.id)
       expect(ur.user_id).to eq(@user.id)
-      expect(ur.date).to eq(date)
+      expect(ur.date.to_s).to eq(date)
     end
   end
 end
