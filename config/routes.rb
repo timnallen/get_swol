@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       resources :exercises, only: [:index, :show]
       resources :routines, only: [:index, :show]
       resources :exercise_routines, only: [:index]
-      resources :users, only: [:create]
+      resources :users, only: [:create, :show]
       get '/my_routines', to: 'my_routines#index'
       post '/my_routines', to: 'my_routines#create'
       delete '/my_routines/:id', to: 'my_routines#destroy'
