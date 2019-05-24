@@ -48,5 +48,13 @@ describe 'Routines API' do
       message = JSON.parse(response.body, symbolize_names: true)
       expect(message[:message]).to eq("You have successfully created a workout sequence!")
     end
+
+    it 'does not allow creation a routine a user id' do
+      body = {name: 'Abs Day'}
+
+      post "/api/v1/routines", params: body
+
+      expect(response.status).to eq(404)
+    end
   end
 end
