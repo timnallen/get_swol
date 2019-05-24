@@ -36,5 +36,17 @@ describe 'Routines API' do
       expect(routine[:data][:attributes][:exercises]).to be_a(Array)
       expect(routine[:data][:attributes][:exercises][0][:name]).to eq('Single-Leg Press')
     end
+
+    it 'allows user to create a routine' do
+      user = User.create(name: 'John')
+
+      body = {name: 'Abs Day'}
+
+      post "/api/v1/routines?user_id=#{user.id}", params: body
+
+      expect(response.status).to eq(201)
+      message = JSON.parse(response.body, symbolize_names: true)
+      expect(message[:message]).to eq("You have successfully created a workout sequence!")
+    end
   end
 end
