@@ -11,7 +11,7 @@ class Api::V1::RoutinesController < ApplicationController
     user = User.find(params[:user_id]) if params[:user_id]
     routine = Routine.new(routine_params)
     if user && routine.save
-      render json: {message: "You have successfully created a workout sequence!"}, status: 201
+      render json: {message: "You have successfully created a routine!", id: routine.id}, status: 201
     else
       four_oh_four
     end
