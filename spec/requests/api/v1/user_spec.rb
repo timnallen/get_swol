@@ -8,6 +8,7 @@ describe 'User Routines API' do
       expect(response.status).to eq(201)
       message = JSON.parse(response.body, symbolize_names: true)
       expect(message[:message]).to eq("You have successfully created a user!")
+      expect(message.keys).to include(:id)
       expect(User.last.name).to eq('Jim')
     end
 
