@@ -61,7 +61,7 @@ describe 'Routines API' do
       expect(response.status).to eq(404)
     end
 
-    it 'can update a routine' do
+    it 'can update a routine name' do
       body = {
         name: 'new_name'
       }
@@ -74,7 +74,7 @@ describe 'Routines API' do
       expect(routine[:name]).to eq(body[:name])
     end
 
-    it 'cant update a routine without a body' do
+    it 'cant update a routine name without a body' do
       put "/api/v1/routines/#{@routine.id}"
 
       expect(response.status).to eq(404)

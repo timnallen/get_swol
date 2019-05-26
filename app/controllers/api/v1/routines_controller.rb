@@ -22,6 +22,15 @@ class Api::V1::RoutinesController < ApplicationController
     end
   end
 
+  def update
+    routine = Routine.find(params[:id])
+    if routine_params[:name] && routine.update(routine_params)
+      render json: {id: routine.id, name: routine.name}
+    else
+      four_oh_four
+    end
+  end
+
   private
 
   def add_exercises(exercises, routine)
@@ -32,6 +41,6 @@ class Api::V1::RoutinesController < ApplicationController
   end
 
   def routine_params
-    params.permit(:name, :exercise_id)
+    params.permit(:name, :exercises)
   end
 end
