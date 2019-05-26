@@ -1,4 +1,6 @@
 class Api::V1::RoutinesController < ApplicationController
+  skip_before_action :verify_authenticity_token
+  
   def index
     render json: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines))
   end
