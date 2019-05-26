@@ -88,8 +88,8 @@ describe 'Routines API' do
       get '/api/v1/routines'
 
       routines = JSON.parse(response.body, symbolize_names: true)
-      expect(routines.count).to eq(2)
-      routine_ids = routines.map do |routine|
+      expect(routines[:data].count).to eq(2)
+      routine_ids = routines[:data].map do |routine|
         routine[:id]
       end
       expect(routine_ids).to_not include(@routine.id)

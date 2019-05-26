@@ -31,6 +31,10 @@ class Api::V1::RoutinesController < ApplicationController
     end
   end
 
+  def destroy
+    Routine.destroy(params[:id])
+  end
+
   private
 
   def add_exercises(exercises, routine)
