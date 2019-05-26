@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :exercises, only: [:index, :show]
-      resources :routines, only: [:index, :show, :create, :update]
+      resources :routines, only: [:index, :show, :create, :update, :destroy]
       resources :exercise_routines, only: [:index, :create, :destroy]
       resources :users, only: [:create]
       get '/my_routines', to: 'my_routines#index'
