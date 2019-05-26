@@ -5,8 +5,8 @@ describe 'Routines API' do
     before :each do
       @routine = Routine.create(name: 'Cardio Day')
       @leg_day = Routine.create(name: 'Leg Day')
-      single_leg_press = Exercise.create(name: 'Single-Leg Press', equipment_required: 'legs', muscle: 'legs', category: 'This')
-      ExerciseRoutine.create(routine: @leg_day, exercise: single_leg_press, sets: 4, reps: 12)
+      @single_leg_press = Exercise.create(name: 'Single-Leg Press', equipment_required: 'legs', muscle: 'legs', category: 'This')
+      ExerciseRoutine.create(routine: @leg_day, exercise: @single_leg_press, sets: 4, reps: 12)
       Routine.create(name: 'Arm Day')
     end
 
@@ -35,6 +35,30 @@ describe 'Routines API' do
       expect(routine[:data][:attributes][:name]).to eq('Leg Day')
       expect(routine[:data][:attributes][:exercises]).to be_a(Array)
       expect(routine[:data][:attributes][:exercises][0][:name]).to eq('Single-Leg Press')
+    end
+
+    it 'allows user to create a routine' do
+      user = User.create(name: 'John')
+
+      body = {name: 'Abs Day', exercises: [@single_leg_press.id]}
+      ex_as_parsed_json = JSON.parse(@single_leg_press.to_json, symbolize_names: true)
+
+      post "/api/v1/routines?user_id=#{user.id}", params: body
+
+      expect(response.status).to eq(201)
+      routine = JSON.parse(response.body, symbolize_names: true)
+      expect(routine[:message]).to eq("You have successfully created a routine!")
+      expect(routine.keys).to include(:id)
+      expect(routine[:exercises]).to be_a(Array)
+      expect(routine[:exercises][0]).to eq(ex_as_parsed_json)
+    end
+
+    it 'does not allow creation without a routine and a user id' do
+      body = {name: 'Abs Day'}
+
+      post "/api/v1/routines", params: body
+
+      expect(response.status).to eq(404)
     end
   end
 end
