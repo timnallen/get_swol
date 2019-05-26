@@ -79,5 +79,20 @@ describe 'Routines API' do
 
       expect(response.status).to eq(404)
     end
+
+    it 'delete a routine' do
+      delete "/api/v1/routines/#{@routine.id}"
+
+      expect(response.status).to eq(204)
+
+      get '/api/v1/routines'
+
+      routines = JSON.parse(response.body, symbolize_names: true)
+      expect(routines[:data].count).to eq(2)
+      routine_ids = routines[:data].map do |routine|
+        routine[:id]
+      end
+      expect(routine_ids).to_not include(@routine.id)
+    end
   end
 end
