@@ -1,4 +1,6 @@
 class Api::V1::ExerciseRoutinesController < ApplicationController
+  skip_before_action :verify_authenticity_token
+  
   def index
     render json: ExerciseRoutineSerializer.new(ExerciseRoutine.all)
   end
