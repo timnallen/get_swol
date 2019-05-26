@@ -5,11 +5,11 @@ describe 'Exercise Routines API' do
     before :each do
       ex1 = Exercise.create(name: 'Squats', category: 'legs', muscle: 'Quadriceps', equipment_required: 'none')
       ex2 = Exercise.create(name: 'Hammy Lifts', category: 'legs', muscle: 'Hamstrings', equipment_required: 'That machine')
-      ex3 = Exercise.create(name: 'Jogging', category: 'legs', muscle: 'Legs', equipment_required: 'none')
+      @ex3 = Exercise.create(name: 'Jogging', category: 'legs', muscle: 'Legs', equipment_required: 'none')
       @r1 = Routine.create(name: 'Leg Day')
       ExerciseRoutine.create(exercise: ex1, routine: @r1, reps: 12, sets: 4)
       ExerciseRoutine.create(exercise: ex2, routine: @r1, reps: 10, sets: 3, weight: 25)
-      ExerciseRoutine.create(exercise: ex3, routine: @r1, duration: 30)
+      @er = ExerciseRoutine.create(exercise: @ex3, routine: @r1, duration: 30)
     end
 
     it 'can get a list of exercise routines' do
@@ -52,6 +52,14 @@ describe 'Exercise Routines API' do
       post '/api/v1/exercise_routines'
 
       expect(response.status).to eq(404)
+    end
+
+    it 'can remove an exercise from a routine' do
+      delete "/api/v1/exercise_routines/#{@er.id}"
+
+      expect(response.status).to eq(204)
+
+      expect(@r1.exercises.count).to eq(2)
     end
   end
 end
