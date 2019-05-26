@@ -60,5 +60,24 @@ describe 'Routines API' do
 
       expect(response.status).to eq(404)
     end
+
+    it 'can update a routine' do
+      body = {
+        name: 'new_name'
+      }
+
+      put "/api/v1/routines/#{@routine.id}", params: body
+
+      expect(response).to be_successful
+      routine = JSON.parse(response.body, symbolize_names: true)
+      expect(routine[:id]).to eq(@routine.id)
+      expect(routine[:name]).to eq(body[:name])
+    end
+
+    it 'cant update a routine without a body' do
+      put "/api/v1/routines/#{@routine.id}"
+
+      expect(response.status).to eq(404)
+    end
   end
 end
