@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :exercises, only: [:index, :show]
       resources :routines, only: [:index, :show, :create]
-      resources :exercise_routines, only: [:index]
+      resources :exercise_routines, only: [:index, :create]
       resources :users, only: [:create]
       get '/my_routines', to: 'my_routines#index'
       post '/my_routines', to: 'my_routines#create'
