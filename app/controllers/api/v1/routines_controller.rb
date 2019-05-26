@@ -11,7 +11,12 @@ class Api::V1::RoutinesController < ApplicationController
     user = User.find(params[:user_id]) if params[:user_id]
     routine = Routine.new(routine_params)
     if user && routine.save
-      render json: {message: "You have successfully created a routine!", id: routine.id}, status: 201
+      exercises = add_exercises(params[:exercises], routine)
+      render json: {
+        message: "You have successfully created a routine!",
+        id: routine.id,
+        exercises: exercises
+      }, status: 201
     else
       four_oh_four
     end
@@ -19,7 +24,14 @@ class Api::V1::RoutinesController < ApplicationController
 
   private
 
+  def add_exercises(exercises, routine)
+    exercises.map do |exercise_id|
+      er = ExerciseRoutine.create(exercise_id: exercise_id, routine: routine)
+      er.exercise
+    end
+  end
+
   def routine_params
-    params.permit(:name)
+    params.permit(:name, :exercise_id)
   end
 end
