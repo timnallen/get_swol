@@ -6,9 +6,9 @@ describe 'User Routines API' do
       post '/api/v1/users', params: {name: 'Jim'}
 
       expect(response.status).to eq(201)
-      message = JSON.parse(response.body, symbolize_names: true)
-      expect(message[:message]).to eq("You have successfully created a user!")
-      expect(message.keys).to include(:id)
+      user = JSON.parse(response.body, symbolize_names: true)
+      expect(user[:message]).to eq("You have successfully created a user!")
+      expect(user[:user][:data].keys).to include(:id)
       expect(User.last.name).to eq('Jim')
     end
 
