@@ -109,14 +109,14 @@ Example: /routines/1
 
 #### This will return a single routine, with all included exercises.
 
-### Creating a New Routine
+### CREATE a New Routine
 
 #### In order to create a routine, a request body must be made with the following syntax:
 
 #### Request Body:
 ```
 {
-  name: <USER'S NAME as a STRING>,
+  name: <ROUTINE NAME as a STRING>,
   exercises: <ARRAY of EXERCISE IDS AS INTEGERS>
 }
 ```
@@ -125,7 +125,7 @@ Example: /routines/1
 #### Example:
 ```
 {
-  name: "Jim",
+  name: "Leg Day",
   exercises: [1, 3, 56, 345]
 }
 ```
@@ -137,6 +137,34 @@ POST /routines?user_id=<USER ID>
 ```
 ```
 Example: /routines?user_id=2
+```
+
+### UPDATE a Routine
+
+#### In order to update a routine, a request body must be made with the following syntax:
+
+#### Request Body:
+```
+{
+  name: <NEW name as a STRING>
+}
+```
+#### Note: The name is REQUIRED.
+
+#### Example:
+```
+{
+  name: "Leg Day 2.0"
+}
+```
+
+#### A PUT request must be made with the body and the id of the the routine being updated to the following:
+
+```
+PUT /routines/:id
+```
+```
+Example: /routines/1
 ```
 
 ### DELETE a Routine
