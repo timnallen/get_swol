@@ -13,11 +13,10 @@ class Api::V1::RoutinesController < ApplicationController
     user = User.find(params[:user_id]) if params[:user_id]
     routine = Routine.new(routine_params)
     if user && routine.save
-      exercises = add_exercises(params[:exercises], routine) if params[:exercises]
+      add_exercises(params[:exercises], routine) if params[:exercises]
       render json: {
         message: "You have successfully created a routine!",
-        id: routine.id,
-        exercises: exercises
+        routine: RoutineSerializer.new(routine)
       }, status: 201
     else
       four_oh_four
@@ -40,9 +39,8 @@ class Api::V1::RoutinesController < ApplicationController
   private
 
   def add_exercises(exercises, routine)
-    exercises.map do |exercise_id|
-      er = ExerciseRoutine.create(exercise_id: exercise_id, routine: routine)
-      er.exercise
+    exercises.each do |exercise_id|
+      ExerciseRoutine.create(exercise_id: exercise_id, routine: routine)
     end
   end
 
