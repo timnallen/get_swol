@@ -61,6 +61,30 @@ rails s
 
 ```https://warm-cove-89223.herokuapp.com/api/v1```
 
+### CREATE A User
+
+#### In order to create a User, you must have a request body with the following syntax:
+
+#### Request Body:
+```
+{
+  name: <STRING for NAME of User>
+}
+```
+#### Note: You MUST have a body with a name string in it.
+
+#### Example:
+```
+{
+  name: "Jim"
+}
+```
+#### A POST request must be made with the body and a user id in the query params to the following:
+
+```
+POST /users
+```
+
 ### GET All Exercises
 
 #### In order to get all exercises in the database, make a GET request to the following URI:
@@ -217,7 +241,7 @@ DELETE /routines/:id
 Example: /routines/1
 ```
 
-### Getting All Routines A User Has Scheduled On A Date
+### GET All SCHEDULED Routines A User Has On A Date
 
 #### In order to get all scheduled routines on a given date for a user, with the included exercises, make a GET request to:
 
