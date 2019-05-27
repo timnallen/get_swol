@@ -167,6 +167,44 @@ PUT /routines/:id
 Example: /routines/1
 ```
 
+### ADD an Exercise to a Routine
+
+#### In order to add an exercise to a routine, a request body must be made with the following syntax:
+
+#### Request Body:
+```
+{
+  exercise_id: <EXERCISE ID INTEGER HERE>,
+  routine_id: <ROUTINE ID HERE>
+}
+```
+#### Note: Both the exercise id and the routine id is required to add the exercise to the routine
+
+#### Example Request Body:
+```
+{
+  exercise_id: 3,
+  routine_id: 5
+}
+```
+
+#### A POST Request must be made with the body to the following:
+
+```
+POST /exercise_routines
+```
+
+### REMOVE an Exercise from a Routine
+
+#### In order to remove an exercise from a routine, you must have the exercise_routine id handy and make a DELETE request to the following:
+
+```
+DELETE /exercise_routines/:id
+```
+```
+Example: /exercise_routines/2
+```
+
 ### DELETE a Routine
 
 #### In order to delete a routine, you will need the routine id handy, and simply make a DELETE request to:
