@@ -69,8 +69,8 @@ describe 'Routines API' do
 
       expect(response).to be_successful
       routine = JSON.parse(response.body, symbolize_names: true)
-      expect(routine[:id]).to eq(@routine.id)
-      expect(routine[:name]).to eq(body[:name])
+      expect(routine[:data][:id]).to eq(@routine.id.to_s)
+      expect(routine[:data][:attributes][:name]).to eq(body[:name])
     end
 
     it 'cant update a routine name without a body' do

@@ -26,7 +26,7 @@ class Api::V1::RoutinesController < ApplicationController
   def update
     routine = Routine.find(params[:id])
     if routine_params[:name] && routine.update(routine_params)
-      render json: {id: routine.id, name: routine.name}
+      render json: RoutineSerializer.new(routine)
     else
       four_oh_four
     end
