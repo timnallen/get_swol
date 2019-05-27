@@ -120,7 +120,7 @@ Example: /routines/1
   exercises: <ARRAY of EXERCISE IDS AS INTEGERS>
 }
 ```
-Note: The name is REQUIRED, but the exercises are OPTIONAL. A routine can be made with or without a list of desired exercises to be included. The name however, MUST be in the request body.
+#### Note: The name is REQUIRED, but the exercises are OPTIONAL. A routine can be made with or without a list of desired exercises to be included. The name however, MUST be in the request body.
 
 #### Example:
 ```
@@ -137,6 +137,18 @@ POST /routines?user_id=<USER ID>
 ```
 ```
 Example: /routines?user_id=2
+```
+
+### DELETE a Routine
+
+#### In order to delete a routine, you will need the routine id handy, and simply make a DELETE request to:
+
+```
+DELETE /routines/:id
+```
+
+```
+Example: /routines/1
 ```
 
 ### Getting All Routines A User Has Scheduled On A Date
