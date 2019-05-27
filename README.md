@@ -230,7 +230,7 @@ Example: /my_routines?date=2019-05-22&id=1
 
 #### Note: both a date and an id MUST be included as query parameters in order to get a valid response. This will return an array of routines with the included exercises and relevant information.
 
-### Scheduling A Routine On A Day For A User
+### SCHEDULE A Routine On A Day For A User
 
 #### In order to schedule a routine on a particular day for a user, a request body must be provided with the following syntax:
 
@@ -257,6 +257,17 @@ Example: /my_routines?date=2019-05-22&id=1
 
 ```
 POST /my_routines
+```
+
+### UNSCHEDULE A Routine From A Day For A User
+
+#### In order to unschedule a routine on a particular day for a user, you will need the user_routine id handy and the user's id, and make a DELETE request to:
+
+```
+DELETE /my_routines/:user_routine_id?user_id=<USER ID>
+```
+```
+Example: /my_routines/3?user_id=23
 ```
 
 ## Running Tests
