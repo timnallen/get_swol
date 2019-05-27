@@ -44,7 +44,7 @@ describe 'Exercise Routines API' do
 
       expect(response.status).to eq(201)
       res = JSON.parse(response.body, symbolize_names: true)
-      expect(res.keys).to include(:id)
+      expect(res[:routine][:data].keys).to include(:id)
       expect(res[:message]).to eq("You have added #{ex.name} to #{@r1.name}!")
     end
 

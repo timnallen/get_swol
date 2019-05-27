@@ -1,23 +1,22 @@
 class Api::V1::RoutinesController < ApplicationController
   skip_before_action :verify_authenticity_token
-  
+
   def index
     render json: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines))
   end
 
   def show
-    render json: RoutineSerializer.new(Routine.find(params[:id]))
+    render json: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines).find(params[:id]))
   end
 
   def create
     user = User.find(params[:user_id]) if params[:user_id]
     routine = Routine.new(routine_params)
     if user && routine.save
-      exercises = add_exercises(params[:exercises], routine) if params[:exercises]
+      add_exercises(params[:exercises], routine) if params[:exercises]
       render json: {
         message: "You have successfully created a routine!",
-        id: routine.id,
-        exercises: exercises
+        routine: RoutineSerializer.new(routine)
       }, status: 201
     else
       four_oh_four
@@ -27,7 +26,7 @@ class Api::V1::RoutinesController < ApplicationController
   def update
     routine = Routine.find(params[:id])
     if routine_params[:name] && routine.update(routine_params)
-      render json: {id: routine.id, name: routine.name}
+      render json: RoutineSerializer.new(routine)
     else
       four_oh_four
     end
@@ -40,9 +39,8 @@ class Api::V1::RoutinesController < ApplicationController
   private
 
   def add_exercises(exercises, routine)
-    exercises.map do |exercise_id|
-      er = ExerciseRoutine.create(exercise_id: exercise_id, routine: routine)
-      er.exercise
+    exercises.each do |exercise_id|
+      ExerciseRoutine.create(exercise_id: exercise_id, routine: routine)
     end
   end
 

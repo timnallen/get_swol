@@ -9,7 +9,10 @@ class Api::V1::MyRoutinesController < ApplicationController
     routine = Routine.find(params[:routine_id]) if params[:routine_id]
     user_routine = UserRoutine.new(user_routine_params) if routine
     if user_routine&.save
-      render json: {message: "You have successfully scheduled #{routine.name} on #{user_routine.date}!"}
+      render json: {
+        message: "You have successfully scheduled #{routine.name} on #{user_routine.date}!",
+        routine: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines))
+      }
     else
       four_oh_four
     end

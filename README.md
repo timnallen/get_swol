@@ -61,6 +61,30 @@ rails s
 
 ```https://warm-cove-89223.herokuapp.com/api/v1```
 
+### CREATE A User
+
+#### In order to create a User, you must have a request body with the following syntax:
+
+#### Request Body:
+```
+{
+  name: <STRING for NAME of User>
+}
+```
+#### Note: You MUST have a body with a name string in it.
+
+#### Example:
+```
+{
+  name: "Jim"
+}
+```
+#### A POST request must be made with the body and a user id in the query params to the following:
+
+```
+POST /users
+```
+
 ### GET All Exercises
 
 #### In order to get all exercises in the database, make a GET request to the following URI:
@@ -109,7 +133,115 @@ Example: /routines/1
 
 #### This will return a single routine, with all included exercises.
 
-### Getting All Routines A User Has Scheduled On A Date
+### CREATE a New Routine
+
+#### In order to create a routine, a request body must be made with the following syntax:
+
+#### Request Body:
+```
+{
+  name: <ROUTINE NAME as a STRING>,
+  exercises: <ARRAY of EXERCISE IDS AS INTEGERS>
+}
+```
+#### Note: The name is REQUIRED, but the exercises are OPTIONAL. A routine can be made with or without a list of desired exercises to be included. The name however, MUST be in the request body.
+
+#### Example:
+```
+{
+  name: "Leg Day",
+  exercises: [1, 3, 56, 345]
+}
+```
+
+#### A POST request must be made with the body and a user id in the query params to the following:
+
+```
+POST /routines?user_id=<USER ID>
+```
+```
+Example: /routines?user_id=2
+```
+
+### UPDATE a Routine
+
+#### In order to update a routine, a request body must be made with the following syntax:
+
+#### Request Body:
+```
+{
+  name: <NEW name as a STRING>
+}
+```
+#### Note: The name is REQUIRED.
+
+#### Example:
+```
+{
+  name: "Leg Day 2.0"
+}
+```
+
+#### A PUT request must be made with the body and the id of the the routine being updated to the following:
+
+```
+PUT /routines/:id
+```
+```
+Example: /routines/1
+```
+
+### ADD an Exercise to a Routine
+
+#### In order to add an exercise to a routine, a request body must be made with the following syntax:
+
+#### Request Body:
+```
+{
+  exercise_id: <EXERCISE ID INTEGER HERE>,
+  routine_id: <ROUTINE ID HERE>
+}
+```
+#### Note: Both the exercise id and the routine id is required to add the exercise to the routine
+
+#### Example Request Body:
+```
+{
+  exercise_id: 3,
+  routine_id: 5
+}
+```
+
+#### A POST Request must be made with the body to the following:
+
+```
+POST /exercise_routines
+```
+
+### REMOVE an Exercise from a Routine
+
+#### In order to remove an exercise from a routine, you must have the exercise_routine id handy and make a DELETE request to the following:
+
+```
+DELETE /exercise_routines/:id
+```
+```
+Example: /exercise_routines/2
+```
+
+### DELETE a Routine
+
+#### In order to delete a routine, you will need the routine id handy, and simply make a DELETE request to:
+
+```
+DELETE /routines/:id
+```
+
+```
+Example: /routines/1
+```
+
+### GET All SCHEDULED Routines A User Has On A Date
 
 #### In order to get all scheduled routines on a given date for a user, with the included exercises, make a GET request to:
 
@@ -122,7 +254,7 @@ Example: /my_routines?date=2019-05-22&id=1
 
 #### Note: both a date and an id MUST be included as query parameters in order to get a valid response. This will return an array of routines with the included exercises and relevant information.
 
-### Scheduling A Routine On A Day For A User
+### SCHEDULE A Routine On A Day For A User
 
 #### In order to schedule a routine on a particular day for a user, a request body must be provided with the following syntax:
 
@@ -149,6 +281,17 @@ Example: /my_routines?date=2019-05-22&id=1
 
 ```
 POST /my_routines
+```
+
+### UNSCHEDULE A Routine From A Day For A User
+
+#### In order to unschedule a routine on a particular day for a user, you will need the user_routine id handy and the user's id, and make a DELETE request to:
+
+```
+DELETE /my_routines/:user_routine_id?user_id=<USER ID>
+```
+```
+Example: /my_routines/3?user_id=23
 ```
 
 ## Running Tests

@@ -41,16 +41,15 @@ describe 'Routines API' do
       user = User.create(name: 'John')
 
       body = {name: 'Abs Day', exercises: [@single_leg_press.id]}
-      ex_as_parsed_json = JSON.parse(@single_leg_press.to_json, symbolize_names: true)
 
       post "/api/v1/routines?user_id=#{user.id}", params: body
 
       expect(response.status).to eq(201)
       routine = JSON.parse(response.body, symbolize_names: true)
       expect(routine[:message]).to eq("You have successfully created a routine!")
-      expect(routine.keys).to include(:id)
-      expect(routine[:exercises]).to be_a(Array)
-      expect(routine[:exercises][0]).to eq(ex_as_parsed_json)
+      expect(routine[:routine][:data].keys).to include(:id)
+      expect(routine[:routine][:data][:attributes][:exercises]).to be_a(Array)
+      expect(routine[:routine][:data][:attributes][:exercises][0].keys).to include(:id, :name, :muscle)
     end
 
     it 'does not allow creation without a routine and a user id' do
@@ -70,8 +69,8 @@ describe 'Routines API' do
 
       expect(response).to be_successful
       routine = JSON.parse(response.body, symbolize_names: true)
-      expect(routine[:id]).to eq(@routine.id)
-      expect(routine[:name]).to eq(body[:name])
+      expect(routine[:data][:id]).to eq(@routine.id.to_s)
+      expect(routine[:data][:attributes][:name]).to eq(body[:name])
     end
 
     it 'cant update a routine name without a body' do

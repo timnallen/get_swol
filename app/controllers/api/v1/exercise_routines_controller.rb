@@ -1,6 +1,6 @@
 class Api::V1::ExerciseRoutinesController < ApplicationController
   skip_before_action :verify_authenticity_token
-  
+
   def index
     render json: ExerciseRoutineSerializer.new(ExerciseRoutine.all)
   end
@@ -10,7 +10,10 @@ class Api::V1::ExerciseRoutinesController < ApplicationController
     if er.save
       ex = er.exercise
       rou = er.routine
-      render json: {id: er.id, message: "You have added #{ex.name} to #{rou.name}!"}, status: 201
+      render json: {
+        message: "You have added #{ex.name} to #{rou.name}!",
+        routine: RoutineSerializer.new(rou)
+      }, status: 201
     else
       four_oh_four
     end
