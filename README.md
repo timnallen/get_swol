@@ -109,6 +109,36 @@ Example: /routines/1
 
 #### This will return a single routine, with all included exercises.
 
+### Creating a New Routine
+
+#### In order to create a routine, a request body must be made with the following syntax:
+
+#### Request Body:
+```
+{
+  name: <USER'S NAME as a STRING>,
+  exercises: <ARRAY of EXERCISE IDS AS INTEGERS>
+}
+```
+Note: The name is REQUIRED, but the exercises are OPTIONAL. A routine can be made with or without a list of desired exercises to be included. The name however, MUST be in the request body.
+
+#### Example:
+```
+{
+  name: "Jim",
+  exercises: [1, 3, 56, 345]
+}
+```
+
+#### A POST request must be made with the body and a user id in the query params to the following:
+
+```
+POST /routines?user_id=<USER ID>
+```
+```
+Example: /routines?user_id=2
+```
+
 ### Getting All Routines A User Has Scheduled On A Date
 
 #### In order to get all scheduled routines on a given date for a user, with the included exercises, make a GET request to:
