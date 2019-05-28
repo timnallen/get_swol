@@ -19,7 +19,11 @@ class Api::V1::MyRoutinesController < ApplicationController
   end
 
   def destroy
-    user_routine = UserRoutine.find_by(routine_id: params[:routine_id], user_id: params[:user_id])
+    user_routine = UserRoutine.find_by(
+      routine_id: params[:routine_id],
+      user_id: params[:user_id],
+      date: params[:date]
+    )
     if user_routine
       user_routine.destroy
     else
