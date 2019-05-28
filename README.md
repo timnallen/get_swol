@@ -3,7 +3,7 @@
 ## Introduction
 
 ### This is a Backend application for GetSwole, an moblie application designed to help users schedule workout routines.
-[GetSwole Frontend Repository](https://github.com/JakeAdmire/JA-DC-EF-TA--GetSwole.git) 
+[GetSwole Frontend Repository](https://github.com/JakeAdmire/JA-DC-EF-TA--GetSwole.git)
 
 ## Background/About
 ### This was the capstone project for Module 4 students at Turing School of Software and Design.  Teams of Backend and Frontend students were given 13 days to create a full-stack application from the ground up.  This project gave us further insight into how teams communicate and collaborate to make the development process flow smoothly.  
@@ -57,7 +57,7 @@ rails s
 
 #### All endpoints adhere to the Fast JSON API standards
 
-### Base URL 
+### Base URL
 
 ```https://warm-cove-89223.herokuapp.com/api/v1```
 
@@ -285,13 +285,13 @@ POST /my_routines
 
 ### UNSCHEDULE A Routine From A Day For A User
 
-#### In order to unschedule a routine on a particular day for a user, you will need the user_routine id handy and the user's id, and make a DELETE request to:
+#### In order to unschedule a routine on a particular day for a user, you will need the routine's id handy and the user's id, and make a DELETE request to:
 
 ```
-DELETE /my_routines/:user_routine_id?user_id=<USER ID>
+DELETE /my_routines?routine_id=<ROUTINE ID>&user_id=<USER ID>
 ```
 ```
-Example: /my_routines/3?user_id=23
+Example: /my_routines?routine_id=3&user_id=23
 ```
 
 ## Running Tests

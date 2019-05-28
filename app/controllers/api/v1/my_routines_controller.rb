@@ -11,7 +11,6 @@ class Api::V1::MyRoutinesController < ApplicationController
     if user_routine&.save
       render json: {
         message: "You have successfully scheduled #{routine.name} on #{user_routine.date}!",
-        user_routine_id: user_routine.id,
         routine: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines))
       }
     else
@@ -20,7 +19,7 @@ class Api::V1::MyRoutinesController < ApplicationController
   end
 
   def destroy
-    user_routine = UserRoutine.find_by(id: params[:id], user_id: params[:user_id])
+    user_routine = UserRoutine.find_by(routine_id: params[:routine_id], user_id: params[:user_id])
     if user_routine
       user_routine.destroy
     else
