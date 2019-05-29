@@ -11,15 +11,11 @@ class Api::V1::MyRoutinesController < ApplicationController
   end
 
   def create
-    routine = Routine.find(params[:routine_id]) if params[:routine_id]
-    user_routine = UserRoutine.new(user_routine_params) if routine
-    if user_routine&.save
-      render json: {
-        message: "You have successfully scheduled #{routine.name} on #{user_routine.date}!",
-        routine: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines))
-      }
+    user = authorized?(auth_params)
+    if user && params[:api_key]
+      schedule
     else
-      four_oh_four
+      unauthorized
     end
   end
 
@@ -38,8 +34,21 @@ class Api::V1::MyRoutinesController < ApplicationController
 
   private
 
+  def schedule
+    routine = Routine.find(params[:routine_id]) if params[:routine_id]
+    user_routine = UserRoutine.new(user_routine_params) if routine
+    if user_routine&.save
+      render json: {
+        message: "You have successfully scheduled #{routine.name} on #{user_routine.date}!",
+        routine: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines))
+      }
+    else
+      four_oh_four
+    end
+  end
+
   def auth_params
-    params.permit(:id, :api_key)
+    {id: params[:user_id], api_key: params[:api_key]}
   end
 
   def user_routine_params
