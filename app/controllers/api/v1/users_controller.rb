@@ -4,6 +4,7 @@ class Api::V1::UsersController < ApplicationController
   def create
     user = User.new(user_params)
     if user.save
+      generate_api_key(user)
       render json: {
         message: "You have successfully created a user!",
         user: UserSerializer.new(user)
@@ -14,6 +15,10 @@ class Api::V1::UsersController < ApplicationController
   end
 
   private
+
+  def generate_api_key(user)
+    user.update(api_key: rand(36**36).to_s(36))
+  end
 
   def determine_error(user)
     errors = user.errors.details
