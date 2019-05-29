@@ -68,10 +68,13 @@ rails s
 #### Request Body:
 ```
 {
-  name: <STRING for NAME of User>
+  name: <STRING for NAME of User>,
+  email: <STRING for UNIQUE email>,
+  password: <STRING for PASSWORD>,
+  password_confirmation: <STRING for PASSWORD CONFIRMATION>
 }
 ```
-#### Note: You MUST have a body with a name string in it.
+#### Note: You MUST have a body with a name, unique email and a password. The password MUST match the password_confirmation. In the response a randomly generated user api_key will be returned.
 
 #### Example:
 ```
