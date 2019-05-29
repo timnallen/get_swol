@@ -190,10 +190,10 @@ Example: /routines/1
 #### A POST request must be made with the body and a user id in the query params to the following:
 
 ```
-POST /routines?user_id=<USER ID>
+POST /routines?user_id=<USER ID>&api_key=<USERS API KEY>
 ```
 ```
-Example: /routines?user_id=2
+Example: /routines?user_id=2&api_key=123456789
 ```
 
 ### UPDATE a Routine

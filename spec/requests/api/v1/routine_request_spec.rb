@@ -38,11 +38,11 @@ describe 'Routines API' do
     end
 
     it 'allows user to create a routine' do
-      user = User.create(name: 'John', email: 't@email.com', password: 'g', password_confirmation: 'g')
+      user = User.create(name: 'John', email: 't@email.com', password: 'g', password_confirmation: 'g', api_key: '12345')
 
       body = {name: 'Abs Day', exercises: [@single_leg_press.id]}
 
-      post "/api/v1/routines?user_id=#{user.id}", params: body
+      post "/api/v1/routines?user_id=#{user.id}&api_key=#{user.api_key}", params: body
 
       expect(response.status).to eq(201)
       routine = JSON.parse(response.body, symbolize_names: true)
@@ -52,7 +52,15 @@ describe 'Routines API' do
       expect(routine[:routine][:data][:attributes][:exercises][0].keys).to include(:id, :name, :muscle)
     end
 
-    it 'does not allow creation without a routine and a user id' do
+    it 'does not allow creation without an api_key' do
+      body = {name: 'Abs Day'}
+
+      post "/api/v1/routines?user_id=#{user.id}", params: body
+
+      expect(response.status).to eq(401)
+    end
+
+    it 'does not allow creation without a user id' do
       body = {name: 'Abs Day'}
 
       post "/api/v1/routines", params: body
