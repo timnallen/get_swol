@@ -56,16 +56,8 @@ class Api::V1::MyRoutinesController < ApplicationController
     end
   end
 
-  def auth_params
-    {id: params[:user_id], api_key: params[:api_key]}
-  end
-
   def user_routine_params
     params.permit(:date, :user_id, :routine_id)
-  end
-
-  def authorized?(user_params)
-    User.find_by(user_params)
   end
 
   def routine_finder(params, user)

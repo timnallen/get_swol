@@ -53,6 +53,8 @@ describe 'Routines API' do
     end
 
     it 'does not allow creation without an api_key' do
+      user = User.create(name: 'John', email: 't@email.com', password: 'g', password_confirmation: 'g', api_key: '12345')
+
       body = {name: 'Abs Day'}
 
       post "/api/v1/routines?user_id=#{user.id}", params: body
@@ -65,7 +67,7 @@ describe 'Routines API' do
 
       post "/api/v1/routines", params: body
 
-      expect(response.status).to eq(404)
+      expect(response.status).to eq(401)
     end
 
     it 'can update a routine name' do
