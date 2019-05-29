@@ -51,7 +51,7 @@ describe 'User Routines API' do
 
       expect(response.code).to eq("204")
 
-      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}"
+      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}&api_key=#{@user.api_key}"
 
       routines = JSON.parse(response.body, symbolize_names: true)
       expect(routines[:data].count).to eq(0)
