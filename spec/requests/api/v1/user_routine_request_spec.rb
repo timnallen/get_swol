@@ -75,7 +75,7 @@ describe 'User Routines API' do
     end
 
     it 'can cancel a routine' do
-      delete "/api/v1/my_routines?routine_id=#{@leg_day.id}&user_id=#{@user.id}&date=#{@today}"
+      delete "/api/v1/my_routines?routine_id=#{@leg_day.id}&user_id=#{@user.id}&date=#{@today}&api_key=#{@user.api_key}"
 
       expect(response.code).to eq("204")
 
@@ -86,9 +86,15 @@ describe 'User Routines API' do
     end
 
     it 'cannot cancel a routine without the correct info' do
-      delete "/api/v1/my_routines"
+      delete "/api/v1/my_routines?user_id=#{@user.id}&api_key=#{@user.api_key}"
 
       expect(response.code).to eq("404")
+    end
+
+    it 'cannot cancel a routine without the api_key' do
+      delete "/api/v1/my_routines?routine_id=#{@leg_day.id}&user_id=#{@user.id}&date=#{@today}"
+
+      expect(response.code).to eq("401")
     end
 
     it 'cannot schedule a routine without the correct info' do

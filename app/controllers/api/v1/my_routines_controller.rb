@@ -20,15 +20,11 @@ class Api::V1::MyRoutinesController < ApplicationController
   end
 
   def destroy
-    user_routine = UserRoutine.find_by(
-      routine_id: params[:routine_id],
-      user_id: params[:user_id],
-      date: params[:date]
-    )
-    if user_routine
-      user_routine.destroy
+    user = authorized?(auth_params)
+    if user && params[:api_key]
+      unschedule
     else
-      four_oh_four
+      unauthorized
     end
   end
 
@@ -42,6 +38,19 @@ class Api::V1::MyRoutinesController < ApplicationController
         message: "You have successfully scheduled #{routine.name} on #{user_routine.date}!",
         routine: RoutineSerializer.new(Routine.includes(:exercises, :exercise_routines))
       }
+    else
+      four_oh_four
+    end
+  end
+
+  def unschedule
+    user_routine = UserRoutine.find_by(
+      routine_id: params[:routine_id],
+      user_id: params[:user_id],
+      date: params[:date]
+    )
+    if user_routine
+      user_routine.destroy
     else
       four_oh_four
     end
