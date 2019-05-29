@@ -31,7 +31,8 @@ describe 'User Routines API' do
       body = {
         date: date,
         routine_id: @leg_day.id,
-        user_id: @user.id
+        user_id: @user.id,
+        api_key: @user.api_key
       }
 
       post "/api/v1/my_routines", params: body
@@ -67,6 +68,18 @@ describe 'User Routines API' do
       post "/api/v1/my_routines/"
 
       expect(response.code).to eq("404")
+    end
+
+    it 'cannot get scheduled routines without an api_key' do
+      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}"
+
+      expect(response.code).to eq("401")
+    end
+
+    it 'cannot get scheduled routines with an incorrect api_key' do
+      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}"
+
+      expect(response.code).to eq("401")
     end
   end
 end

@@ -297,7 +297,8 @@ Example: /my_routines?date=2019-05-22&id=1&api_key=0987654321
 {
   date: <DATE OF DESIRED SCHEDULING>,
   routine_id: <ID OF ROUTINE BEING SCHEDULED>,
-  user_id: <ID OF USER SCHEDULING>
+  user_id: <ID OF USER SCHEDULING>,
+  api_key: <API KEY OF USER SCHEDULING>
 }
 ```
 
@@ -306,7 +307,8 @@ Example: /my_routines?date=2019-05-22&id=1&api_key=0987654321
 {
   date: "2019-05-22",
   routine_id: 2,
-  user_id: 1
+  user_id: 1,
+  api_key: '123456789'
 }
 ```
 

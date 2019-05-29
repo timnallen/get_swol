@@ -3,7 +3,7 @@ class Api::V1::MyRoutinesController < ApplicationController
 
   def index
     user = authorized?(auth_params)
-    if user
+    if user && params[:api_key]
       render json: RoutineSerializer.new(routine_finder(params, user))
     else
       unauthorized
