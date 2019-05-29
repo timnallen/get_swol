@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'User Routines API' do
   describe 'Endpoints' do
     before :each do
-      @user = User.create(name: 'ME, the programmer', email: 'tim@email.com', password: '1', password_confirmation: '1')
+      @user = User.create(name: 'ME, the programmer', email: 'tim@email.com', password: '1', password_confirmation: '1', api_key: '1234567890')
       @leg_day = Routine.create(name: 'Leg Day')
       single_leg_press = Exercise.create(name: 'Single-Leg Press', equipment_required: 'legs', muscle: 'legs', category: 'This')
       ExerciseRoutine.create(routine: @leg_day, exercise: single_leg_press, sets: 4, reps: 12)
@@ -12,7 +12,7 @@ describe 'User Routines API' do
     end
 
     it 'can get a list of routines' do
-      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}"
+      get "/api/v1/my_routines?date=#{@today}&id=#{@user.id}&api_key=#{@user.api_key}"
 
       expect(response).to be_successful
       routines = JSON.parse(response.body, symbolize_names: true)

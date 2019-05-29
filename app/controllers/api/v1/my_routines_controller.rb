@@ -2,7 +2,12 @@ class Api::V1::MyRoutinesController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def index
-    render json: RoutineSerializer.new(routine_finder(params))
+    user = authorized?(auth_params)
+    if user
+      render json: RoutineSerializer.new(routine_finder(params, user))
+    else
+      unauthorized
+    end
   end
 
   def create
@@ -33,12 +38,20 @@ class Api::V1::MyRoutinesController < ApplicationController
 
   private
 
+  def auth_params
+    params.permit(:id, :api_key)
+  end
+
   def user_routine_params
     params.permit(:date, :user_id, :routine_id)
   end
 
-  def routine_finder(params)
-    urs = UserRoutine.where(user_id: params[:id], date: params[:date]).pluck(:id)
+  def authorized?(user_params)
+    User.find_by(user_params)
+  end
+
+  def routine_finder(params, user)
+    urs = UserRoutine.where(user_id: user.id, date: params[:date]).pluck(:id)
     Routine.joins(:user_routines).where("user_routines.id in (?)", urs)
   end
 end

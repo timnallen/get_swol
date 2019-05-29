@@ -93,7 +93,7 @@ POST /users
 
 ### LOGIN/AUTHENTICATE a User
 
-#### In order to authenticate and get a User, you mist have a request body with the following syntax:
+#### In order to authenticate and get a User, you must have a request body with the following syntax:
 
 #### Request Body:
 ```
@@ -279,10 +279,10 @@ Example: /routines/1
 #### In order to get all scheduled routines on a given date for a user, with the included exercises, make a GET request to:
 
 ```
-GET /my_routines?date=<DATE REQUESTED>?id=<SPECIFIC USER ID>
+GET /my_routines?date=<DATE REQUESTED>&id=<SPECIFIC USER ID>&api_key=<USER SPECIFIC API KEY>
 ```
 ```
-Example: /my_routines?date=2019-05-22&id=1
+Example: /my_routines?date=2019-05-22&id=1&api_key=0987654321
 ```
 
 #### Note: both a date and an id MUST be included as query parameters in order to get a valid response. This will return an array of routines with the included exercises and relevant information.
