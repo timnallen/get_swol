@@ -48,13 +48,13 @@ describe 'User Routines API' do
 
       expect(response).to be_successful
       user = JSON.parse(response.body, symbolize_names: true)
-      expect(user[:data][:id]).to eq(example.id)
+      expect(user[:data][:id]).to eq(example.id.to_s)
       expect(user[:data][:attributes].keys).to include(:api_key)
       expect(user[:data][:attributes][:email]).to eq(example.email)
     end
 
     it 'does not allow me to login a user without the correct email and password' do
-      User.create(name: 'Tim', email: 'email@email.com', password: 'hjfkhjk', password_confirmation: 'hjfkhjk')
+      User.create(name: 'Tim', email: 'email@email.com', password: 'hjfkhjk', password_confirmation: 'hjfkhjk', api_key: '1234567890')
 
       post '/api/v1/login', params: {
         email: 'email@email.com'

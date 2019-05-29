@@ -9,6 +9,7 @@ Rails.application.routes.draw do
       get '/my_routines', to: 'my_routines#index'
       post '/my_routines', to: 'my_routines#create'
       delete '/my_routines', to: 'my_routines#destroy'
+      post '/login', to: 'users#show'
     end
   end
 end
