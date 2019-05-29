@@ -323,10 +323,10 @@ POST /my_routines
 #### In order to unschedule a routine on a particular day for a user, you will need the routine's id handy and the user's id, and make a DELETE request to:
 
 ```
-DELETE /my_routines?routine_id=<ROUTINE ID>&user_id=<USER ID>&date=<DATE YYYY-MM-DD>
+DELETE /my_routines?routine_id=<ROUTINE ID>&user_id=<USER ID>&date=<DATE YYYY-MM-DD>&api_key=<USER API KEY>
 ```
 ```
-Example: /my_routines?routine_id=3&user_id=23&date=2019-05-29
+Example: /my_routines?routine_id=3&user_id=23&date=2019-05-29&api_key=12345678
 ```
 
 ## Running Tests
