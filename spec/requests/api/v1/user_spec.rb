@@ -3,7 +3,12 @@ require 'rails_helper'
 describe 'User Routines API' do
   describe 'Endpoints' do
     it 'allows me to add a user' do
-      post '/api/v1/users', params: {name: 'Jim'}
+      post '/api/v1/users', params: {
+        name: 'Jim',
+        email: 'email@email.com',
+        password: 'hjfkhjk',
+        password_confirmation: 'hjfkhjk'
+      }
 
       expect(response.status).to eq(201)
       user = JSON.parse(response.body, symbolize_names: true)
@@ -12,10 +17,23 @@ describe 'User Routines API' do
       expect(User.last.name).to eq('Jim')
     end
 
-    it 'does not allow me to add a user without a name' do
+    it 'does not allow me to add a user without a name, email and password' do
       post '/api/v1/users'
 
       expect(response.status).to eq(404)
+    end
+
+    it 'does not allow me to add a user without a unique email' do
+      User.create(name: 'Tim', email: 'email@email.com', password: 'hjfkhjk', password_confirmation: 'hjfkhjk')
+
+      post '/api/v1/users', params: {
+        name: 'Jim',
+        email: 'email@email.com',
+        password: 'hjfkhjk',
+        password_confirmation: 'hjfkhjk'
+      }
+
+      expect(response.status).to eq(409)
     end
   end
 end

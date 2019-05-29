@@ -3,7 +3,7 @@ require 'rails_helper'
 describe 'User Routines API' do
   describe 'Endpoints' do
     before :each do
-      @user = User.create(name: 'ME, the programmer')
+      @user = User.create(name: 'ME, the programmer', email: 'tim@email.com', password: '1', password_confirmation: '1')
       @leg_day = Routine.create(name: 'Leg Day')
       single_leg_press = Exercise.create(name: 'Single-Leg Press', equipment_required: 'legs', muscle: 'legs', category: 'This')
       ExerciseRoutine.create(routine: @leg_day, exercise: single_leg_press, sets: 4, reps: 12)

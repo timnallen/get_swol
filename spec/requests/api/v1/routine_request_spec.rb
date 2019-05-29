@@ -38,7 +38,7 @@ describe 'Routines API' do
     end
 
     it 'allows user to create a routine' do
-      user = User.create(name: 'John')
+      user = User.create(name: 'John', email: 't@email.com', password: 'g', password_confirmation: 'g')
 
       body = {name: 'Abs Day', exercises: [@single_leg_press.id]}
 
