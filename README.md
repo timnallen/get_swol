@@ -79,13 +79,43 @@ rails s
 #### Example:
 ```
 {
-  name: "Jim"
+  name: "Jim",
+  email: 'email@email.com',
+  password: '1',
+  password_confirmation: '1'
 }
 ```
 #### A POST request must be made with the body and a user id in the query params to the following:
 
 ```
 POST /users
+```
+
+### LOGIN/AUTHENTICATE a User
+
+#### In order to authenticate and get a User, you mist have a request body with the following syntax:
+
+#### Request Body:
+```
+{
+  email: <STRING for email>,
+  password: <STRING for PASSWORD>
+}
+```
+#### Note: You MUST have a body with an email and a password. The email/password combo MUST match. In the response the user will be returned with their name and api_key.
+
+#### Example:
+```
+{
+  email: 'email@email.com',
+  password: '1'
+}
+```
+
+#### A POST request must be made with the body to the following:
+
+```
+POST /login
 ```
 
 ### GET All Exercises
