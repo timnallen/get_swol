@@ -68,21 +68,54 @@ rails s
 #### Request Body:
 ```
 {
-  name: <STRING for NAME of User>
+  name: <STRING for NAME of User>,
+  email: <STRING for UNIQUE email>,
+  password: <STRING for PASSWORD>,
+  password_confirmation: <STRING for PASSWORD CONFIRMATION>
 }
 ```
-#### Note: You MUST have a body with a name string in it.
+#### Note: You MUST have a body with a name, unique email and a password. The password MUST match the password_confirmation. In the response a randomly generated user api_key will be returned.
 
 #### Example:
 ```
 {
-  name: "Jim"
+  name: "Jim",
+  email: 'email@email.com',
+  password: '1',
+  password_confirmation: '1'
 }
 ```
 #### A POST request must be made with the body and a user id in the query params to the following:
 
 ```
 POST /users
+```
+
+### LOGIN/AUTHENTICATE a User
+
+#### In order to authenticate and get a User, you must have a request body with the following syntax:
+
+#### Request Body:
+```
+{
+  email: <STRING for email>,
+  password: <STRING for PASSWORD>
+}
+```
+#### Note: You MUST have a body with an email and a password. The email/password combo MUST match. In the response the user will be returned with their name and api_key.
+
+#### Example:
+```
+{
+  email: 'email@email.com',
+  password: '1'
+}
+```
+
+#### A POST request must be made with the body to the following:
+
+```
+POST /login
 ```
 
 ### GET All Exercises
@@ -157,10 +190,10 @@ Example: /routines/1
 #### A POST request must be made with the body and a user id in the query params to the following:
 
 ```
-POST /routines?user_id=<USER ID>
+POST /routines?user_id=<USER ID>&api_key=<USERS API KEY>
 ```
 ```
-Example: /routines?user_id=2
+Example: /routines?user_id=2&api_key=123456789
 ```
 
 ### UPDATE a Routine
@@ -246,10 +279,10 @@ Example: /routines/1
 #### In order to get all scheduled routines on a given date for a user, with the included exercises, make a GET request to:
 
 ```
-GET /my_routines?date=<DATE REQUESTED>?id=<SPECIFIC USER ID>
+GET /my_routines?date=<DATE REQUESTED>&user_id=<SPECIFIC USER ID>&api_key=<USER SPECIFIC API KEY>
 ```
 ```
-Example: /my_routines?date=2019-05-22&id=1
+Example: /my_routines?date=2019-05-22&user_id=1&api_key=0987654321
 ```
 
 #### Note: both a date and an id MUST be included as query parameters in order to get a valid response. This will return an array of routines with the included exercises and relevant information.
@@ -264,7 +297,8 @@ Example: /my_routines?date=2019-05-22&id=1
 {
   date: <DATE OF DESIRED SCHEDULING>,
   routine_id: <ID OF ROUTINE BEING SCHEDULED>,
-  user_id: <ID OF USER SCHEDULING>
+  user_id: <ID OF USER SCHEDULING>,
+  api_key: <API KEY OF USER SCHEDULING>
 }
 ```
 
@@ -273,7 +307,8 @@ Example: /my_routines?date=2019-05-22&id=1
 {
   date: "2019-05-22",
   routine_id: 2,
-  user_id: 1
+  user_id: 1,
+  api_key: '123456789'
 }
 ```
 
@@ -288,10 +323,10 @@ POST /my_routines
 #### In order to unschedule a routine on a particular day for a user, you will need the routine's id handy and the user's id, and make a DELETE request to:
 
 ```
-DELETE /my_routines?routine_id=<ROUTINE ID>&user_id=<USER ID>&date=<DATE YYYY-MM-DD>
+DELETE /my_routines?routine_id=<ROUTINE ID>&user_id=<USER ID>&date=<DATE YYYY-MM-DD>&api_key=<USER API KEY>
 ```
 ```
-Example: /my_routines?routine_id=3&user_id=23&date=2019-05-29
+Example: /my_routines?routine_id=3&user_id=23&date=2019-05-29&api_key=12345678
 ```
 
 ## Running Tests

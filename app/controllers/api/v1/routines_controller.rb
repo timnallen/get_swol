@@ -10,16 +10,11 @@ class Api::V1::RoutinesController < ApplicationController
   end
 
   def create
-    user = User.find(params[:user_id]) if params[:user_id]
-    routine = Routine.new(routine_params)
-    if user && routine.save
-      add_exercises(params[:exercises], routine) if params[:exercises]
-      render json: {
-        message: "You have successfully created a routine!",
-        routine: RoutineSerializer.new(routine)
-      }, status: 201
+    user = authorized?(auth_params)
+    if user
+      routine_creation
     else
-      four_oh_four
+      unauthorized
     end
   end
 
@@ -37,6 +32,19 @@ class Api::V1::RoutinesController < ApplicationController
   end
 
   private
+
+  def routine_creation
+    routine = Routine.new(routine_params)
+    if routine.save
+      add_exercises(params[:exercises], routine) if params[:exercises]
+      render json: {
+        message: "You have successfully created a routine!",
+        routine: RoutineSerializer.new(routine)
+      }, status: 201
+    else
+      four_oh_four
+    end
+  end
 
   def add_exercises(exercises, routine)
     exercises.each do |exercise_id|
