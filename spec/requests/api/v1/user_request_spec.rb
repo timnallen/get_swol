@@ -44,7 +44,7 @@ describe 'User Routines API' do
       post '/api/v1/login', params: {
         email: 'email@email.com',
         password: 'hjfkhjk'
-      }
+      }.to_json, headers: { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json' }
 
       expect(response).to be_successful
       user = JSON.parse(response.body, symbolize_names: true)
@@ -58,7 +58,7 @@ describe 'User Routines API' do
 
       post '/api/v1/login', params: {
         email: 'email@email.com'
-      }
+      }.to_json, headers: { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json' }
 
       expect(response.status).to eq(401)
       message = JSON.parse(response.body, symbolize_names: true)
