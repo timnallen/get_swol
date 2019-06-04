@@ -21,7 +21,7 @@ ExerciseRoutine.create(routine: arm_day, exercise: push_ups, sets: 4, reps: 10)
 ExerciseRoutine.create(routine: arm_day, exercise: chin_up, sets: 4, reps: 5)
 ExerciseRoutine.create(routine: arm_day, exercise: barbell_curl, sets: 4, reps: 10, weight: 30)
 
-user = User.create(name: 'Player One')
+user = User.create(name: 'Player One', email: 'player1@gmail.com', password: 'playerone', password_confirmation: 'playerone')
 date = Date.today
 UserRoutine.create(user: user, date: date, routine: arm_day)
 
