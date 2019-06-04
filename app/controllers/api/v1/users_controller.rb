@@ -2,8 +2,9 @@ class Api::V1::UsersController < ApplicationController
   skip_before_action :verify_authenticity_token
 
   def show
-    user = User.find_by(email: params[:email])
-    if user && user.authenticate(params[:password])
+    request_body = JSON.parse(request.body.read, symbolize_names: true)
+    user = User.find_by(email: request_body[:email])
+    if user && user.authenticate(request_body[:password])
       render json: UserSerializer.new(user)
     else
       render json: {message: "Unauthorized. Incorrect email and/or password"}, status: 401
